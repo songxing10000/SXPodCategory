@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SXPodCategory'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SXPodCategory.'
+  s.name             = 'SXPodCategory' #pod名称
+  s.version          = '0.0.1' #pod版本
+  s.summary          = 'SXPodCategory简介'#简介，需要更改，不然会报警告
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,31 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
+  s.description      = <<-DESC #详细介绍，要比简介长
 TODO: Add long description of the pod here.
                        DESC
-
-  s.homepage         = 'https://github.com/dfpo/SXPodCategory'
+# 项目主页
+  s.homepage         = 'https://github.com/songxing10000/SXPodCategory.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+#协议
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
+# 开发者信息
   s.author           = { 'dfpo' => 'songxing10000@live.cn' }
+#仓库地址
   s.source           = { :git => 'https://github.com/dfpo/SXPodCategory.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+# 最低版本
   s.ios.deployment_target = '8.0'
-
+# 库文件
   s.source_files = 'SXPodCategory/Classes/**/*'
-  
+#资源目录
   # s.resource_bundles = {
   #   'SXPodCategory' => ['SXPodCategory/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
+#依赖的framework
   # s.frameworks = 'UIKit', 'MapKit'
+# 依赖的第三方库
   # s.dependency 'AFNetworking', '~> 2.3'
 end
