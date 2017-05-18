@@ -1,0 +1,6 @@
+framework module SXPodCategory {
+  umbrella header "SXPodCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

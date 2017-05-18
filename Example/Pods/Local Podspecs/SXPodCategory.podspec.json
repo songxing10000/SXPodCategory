@@ -1,0 +1,22 @@
+{
+  "name": "SXPodCategory",
+  "version": "0.1.0",
+  "summary": "A short description of SXPodCategory.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dfpo/SXPodCategory",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dfpo": "songxing10000@live.cn"
+  },
+  "source": {
+    "git": "https://github.com/dfpo/SXPodCategory.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SXPodCategory/Classes/**/*"
+}
