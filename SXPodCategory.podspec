@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SXPodCategory' #pod名称
-  s.version          = '0.0.1' #pod版本
+  s.version          = '0.0.2' #pod版本
   s.summary          = 'SXPodCategory简介'#简介，需要更改，不然会报警告
 
 # This description is used to generate tags and improve search results.
