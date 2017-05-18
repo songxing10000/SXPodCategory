@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
 # 开发者信息
   s.author           = { 'dfpo' => 'songxing10000@live.cn' }
 #仓库地址
-  s.source           = { :git => 'https://github.com/dfpo/SXPodCategory.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/songxing10000/SXPodCategory.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 # 最低版本
   s.ios.deployment_target = '8.0'
