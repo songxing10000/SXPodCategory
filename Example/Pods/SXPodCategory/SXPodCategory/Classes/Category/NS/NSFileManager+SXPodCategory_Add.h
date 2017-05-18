@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #define ImageExt   (@"jpg")
 
-@interface NSFileManager (SXPodCategory_Add)
+@interface NSFileManager (Add)
 
 - (NSString *)getAppDocumentPath;
 

@@ -7,7 +7,7 @@
 #define kLineWidth (IS_RETINA ? 0.5 : 1)
 
 /** 快速集成x,y,width,height等getter setter方法 */
-@interface UIView (SXPodCategory_Add)
+@interface UIView (Add)
 
 @property (nonatomic) CGFloat x; /**< 直接获取/设置UIView的x属性 */
 

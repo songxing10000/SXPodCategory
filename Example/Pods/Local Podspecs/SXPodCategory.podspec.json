@@ -1,6 +1,6 @@
 {
   "name": "SXPodCategory",
-  "version": "0.1.0",
+  "version": "0.0.3",
   "summary": "SXPodCategory简介",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/songxing10000/SXPodCategory.git",
@@ -12,8 +12,8 @@
     "dfpo": "songxing10000@live.cn"
   },
   "source": {
-    "git": "https://github.com/dfpo/SXPodCategory.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/songxing10000/SXPodCategory.git",
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "8.0"

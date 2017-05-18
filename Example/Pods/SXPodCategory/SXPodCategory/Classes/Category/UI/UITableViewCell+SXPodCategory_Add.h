@@ -10,6 +10,6 @@
 
 
 
-@interface UITableViewCell (SXPodCategory_Add)
+@interface UITableViewCell (Add)
 + (instancetype)cellFromTableView:(UITableView *)tableView;
 @end

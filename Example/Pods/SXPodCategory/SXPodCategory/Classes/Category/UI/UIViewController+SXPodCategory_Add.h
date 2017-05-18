@@ -9,11 +9,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void(^SXPodCategory_DidFinishTakeMediaCompledBlock)(UIImage *image, NSDictionary *editingInfo);
+typedef void(^DidFinishTakeMediaCompledBlock)(UIImage *image, NSDictionary *editingInfo);
 
-@interface SXPodCategory_XHPhotographyHelper : NSObject
+@interface XHPhotographyHelper : NSObject
 
-- (void)showOnPickerViewControllerSourceType:(UIImagePickerControllerSourceType)sourceType onViewController:(UIViewController *)viewController compled:(SXPodCategory_DidFinishTakeMediaCompledBlock)compled;
+- (void)showOnPickerViewControllerSourceType:(UIImagePickerControllerSourceType)sourceType onViewController:(UIViewController *)viewController compled:(DidFinishTakeMediaCompledBlock)compled;
 
 @end
 
@@ -55,13 +55,13 @@ typedef void(^SXPodCategory_DidFinishTakeMediaCompledBlock)(UIImage *image, NSDi
 
 
 #pragma mark - 相册、拍照相关
-@property (nonatomic, strong, nullable) SXPodCategory_XHPhotographyHelper *photoHelper;
+@property (nonatomic, strong, nullable) XHPhotographyHelper *photoHelper;
 
 /// 打开系统的相机，能编辑照片
-- (void)openCameraWithcompled:(SXPodCategory_DidFinishTakeMediaCompledBlock)compled;
+- (void)openCameraWithcompled:(DidFinishTakeMediaCompledBlock)compled;
 
 /// 打开系统的相册，能编辑照片
-- (void)openAlbumWithcompled:(SXPodCategory_DidFinishTakeMediaCompledBlock)compled;
+- (void)openAlbumWithcompled:(DidFinishTakeMediaCompledBlock)compled;
 - (BOOL)checkPhotoLibraryAuthorizationStatus;
 #pragma mark - 其他
 + (UIViewController *)presentingVC;

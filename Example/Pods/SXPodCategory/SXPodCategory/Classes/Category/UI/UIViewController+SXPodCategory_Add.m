@@ -13,7 +13,7 @@
 @import AVFoundation;
 
 //静态就交换静态，实例方法就交换实例方法
-void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
+void Swizzle(Class c, SEL origSEL, SEL newSEL)
 {
     Method origMethod = class_getInstanceMethod(c, origSEL);
     Method newMethod = nil;
@@ -110,7 +110,7 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 #pragma mark - 相册、拍照相关
-- (void)openCameraWithcompled:(SXPodCategory_DidFinishTakeMediaCompledBlock)compled {
+- (void)openCameraWithcompled:(DidFinishTakeMediaCompledBlock)compled {
     
     if (![self checkCameraAuthorizationStatus]) {
         return;
@@ -120,7 +120,7 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
     
     
 }
-- (void)openAlbumWithcompled:(SXPodCategory_DidFinishTakeMediaCompledBlock)compled {
+- (void)openAlbumWithcompled:(DidFinishTakeMediaCompledBlock)compled {
     if (![self checkPhotoLibraryAuthorizationStatus]) {
         return;
     }
@@ -226,19 +226,19 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
     [self presentViewController:alertC animated:YES completion:NULL];
 }
 #pragma mark - 关联对象处理
-- (SXPodCategory_XHPhotographyHelper *)photoHelper
+- (XHPhotographyHelper *)photoHelper
 {
-    static SXPodCategory_XHPhotographyHelper *_sx_defaultPhotoHelper = nil;
+    static XHPhotographyHelper *_sx_defaultPhotoHelper = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _sx_defaultPhotoHelper = [[SXPodCategory_XHPhotographyHelper alloc] init];
+        _sx_defaultPhotoHelper = [[XHPhotographyHelper alloc] init];
     });
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wgnu"
     return objc_getAssociatedObject(self, @selector(photoHelper)) ?: _sx_defaultPhotoHelper;
 #pragma clang diagnostic pop
 }
-- (void)setPhotoHelper:(SXPodCategory_XHPhotographyHelper *)photoHelper {
+- (void)setPhotoHelper:(XHPhotographyHelper *)photoHelper {
     
     objc_setAssociatedObject(self, @selector(photoHelper), photoHelper, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
@@ -247,14 +247,14 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
 
 
 
-@interface SXPodCategory_XHPhotographyHelper ()
+@interface XHPhotographyHelper ()
 <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 
-@property (nonatomic, copy) SXPodCategory_DidFinishTakeMediaCompledBlock didFinishTakeMediaCompled;
+@property (nonatomic, copy) DidFinishTakeMediaCompledBlock didFinishTakeMediaCompled;
 
 @end
 
-@implementation SXPodCategory_XHPhotographyHelper
+@implementation XHPhotographyHelper
 
 - (instancetype)init {
     self = [super init];
@@ -267,7 +267,7 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
     self.didFinishTakeMediaCompled = nil;
 }
 
-- (void)showOnPickerViewControllerSourceType:(UIImagePickerControllerSourceType)sourceType onViewController:(UIViewController *)viewController compled:(SXPodCategory_DidFinishTakeMediaCompledBlock)compled {
+- (void)showOnPickerViewControllerSourceType:(UIImagePickerControllerSourceType)sourceType onViewController:(UIViewController *)viewController compled:(DidFinishTakeMediaCompledBlock)compled {
     if (![UIImagePickerController isSourceTypeAvailable:sourceType]) {
         return;
     }

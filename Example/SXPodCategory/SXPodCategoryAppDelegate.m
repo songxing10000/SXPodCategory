@@ -7,12 +7,12 @@
 //
 
 #import "SXPodCategoryAppDelegate.h"
-
+#import <SXPodCategory/SXPodCategory.h>
 @implementation SXPodCategoryAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [@"fs" md5String];
     return YES;
 }
 
