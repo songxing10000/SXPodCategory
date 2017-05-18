@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SXPodCategory_Example' do
+  pod 'SXPodCategory', :path => '../'
+
+  target 'SXPodCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
