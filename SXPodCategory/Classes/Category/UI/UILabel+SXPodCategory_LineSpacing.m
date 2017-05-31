@@ -3,7 +3,7 @@
 //  Chekuaikuai
 //
 //  Created by mac on 2017/4/6.
-//  Copyright © 2017年 北京壹号车科技有限公司. All rights reserved.
+//  Copyright © 2017年 dfpo. All rights reserved.
 //
 
 #import "UILabel+SXPodCategory_LineSpacing.h"

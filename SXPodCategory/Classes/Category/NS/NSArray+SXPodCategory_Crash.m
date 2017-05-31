@@ -3,7 +3,7 @@
 //  Chekuaikuai
 //
 //  Created by mac on 2017/4/26.
-//  Copyright © 2017年 北京壹号车科技有限公司. All rights reserved.
+//  Copyright © 2017年 dfpo. All rights reserved.
 //
 
 #import "NSArray+SXPodCategory_Crash.h"

@@ -3,7 +3,7 @@
 //  BoSheng
 //
 //  Created by dfpo on 16/9/26.
-//  Copyright © 2016年 LYKJ. All rights reserved.
+//  Copyright © 2016年 dfpo. All rights reserved.
 //
 
 #import "UIViewController+SXPodCategory_Add.h"

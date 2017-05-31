@@ -2,8 +2,8 @@
 //  UITableViewCell+Nib.m
 //  CKK_SJ
 //
-//  Created by MobileUser on 2016/11/23.
-//  Copyright © 2016年 BILL. All rights reserved.
+//  Created by dfpo on 2016/11/23.
+//  Copyright © 2016年 dfpo. All rights reserved.
 //
 
 #import "UITableViewCell+SXPodCategory_Add.h"
