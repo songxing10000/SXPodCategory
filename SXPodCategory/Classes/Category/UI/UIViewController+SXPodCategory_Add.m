@@ -57,7 +57,14 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
 + (instancetype)vcFromStoryboardWithName:(NSString *)name {
     
     UIStoryboard *sb = [UIStoryboard storyboardWithName:name bundle:nil];
-    return [sb instantiateViewControllerWithIdentifier:NSStringFromClass(self)];
+    UIViewController *vc = [sb instantiateViewControllerWithIdentifier:NSStringFromClass(self)];
+    if (vc) {
+        
+        return vc;
+    }
+    vc = [[UIViewController alloc] init];
+    vc.view.backgroundColor = [UIColor redColor];
+    return vc;
 }
 
 - (void)hideBackItem {
