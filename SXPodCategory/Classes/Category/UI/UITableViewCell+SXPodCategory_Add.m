@@ -23,6 +23,7 @@
     if ([[NSBundle mainBundle] pathForResource:cellIDStr ofType:@"nib"] == nil) {
         
         cell = [[[self class] alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier: cellIDStr];
+        [tableView registerClass:[self class] forCellReuseIdentifier:cellIDStr];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         return cell;
     }
