@@ -8,11 +8,13 @@
 
 #import "SXPodCategoryAppDelegate.h"
 #import <SXPodCategory/SXPodCategory.h>
+#import <SXPodCategory/NSString+SXPodCategory_Add.h>
 @implementation SXPodCategoryAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [@"fs" md5String];
+    NSNumber *ss = @"222";
+    id f = [ss stringValue];
     return YES;
 }
 

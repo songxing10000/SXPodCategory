@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0327FA003E85D0C52A518EDE44BBE5C5 /* NSFileManager+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3BF85BA6F0F5E13C4E4A8A99F02D27 /* NSFileManager+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0429F85381229C3CD438645D37F379B2 /* NSDictionary+SXPodCategory_Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F6763D6FE9C965367341A38055AB9B /* NSDictionary+SXPodCategory_Crash.m */; };
+		04FB0BC81F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FB0BC61F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.h */; };
+		04FB0BC91F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB0BC71F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.m */; };
 		083FE9CE39E0FDD6B938DA9D01835CA7 /* UITableViewCell+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 752AD15EC6CA7894470E5235AF68D9F9 /* UITableViewCell+SXPodCategory_Add.m */; };
 		08695C123C78DD4A57E3712F1B262423 /* UITextField+SXPodCategory_Limited.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCBF0A70F25EC2C380CB8036DC6C6FC /* UITextField+SXPodCategory_Limited.m */; };
 		0A714FD9EE78EC62E9D5B5B11C37B6A1 /* UILabel+SXPodCategory_LineSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = B138C7368C9DA9943E84E0B1605AF80C /* UILabel+SXPodCategory_LineSpacing.m */; };
@@ -84,6 +86,8 @@
 
 /* Begin PBXFileReference section */
 		028944FC7FDA382E72BBC36C7FEC9E57 /* NSNull+SXPodCategory_OVNatural.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNull+SXPodCategory_OVNatural.h"; sourceTree = "<group>"; };
+		04FB0BC61F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SXPodCategory_Crash.h"; sourceTree = "<group>"; };
+		04FB0BC71F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SXPodCategory_Crash.m"; sourceTree = "<group>"; };
 		08957D9D4CDBD37D23DEC68AD50DC518 /* Pods-SXPodCategory_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SXPodCategory_Example.modulemap"; sourceTree = "<group>"; };
 		08A7543B690FA8DF3BE64E5603761D96 /* SXPodCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SXPodCategory-dummy.m"; sourceTree = "<group>"; };
 		0A040522D47D1E476A364832E88C458F /* NSArray+SXPodCategory_Crash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+SXPodCategory_Crash.h"; sourceTree = "<group>"; };
@@ -348,6 +352,8 @@
 				BCE62FEC864D5F5368726EB84189535C /* NSNull+SXPodCategory_OVNatural.m */,
 				E2014A0178EEF935398522341DE4EE45 /* NSNumber+SXPodCategory_Crash.h */,
 				2C4A439716813AE30FF8913FD8AEF0D1 /* NSNumber+SXPodCategory_Crash.m */,
+				04FB0BC61F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.h */,
+				04FB0BC71F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.m */,
 				32EADB5FCEA2A083A2B5D1E581C979D8 /* NSObject+SXPodCategory_BKAssociatedObjects.h */,
 				FE818DE12A3C3C370CEA0515A9AF0B75 /* NSObject+SXPodCategory_BKAssociatedObjects.m */,
 				26B628B34FE38C46E15A698F801129DA /* NSObject+SXPodCategory_Cell_indexPath.h */,
@@ -456,6 +462,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FB0BC81F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.h in Headers */,
 				B1AB266DC4FF843F846A4D6834725BB3 /* Pods-SXPodCategory_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,6 +598,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D48061610F4F26EF8AF164034BB9D8 /* Pods-SXPodCategory_Example-dummy.m in Sources */,
+				04FB0BC91F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
