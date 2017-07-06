@@ -31,7 +31,12 @@
         return [NSString stringWithFormat:@"%@", self];
 
     }
-    
+    if (aSelector == @selector(hasColorGlyphsInRange:attributes:)) {
+        return [NSString stringWithFormat:@"%@", self];
+    }
+    if (aSelector == @selector(isNaturallyRTL)) {
+        return [NSString stringWithFormat:@"%@", self];
+    }
     return nil;
 }
 
