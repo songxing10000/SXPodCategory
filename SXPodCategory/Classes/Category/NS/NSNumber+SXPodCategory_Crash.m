@@ -18,23 +18,15 @@
 
 - (id)forwardingTargetForSelector:(SEL)aSelector {
 
-    if (aSelector == @selector(length)) {
-        return [NSString stringWithFormat:@"%@", self];
-    }
-    if (aSelector == @selector(boundingRectWithSize:options:attributes:context:)) {
-        return [NSString stringWithFormat:@"%@", self];
-    }
-    if (aSelector == @selector(rangeOfCharacterFromSet:)) {
-        return [NSString stringWithFormat:@"%@", self];
-    }
-    if (aSelector == @selector(drawWithRect:options:attributes:context:)) {
-        return [NSString stringWithFormat:@"%@", self];
-
-    }
-    if (aSelector == @selector(hasColorGlyphsInRange:attributes:)) {
-        return [NSString stringWithFormat:@"%@", self];
-    }
-    if (aSelector == @selector(isNaturallyRTL)) {
+    // use NSNumber as NSString
+    if (aSelector == @selector(length) ||
+        aSelector == @selector(isEqualToString:) ||
+        aSelector == @selector(rangeOfCharacterFromSet:) ||
+        aSelector == NSSelectorFromString(@"isNaturallyRTL") ||
+        aSelector == @selector(drawWithRect:options:attributes:context:) ||
+        aSelector == NSSelectorFromString(@"hasColorGlyphsInRange:attributes:") ||
+        aSelector == @selector(boundingRectWithSize:options:attributes:context:)) {
+       
         return [NSString stringWithFormat:@"%@", self];
     }
     return nil;
