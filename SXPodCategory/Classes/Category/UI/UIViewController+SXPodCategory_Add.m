@@ -75,8 +75,16 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
 }
 #pragma mark - 简化调用
 - (void)push:(__kindof UIViewController *)vc {
-    
-    [self.navigationController pushViewController:vc animated:YES];
+    if ([self isKindOfClass:[UINavigationController class]]) {
+        
+        [(UINavigationController *)self pushViewController:vc animated:YES];
+    } else if ([self isKindOfClass:[UITabBarController class]]) {
+        
+        [[(UITabBarController *)self selectedViewController] push:vc];
+    } else {
+        
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 -(void)pop {
     if ([self isKindOfClass:[UINavigationController class]]) {
