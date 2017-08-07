@@ -15,6 +15,6 @@
 #import <SXPodCategory/NSArray+SXPodCategory_SX_Safe.h>
 #import <SXPodCategory/NSFileManager+SXPodCategory_Add.h>
 #import <SXPodCategory/NSObject+SXPodCategory_Cell_indexPath.h>
-
+#import <SXPodCategory/NSObject+EasyCall.h>
 
 #endif /* SXPodCategoryNS_h */

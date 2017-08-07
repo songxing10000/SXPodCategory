@@ -7,70 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0327FA003E85D0C52A518EDE44BBE5C5 /* NSFileManager+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3BF85BA6F0F5E13C4E4A8A99F02D27 /* NSFileManager+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0429F85381229C3CD438645D37F379B2 /* NSDictionary+SXPodCategory_Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F6763D6FE9C965367341A38055AB9B /* NSDictionary+SXPodCategory_Crash.m */; };
-		04FB0BC81F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FB0BC61F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.h */; };
-		04FB0BC91F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB0BC71F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.m */; };
-		083FE9CE39E0FDD6B938DA9D01835CA7 /* UITableViewCell+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 752AD15EC6CA7894470E5235AF68D9F9 /* UITableViewCell+SXPodCategory_Add.m */; };
-		08695C123C78DD4A57E3712F1B262423 /* UITextField+SXPodCategory_Limited.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCBF0A70F25EC2C380CB8036DC6C6FC /* UITextField+SXPodCategory_Limited.m */; };
-		0A714FD9EE78EC62E9D5B5B11C37B6A1 /* UILabel+SXPodCategory_LineSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = B138C7368C9DA9943E84E0B1605AF80C /* UILabel+SXPodCategory_LineSpacing.m */; };
-		12AE14D6274B8ED844F6C78494DB8538 /* NSFileManager+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 354B55ED3E85A467B287F31016AEE51B /* NSFileManager+SXPodCategory_Add.m */; };
-		132EB1E07888740047AC5BABB5578B45 /* UINavigationController+SXPodCategory_RemoveVC.h in Headers */ = {isa = PBXBuildFile; fileRef = A603A0752FB17A4262234E41A331920A /* UINavigationController+SXPodCategory_RemoveVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		189AB89BBAF5033458AF49824CC06F7E /* Foundation+SXPodCategory_Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D258203C6B5E69FF26025EA47B175C9C /* Foundation+SXPodCategory_Log.m */; };
-		18CFEA269A25A754C0D841DE45DAE1DE /* NSString+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = D524CBE114A3F2B135915B500304CCA6 /* NSString+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032554439B6930238571A3EE36A939E1 /* UIButton+SXPodCategory_Call.m in Sources */ = {isa = PBXBuildFile; fileRef = 1988EE69DF260E5DAFFE2FC09BB08003 /* UIButton+SXPodCategory_Call.m */; };
+		03FC4B45277BDB5F108CCA1CEC893BB1 /* UIViewController+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = B7145F64120127A77651875F48AE684A /* UIViewController+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04212A13E1627EB1A99FF29EB0EDC305 /* NSNumber+SXPodCategory_Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = B25E10F10EA9088405FC3F8440BC3675 /* NSNumber+SXPodCategory_Crash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0548DFA7036FBF51EF6210B5FB4B470D /* NSArray+SXPodCategory_Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BAC182AFB371A2B02E5CEEFD64EE40 /* NSArray+SXPodCategory_Crash.m */; };
+		0A0B43056030DF2AC49A2C298457ED2F /* UITableViewCell+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = 553FAC5E959F2A96E8F21C11E533F28C /* UITableViewCell+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C43E16DDBE18A538F95D50025BE2D0B /* NSObject+EasyCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F57C533B37632240CA4D4B6C900E26F /* NSObject+EasyCall.m */; };
+		0D9E3445F44D1C1B6E9A6CEC8C2A71B4 /* NSObject+SXPodCategory_Cell_indexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = BED70C0AD9B988ED7670F249F25E4AFC /* NSObject+SXPodCategory_Cell_indexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18931473C674C5B7C99EE698D666D1A2 /* UICollectionViewCell+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B79ED98E7FDB052895CFCE3C4BF0EB /* UICollectionViewCell+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		223E90DDA8723C83477FD493FD064DC5 /* UIView+SXPodCategory_GetController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A62CD737E9357C60E9C88B2BC5D622E /* UIView+SXPodCategory_GetController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23F172F331D44EE9392FE7659A49EADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2C5CF9D2E05F8881A533AA103042C38C /* NSNumber+SXPodCategory_Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A439716813AE30FF8913FD8AEF0D1 /* NSNumber+SXPodCategory_Crash.m */; };
-		2E2E15FBD593246AC1D700D138C1C7F2 /* NSDate+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 878DC5CE0D13EB6386E9E0C9E188BC1D /* NSDate+SXPodCategory_Add.m */; };
-		32914816C13F2E874F7A63A8861A811A /* UICollectionViewCell+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B41CEA85D410A280F5DC38CACC21E9A /* UICollectionViewCell+SXPodCategory_Add.m */; };
-		3995533A23BEF431D36270F98CBEFD4A /* UITextField+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = 830386BE1FD6ABF983F6717F6F9C7C36 /* UITextField+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B377C793AF19BDCB93891B2CB804763 /* UIView+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B3E8E951B5D3D28BE8B5C91F7DEA /* UIView+SXPodCategory_Add.m */; };
+		38F1C68AF75F2F89F9CE53A36B145ED5 /* NSString+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B07E19C44E2A3FD51F57B6D3E469D2 /* NSString+SXPodCategory_Add.m */; };
+		39256A70B13617C8500559A39CA07CFD /* UITextView+SXPodCategory_Limited.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B921BEDC61BF2836BC7C2AB986E8D5 /* UITextView+SXPodCategory_Limited.m */; };
+		3D7BE561F38D88D0F0A160946BB1EE33 /* SXPodCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EDE7B8E6D128E4FA32ABA78C0A2970 /* SXPodCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F2823294DD784036B3B8F9AAA9DEF97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		435C75E352A06EB876ABE7B340CC81D7 /* SXPodCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A7543B690FA8DF3BE64E5603761D96 /* SXPodCategory-dummy.m */; };
-		45A17CB907A002758B1CCA355719ADB9 /* NSArray+SXPodCategory_Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A040522D47D1E476A364832E88C458F /* NSArray+SXPodCategory_Crash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B1C31CCCBA8FBB35FBFB0F4D2CEE182 /* NSNull+SXPodCategory_OVNatural.h in Headers */ = {isa = PBXBuildFile; fileRef = 028944FC7FDA382E72BBC36C7FEC9E57 /* NSNull+SXPodCategory_OVNatural.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DC391E9A9590E389D08D31C933BF8C0 /* UITextField+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 24149C45C3034DD2DA335DB86E7B42C9 /* UITextField+SXPodCategory_Add.m */; };
-		4EC149B853380CEA6E8BC4A6CEFB6661 /* NSNull+SXPodCategory_OVNatural.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE62FEC864D5F5368726EB84189535C /* NSNull+SXPodCategory_OVNatural.m */; };
-		526001661C9D65B843288506BE63DA79 /* UIView+SXPodCategory_GetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A839B890AA68B5DBA12CC286787D94A /* UIView+SXPodCategory_GetController.m */; };
-		529C27F0463FEFD6436F18107AC34D7A /* SXPodCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EDE7B8E6D128E4FA32ABA78C0A2970 /* SXPodCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		565F100AE42B54E8996E17EDEEBA0766 /* UIView+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = 81CFBB4C768164180E1A79BE793D9384 /* UIView+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56B8FEA5D179A8DD77AAC1AD3B4A42CA /* UIView+SXPodCategory_Constraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4851EB4709F7C666F9AA56517B6E83 /* UIView+SXPodCategory_Constraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		578635EEE721A6C26B6BCC976254CDC6 /* UITextView+SXPodCategory_Limited.m in Sources */ = {isa = PBXBuildFile; fileRef = 22184049B68C9C469C30DE45E093059E /* UITextView+SXPodCategory_Limited.m */; };
+		3F4A8A1E56782B24DA80A4FCE4EBF039 /* UIImage+SXPodCategory_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF79F112D15942D06ABB02151D99DAF /* UIImage+SXPodCategory_Common.m */; };
+		419417CC9F6A5F3086B2997763E8119C /* SXPodCategoryNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0D5FDE5F99770DB74C92D93A38A82B /* SXPodCategoryNS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43AF0D6B5CA4AE90410DFF36819C0972 /* NSObject+EasyCall.h in Headers */ = {isa = PBXBuildFile; fileRef = BA46A7B275549561663581C6B94C1E8A /* NSObject+EasyCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4612EAC914F3AA89298AB6A0A7A2557B /* SXPodCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7998C5F35CA5C34F47E7F2DA48B5A092 /* SXPodCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E4301CB81FEADD1E29F4BE02AD6398A /* NSDictionary+SXPodCategory_Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = EDCBFF54FF04A14AAF9C5A430409ECEC /* NSDictionary+SXPodCategory_Crash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55C703EA312D3003B362307C0F443522 /* NSFileManager+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA43C3A514E10DEF5EA53E4D83A69EB /* NSFileManager+SXPodCategory_Add.m */; };
+		560A2EAD9EBED083F4BECA43CE0AAADB /* NSNumber+SXPodCategory_Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1ACA74F1637406F0D9A880F89D5A97 /* NSNumber+SXPodCategory_Crash.m */; };
 		598A6BE01F0B9D663244835D42EC8D54 /* Pods-SXPodCategory_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3C0CAAE9F7B3372B58130A42E4EED /* Pods-SXPodCategory_Tests-dummy.m */; };
-		59F5C27D8943E279A696548EF8DDFC4A /* NSDate+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0D4B0B441D74729ED76B7986C6FA29 /* NSDate+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BB95F5DB8E96ED090F6FB945542333F /* UITextField+SXPodCategory_Limited.h in Headers */ = {isa = PBXBuildFile; fileRef = 72558FF5545A363612C5061BE061FA27 /* UITextField+SXPodCategory_Limited.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CF4F39115DC4713EDCB417B59F7622E /* UIImage+SXPodCategory_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3FC814E36ABD1E1DBABC5BC75AFA03 /* UIImage+SXPodCategory_Common.m */; };
-		5F5AB5925D9D17FD05F1AFD4D6348F3F /* SXPodCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D94A6B63754752E0A93D1A45FD19E7 /* SXPodCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		692ABE206346EEFC9CC416EA47509281 /* UILabel+SXPodCategory_LineSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = 471447BF440EA05C715C6BE2CC29384F /* UILabel+SXPodCategory_LineSpacing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7804FFBEB6FF5E37E1D09A469180EFD7 /* UIButton+SXPodCategory_Call.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D2FACDE114466664B2582F830892B6 /* UIButton+SXPodCategory_Call.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7897B6705A6B026236F70937CB4847B9 /* UIViewController+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E8A5A3A2F292D20B0552150ACE361A /* UIViewController+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EFECFEB3E45ED9BFEF3C43D7A87044D /* UITabBar+SXPodCategory_BadgeSize.h in Headers */ = {isa = PBXBuildFile; fileRef = D76F8A50D798212D99C6614FB23F7EDE /* UITabBar+SXPodCategory_BadgeSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6359B46EA9E1B54E2361563C89D3DDE0 /* UIAlertAction+SXPodCategory_Undefined.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8EC78C268693BDFA2406B1A02A9719 /* UIAlertAction+SXPodCategory_Undefined.m */; };
+		6C156260560F330ECAF62F94DAC02E6F /* UIAlertAction+SXPodCategory_Undefined.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E646F48737319CB68C84095C5B7E19 /* UIAlertAction+SXPodCategory_Undefined.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C8AE6340233FBB7B63AA157E674E4B4 /* UIView+SXPodCategory_GetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D4C660E6393809AB16ECEEA4D7AA8 /* UIView+SXPodCategory_GetController.m */; };
+		71F82699882B2444737D2670123FAEFD /* NSObject+SXPodCategory_BKAssociatedObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEC96CEF72F3ECF29C9CF46A833E38D /* NSObject+SXPodCategory_BKAssociatedObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AAB5207A7C8ECC3CF19B99632D960D6 /* SXPodCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A7543B690FA8DF3BE64E5603761D96 /* SXPodCategory-dummy.m */; };
+		7B45EE2C1735835E5970FDBACA23A0C2 /* UIButton+SXPodCategory_Call.h in Headers */ = {isa = PBXBuildFile; fileRef = 99ADE7146D51AEC29404BF89E25B061F /* UIButton+SXPodCategory_Call.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CD6E3A63CEC66FC62F1363AC42ACD02 /* SXPodCategoryUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE4A1FABB04442312763098C3052953 /* SXPodCategoryUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D74C61EFB685FFEE1283A469F09E876 /* Foundation+SXPodCategory_Log.m in Sources */ = {isa = PBXBuildFile; fileRef = A44667F3ADCB133ECB08BA2C19B7ABDE /* Foundation+SXPodCategory_Log.m */; };
+		7E95F05C29FF1F53A3F593AA50F06214 /* UITabBar+SXPodCategory_BadgeSize.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6B934E20310CD7D93BDAC3D43F5E38 /* UITabBar+SXPodCategory_BadgeSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82798A210EC43F2506D4A19E423C2E0A /* NSArray+SXPodCategory_SX_Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 3634371275BFE4FA6848AC2B3D5246D8 /* NSArray+SXPodCategory_SX_Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83D48061610F4F26EF8AF164034BB9D8 /* Pods-SXPodCategory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D58AB0B3316BD6077F1AC914F52382E /* Pods-SXPodCategory_Example-dummy.m */; };
-		900B16590AF75E37A7819E53D49DC9FA /* NSObject+SXPodCategory_BKAssociatedObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 32EADB5FCEA2A083A2B5D1E581C979D8 /* NSObject+SXPodCategory_BKAssociatedObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C10529596B869CA83FF844589E8A658 /* NSObject+SXPodCategory_Cell_indexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = D15963576335DD55FD35C9FDFE45D575 /* NSObject+SXPodCategory_Cell_indexPath.m */; };
-		9DB4F550B4A7D7D1EBD2A119158A6AED /* UITextView+SXPodCategory_Limited.h in Headers */ = {isa = PBXBuildFile; fileRef = 54138CC2518E2C5D1EBBAA45AECF7D5A /* UITextView+SXPodCategory_Limited.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A35E7FADFE8158C2D7588C5115E14875 /* UITableViewCell+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD19D5359092DF3231519CDE21B7B3A /* UITableViewCell+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4ED9C07924E779D831F96F369844B5A /* UIImage+SXPodCategory_Common.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4AA858F531EAFB125ADC25709E0966 /* UIImage+SXPodCategory_Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5FC2B99C9A80990F91C99EF5F14265E /* NSString+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A98ED894C7D5C559008175268D73AA /* NSString+SXPodCategory_Add.m */; };
-		A9770353687FEFCC73E7D6A89C83AE7E /* UIButton+SXPodCategory_Call.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B187F7E8980F04FA490B7E02FD673B /* UIButton+SXPodCategory_Call.m */; };
-		AC27913058392A223D4F445C18B5E6B6 /* UIView+SXPodCategory_GetController.h in Headers */ = {isa = PBXBuildFile; fileRef = 80D08CD9C17811A7F9084217CC123297 /* UIView+SXPodCategory_GetController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88261E9D280C25A64E0848E4A5159614 /* NSArray+SXPodCategory_SX_Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = A724CD4944EDB03F108E3337BF398707 /* NSArray+SXPodCategory_SX_Safe.m */; };
+		8BF561BA00805D7BE58D0851E0F0C36B /* NSString+SXPodCategory_Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9465A1053910B5DAE38969D195BC64 /* NSString+SXPodCategory_Crash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C571F9072B8E2FEA90A24A257072F13 /* NSObject+SXPodCategory_BKAssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11B2EF9504DFFBF871D90EFFF7546C /* NSObject+SXPodCategory_BKAssociatedObjects.m */; };
+		8D743BD41BBBABD9E8C171648A443993 /* UILabel+SXPodCategory_LineSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E14CF3BD9C869EE9BF27ED030E21B1 /* UILabel+SXPodCategory_LineSpacing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AEE3C000E25C45EF993DAE6C83F7D62 /* UITabBar+SXPodCategory_BadgeSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 863AEFAD98775A089F9F67EEF295396D /* UITabBar+SXPodCategory_BadgeSize.m */; };
+		A6EAA1DC94233A1D368AEE2B76969676 /* UILabel+SXPodCategory_LineSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD6C33E92D2B42048C20B9CE1ED188 /* UILabel+SXPodCategory_LineSpacing.m */; };
+		AA67E2D1CCAE563FC77E602A5461180B /* UITableViewCell+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = CF036AB2CE8F453F37FB39AFD6F7D076 /* UITableViewCell+SXPodCategory_Add.m */; };
+		AAD68AC683C86F6176CB702D980D7F48 /* NSFileManager+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C094E2464D08A577AE6A0A0641DBF7 /* NSFileManager+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3E7A95B0892FD40C2C2539FC9A4EFC /* NSDictionary+SXPodCategory_Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D725FE251F82946DF775D91DBAA06A /* NSDictionary+SXPodCategory_Crash.m */; };
 		B1AB266DC4FF843F846A4D6834725BB3 /* Pods-SXPodCategory_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC4F00622928C16612C41453A868560 /* Pods-SXPodCategory_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8052CC326CEE5F05DCB81E4D577CC6C /* SXPodCategoryUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 60324FE5365004773E56D7C6F317CD75 /* SXPodCategoryUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9FE64B2FE5851B267D69B1025C39058 /* NSArray+SXPodCategory_SX_Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = F31727C013BA38B8B7824C09CCF396DC /* NSArray+SXPodCategory_SX_Safe.m */; };
-		BA62149E46EE53161C466B35C396A351 /* SXPodCategoryNS.h in Headers */ = {isa = PBXBuildFile; fileRef = EE67345DC21C409EB87045935BE89B9A /* SXPodCategoryNS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCB07906AF44022555DCB997D509D487 /* NSObject+SXPodCategory_Cell_indexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B628B34FE38C46E15A698F801129DA /* NSObject+SXPodCategory_Cell_indexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1591112ABCA4C43960B8BB8E72BF0CC /* UIView+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C7D1127FAED665684061D58375C1BF /* UIView+SXPodCategory_Add.m */; };
-		C9AE504AFA0045DD7A3815342C0F4A0A /* UINavigationController+SXPodCategory_RemoveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DE53B074A28D716D06AA1995E8418D63 /* UINavigationController+SXPodCategory_RemoveVC.m */; };
-		CA2962AC962FD7CDC7355818A5F674D1 /* UICollectionViewCell+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = C6DAD56B7542ACB6CBF2DE5FDFFF89AF /* UICollectionViewCell+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4E5BABCC5874C9EE4ACCA045DAAC317 /* UIView+SXPodCategory_Constraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A9757C783F7449770870350CBFBAF1 /* UIView+SXPodCategory_Constraint.m */; };
+		B6A377439126F14131A92BB3DF5C86DD /* UITextField+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC7A98504F74A16C9B0D6ADCB1B9D52 /* UITextField+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6BE1EB55E3DE917555E0D1EE81C9C47 /* NSDate+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C12CABDBE19DEDCC57DE8A3BD3F25A /* NSDate+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B710C596344175CCCB200867DA123A96 /* UIView+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3519F451C27D44460F1D4F0A8910D4 /* UIView+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1CA4B009D4A173A38DDF76E60172C23 /* NSNull+SXPodCategory_OVNatural.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF1B69A6806E894BA820F6C983D6010 /* NSNull+SXPodCategory_OVNatural.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1FA2A68E7A2E4FD20B389D06FFA1486 /* NSDate+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 4153F627038E3E73A88649818C52AA1B /* NSDate+SXPodCategory_Add.m */; };
+		C34DDD5A404206A1153C008D65F9C92C /* NSString+SXPodCategory_Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 51985678A402435C97EDD9B7F418A02F /* NSString+SXPodCategory_Crash.m */; };
+		C79508D507D1E22B14CE47C34EE12AEA /* UIViewController+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 662AD940AF88A1DFF307A41EDE924536 /* UIViewController+SXPodCategory_Add.m */; };
+		CA228A9FB6B310A6A4142AFB86EB04DB /* UITextField+SXPodCategory_Limited.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA8B45D3B35610B6996BF156BEC4B35 /* UITextField+SXPodCategory_Limited.m */; };
+		D032E42BED422C2240D04FD034982409 /* UITextView+SXPodCategory_Limited.h in Headers */ = {isa = PBXBuildFile; fileRef = F1218BB385F9452E18A20FAAC863D077 /* UITextView+SXPodCategory_Limited.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D32A0308168EF6E7AD081B43FCD5AEE4 /* Pods-SXPodCategory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B337758BC8C3CA1D41BBB520D3D70E13 /* Pods-SXPodCategory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D43F5CB48E56A08DEAA7CA46C88C6503 /* NSArray+SXPodCategory_SX_Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = F49AAA4A218E8426C9E8630783FCCC5E /* NSArray+SXPodCategory_SX_Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D92731C83CD31E09BD83B71652154FA9 /* UIViewController+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E03502AC122A00EEFCC1739B2F3ACAB /* UIViewController+SXPodCategory_Add.m */; };
-		DF5AA3D4C5E3B87174741685DC54AF12 /* NSArray+SXPodCategory_Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = E316A0F5CAC012CA5CC0B083ED77575D /* NSArray+SXPodCategory_Crash.m */; };
-		E207CC18B6C9B4DA2CCC57808BCCF040 /* NSObject+SXPodCategory_BKAssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = FE818DE12A3C3C370CEA0515A9AF0B75 /* NSObject+SXPodCategory_BKAssociatedObjects.m */; };
-		E5E7A1AEDE37ACF3A653A3BD8992A6B1 /* NSNumber+SXPodCategory_Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = E2014A0178EEF935398522341DE4EE45 /* NSNumber+SXPodCategory_Crash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB31B14C8152B012AB1325D66DF2763D /* UIAlertAction+SXPodCategory_Undefined.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BE3F027B963660C394929CBEDB2835 /* UIAlertAction+SXPodCategory_Undefined.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4557908BC33C1EF59DC439E8D022D09 /* UIView+SXPodCategory_Constraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A274A9493B1C15A70F4B5451532C8B /* UIView+SXPodCategory_Constraint.m */; };
-		F4D9625E4A0A4C873BBFDA3991607FB0 /* UITabBar+SXPodCategory_BadgeSize.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAE4B2271B2FE8206E9ED3A1DD48A2E /* UITabBar+SXPodCategory_BadgeSize.m */; };
-		FA7C8183FDC99996BBCFE584A8E29B98 /* NSDictionary+SXPodCategory_Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = 253970E4BB8CC26171EC45CF1DC61312 /* NSDictionary+SXPodCategory_Crash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD57A07DF8EC97926D545543BF25B497 /* UIAlertAction+SXPodCategory_Undefined.m in Sources */ = {isa = PBXBuildFile; fileRef = 816C47104E645982E82C526A039D59DE /* UIAlertAction+SXPodCategory_Undefined.m */; };
+		D8C1D141926AAC1886ABB1C82759FAD6 /* UIImage+SXPodCategory_Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 638FFE4E2DAED97D8E00EFFB8A6D3564 /* UIImage+SXPodCategory_Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E01C3045C05B0589567F6AC232008F04 /* UINavigationController+SXPodCategory_RemoveVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 693B1E78AFFD1500ED2DF8C4DA2D5986 /* UINavigationController+SXPodCategory_RemoveVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7348BAF36796C0BE8FA243E1FCDDE5A /* UITextField+SXPodCategory_Limited.h in Headers */ = {isa = PBXBuildFile; fileRef = CA504FFBDD855596B7695EFDBA9F17D6 /* UITextField+SXPodCategory_Limited.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E79B8D676F4F9F8139BA7069F74FCD1F /* NSArray+SXPodCategory_Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = A194537B8E76AD780DF189A9088C978C /* NSArray+SXPodCategory_Crash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAEF528A242189979BB982084CBF629F /* UICollectionViewCell+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA5E20FF928AF4B37C1146C8542EFEC /* UICollectionViewCell+SXPodCategory_Add.m */; };
+		EE9AFA24BE7376E28B84ECF5ADCE2EAE /* NSString+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = A079CEDE83CC149497E886CA7D6EA382 /* NSString+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0E72709AD1B9647834456E395C87886 /* UINavigationController+SXPodCategory_RemoveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C110E2AE7549A9D0535ED8640760B7 /* UINavigationController+SXPodCategory_RemoveVC.m */; };
+		F207F92C29BE70D889CCF1571FEE22AD /* UIView+SXPodCategory_Constraint.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6431B6830FF74EDFABA22879D0129F /* UIView+SXPodCategory_Constraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F34153D4D63ED88DF8A13AB04F2BD088 /* NSObject+SXPodCategory_Cell_indexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 253F63471337EC9D7B8770B39ABA4E0E /* NSObject+SXPodCategory_Cell_indexPath.m */; };
+		F99F62067096F1BCCD617F82D4BB6E20 /* NSNull+SXPodCategory_OVNatural.m in Sources */ = {isa = PBXBuildFile; fileRef = D04740C923B49474BBAD42AD64614E68 /* NSNull+SXPodCategory_OVNatural.m */; };
+		FD34B07AFC82B95AB30EA917D5BF0B05 /* UITextField+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A52CF8C6EE041D39B15B093DE53909 /* UITextField+SXPodCategory_Add.m */; };
 		FEC9AA0E552D8A9E409C4748BF3B0B61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,93 +87,95 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		028944FC7FDA382E72BBC36C7FEC9E57 /* NSNull+SXPodCategory_OVNatural.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNull+SXPodCategory_OVNatural.h"; sourceTree = "<group>"; };
-		04FB0BC61F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SXPodCategory_Crash.h"; sourceTree = "<group>"; };
-		04FB0BC71F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SXPodCategory_Crash.m"; sourceTree = "<group>"; };
-		08957D9D4CDBD37D23DEC68AD50DC518 /* Pods-SXPodCategory_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SXPodCategory_Example.modulemap"; sourceTree = "<group>"; };
+		08957D9D4CDBD37D23DEC68AD50DC518 /* Pods-SXPodCategory_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SXPodCategory_Example.modulemap"; sourceTree = "<group>"; };
 		08A7543B690FA8DF3BE64E5603761D96 /* SXPodCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SXPodCategory-dummy.m"; sourceTree = "<group>"; };
-		0A040522D47D1E476A364832E88C458F /* NSArray+SXPodCategory_Crash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+SXPodCategory_Crash.h"; sourceTree = "<group>"; };
+		0A62CD737E9357C60E9C88B2BC5D622E /* UIView+SXPodCategory_GetController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SXPodCategory_GetController.h"; sourceTree = "<group>"; };
 		0B6706ECBC5597171AC09D56456133C5 /* SXPodCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SXPodCategory.xcconfig; sourceTree = "<group>"; };
 		0EB7151F1B97F3D34100A4EEAFC93D2D /* Pods-SXPodCategory_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SXPodCategory_Example-resources.sh"; sourceTree = "<group>"; };
-		13EA90295CF9CDE1E72285701AD22C21 /* SXPodCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SXPodCategory.modulemap; sourceTree = "<group>"; };
+		10A52CF8C6EE041D39B15B093DE53909 /* UITextField+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SXPodCategory_Add.m"; sourceTree = "<group>"; };
+		13EA90295CF9CDE1E72285701AD22C21 /* SXPodCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SXPodCategory.modulemap; sourceTree = "<group>"; };
+		14BAC182AFB371A2B02E5CEEFD64EE40 /* NSArray+SXPodCategory_Crash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SXPodCategory_Crash.m"; sourceTree = "<group>"; };
+		1988EE69DF260E5DAFFE2FC09BB08003 /* UIButton+SXPodCategory_Call.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SXPodCategory_Call.m"; sourceTree = "<group>"; };
+		1E3519F451C27D44460F1D4F0A8910D4 /* UIView+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SXPodCategory_Add.h"; sourceTree = "<group>"; };
 		1EC25511AE00E528772137306BCE6A0B /* Pods-SXPodCategory_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SXPodCategory_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1ED4B785700B9E8933EEFC2346AC1EE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F0D4B0B441D74729ED76B7986C6FA29 /* NSDate+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+SXPodCategory_Add.h"; sourceTree = "<group>"; };
-		22184049B68C9C469C30DE45E093059E /* UITextView+SXPodCategory_Limited.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+SXPodCategory_Limited.m"; sourceTree = "<group>"; };
-		22D2FACDE114466664B2582F830892B6 /* UIButton+SXPodCategory_Call.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+SXPodCategory_Call.h"; sourceTree = "<group>"; };
-		24149C45C3034DD2DA335DB86E7B42C9 /* UITextField+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SXPodCategory_Add.m"; sourceTree = "<group>"; };
-		253970E4BB8CC26171EC45CF1DC61312 /* NSDictionary+SXPodCategory_Crash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SXPodCategory_Crash.h"; sourceTree = "<group>"; };
-		26B628B34FE38C46E15A698F801129DA /* NSObject+SXPodCategory_Cell_indexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXPodCategory_Cell_indexPath.h"; sourceTree = "<group>"; };
-		2C4A439716813AE30FF8913FD8AEF0D1 /* NSNumber+SXPodCategory_Crash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+SXPodCategory_Crash.m"; sourceTree = "<group>"; };
-		32EADB5FCEA2A083A2B5D1E581C979D8 /* NSObject+SXPodCategory_BKAssociatedObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXPodCategory_BKAssociatedObjects.h"; sourceTree = "<group>"; };
-		354B55ED3E85A467B287F31016AEE51B /* NSFileManager+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+SXPodCategory_Add.m"; sourceTree = "<group>"; };
-		36C7D1127FAED665684061D58375C1BF /* UIView+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SXPodCategory_Add.m"; sourceTree = "<group>"; };
-		38E8A5A3A2F292D20B0552150ACE361A /* UIViewController+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SXPodCategory_Add.h"; sourceTree = "<group>"; };
+		1EEC96CEF72F3ECF29C9CF46A833E38D /* NSObject+SXPodCategory_BKAssociatedObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXPodCategory_BKAssociatedObjects.h"; sourceTree = "<group>"; };
+		253F63471337EC9D7B8770B39ABA4E0E /* NSObject+SXPodCategory_Cell_indexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXPodCategory_Cell_indexPath.m"; sourceTree = "<group>"; };
+		2DE4A1FABB04442312763098C3052953 /* SXPodCategoryUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXPodCategoryUI.h; sourceTree = "<group>"; };
+		30B07E19C44E2A3FD51F57B6D3E469D2 /* NSString+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+SXPodCategory_Add.m"; sourceTree = "<group>"; };
+		3634371275BFE4FA6848AC2B3D5246D8 /* NSArray+SXPodCategory_SX_Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+SXPodCategory_SX_Safe.h"; sourceTree = "<group>"; };
+		39E14CF3BD9C869EE9BF27ED030E21B1 /* UILabel+SXPodCategory_LineSpacing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+SXPodCategory_LineSpacing.h"; sourceTree = "<group>"; };
+		3B11B2EF9504DFFBF871D90EFFF7546C /* NSObject+SXPodCategory_BKAssociatedObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXPodCategory_BKAssociatedObjects.m"; sourceTree = "<group>"; };
 		3B7BA632B34DA7B7918F42BC68727866 /* Pods-SXPodCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SXPodCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3BCBAEECE556D4648760D4D7E1AC97BE /* Pods-SXPodCategory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SXPodCategory_Tests.modulemap"; sourceTree = "<group>"; };
+		3BCBAEECE556D4648760D4D7E1AC97BE /* Pods-SXPodCategory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SXPodCategory_Tests.modulemap"; sourceTree = "<group>"; };
+		3CA43C3A514E10DEF5EA53E4D83A69EB /* NSFileManager+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+SXPodCategory_Add.m"; sourceTree = "<group>"; };
+		4153F627038E3E73A88649818C52AA1B /* NSDate+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SXPodCategory_Add.m"; sourceTree = "<group>"; };
 		44A67752D5D67F50361A57D5CB834E1B /* Pods-SXPodCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SXPodCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		471447BF440EA05C715C6BE2CC29384F /* UILabel+SXPodCategory_LineSpacing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+SXPodCategory_LineSpacing.h"; sourceTree = "<group>"; };
 		4A948FD494C1438157C547F8837F6318 /* Pods-SXPodCategory_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SXPodCategory_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4B1ACA74F1637406F0D9A880F89D5A97 /* NSNumber+SXPodCategory_Crash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+SXPodCategory_Crash.m"; sourceTree = "<group>"; };
+		4D02B3E8E951B5D3D28BE8B5C91F7DEA /* UIView+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SXPodCategory_Add.m"; sourceTree = "<group>"; };
 		4D58AB0B3316BD6077F1AC914F52382E /* Pods-SXPodCategory_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SXPodCategory_Example-dummy.m"; sourceTree = "<group>"; };
-		54138CC2518E2C5D1EBBAA45AECF7D5A /* UITextView+SXPodCategory_Limited.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+SXPodCategory_Limited.h"; sourceTree = "<group>"; };
-		55F6763D6FE9C965367341A38055AB9B /* NSDictionary+SXPodCategory_Crash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SXPodCategory_Crash.m"; sourceTree = "<group>"; };
+		4FF79F112D15942D06ABB02151D99DAF /* UIImage+SXPodCategory_Common.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SXPodCategory_Common.m"; sourceTree = "<group>"; };
+		51985678A402435C97EDD9B7F418A02F /* NSString+SXPodCategory_Crash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+SXPodCategory_Crash.m"; sourceTree = "<group>"; };
+		553FAC5E959F2A96E8F21C11E533F28C /* UITableViewCell+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+SXPodCategory_Add.h"; sourceTree = "<group>"; };
+		57C110E2AE7549A9D0535ED8640760B7 /* UINavigationController+SXPodCategory_RemoveVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SXPodCategory_RemoveVC.m"; sourceTree = "<group>"; };
 		5AD9B8E2C2818336785F71BE36EF9F71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CCBF0A70F25EC2C380CB8036DC6C6FC /* UITextField+SXPodCategory_Limited.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SXPodCategory_Limited.m"; sourceTree = "<group>"; };
-		5D4851EB4709F7C666F9AA56517B6E83 /* UIView+SXPodCategory_Constraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SXPodCategory_Constraint.h"; sourceTree = "<group>"; };
-		5E03502AC122A00EEFCC1739B2F3ACAB /* UIViewController+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SXPodCategory_Add.m"; sourceTree = "<group>"; };
-		60324FE5365004773E56D7C6F317CD75 /* SXPodCategoryUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXPodCategoryUI.h; sourceTree = "<group>"; };
+		638FFE4E2DAED97D8E00EFFB8A6D3564 /* UIImage+SXPodCategory_Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+SXPodCategory_Common.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		662AD940AF88A1DFF307A41EDE924536 /* UIViewController+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SXPodCategory_Add.m"; sourceTree = "<group>"; };
 		67871B61C9EB534A7CE7CA8D88411690 /* Pods-SXPodCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SXPodCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		693B1E78AFFD1500ED2DF8C4DA2D5986 /* UINavigationController+SXPodCategory_RemoveVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXPodCategory_RemoveVC.h"; sourceTree = "<group>"; };
+		6CC7A98504F74A16C9B0D6ADCB1B9D52 /* UITextField+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+SXPodCategory_Add.h"; sourceTree = "<group>"; };
 		6CD7A2E320EDFB0B3274E537C1AA9D77 /* Pods-SXPodCategory_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SXPodCategory_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		72558FF5545A363612C5061BE061FA27 /* UITextField+SXPodCategory_Limited.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+SXPodCategory_Limited.h"; sourceTree = "<group>"; };
-		752AD15EC6CA7894470E5235AF68D9F9 /* UITableViewCell+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+SXPodCategory_Add.m"; sourceTree = "<group>"; };
-		75A274A9493B1C15A70F4B5451532C8B /* UIView+SXPodCategory_Constraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SXPodCategory_Constraint.m"; sourceTree = "<group>"; };
-		7C3FC814E36ABD1E1DBABC5BC75AFA03 /* UIImage+SXPodCategory_Common.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SXPodCategory_Common.m"; sourceTree = "<group>"; };
-		80D08CD9C17811A7F9084217CC123297 /* UIView+SXPodCategory_GetController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SXPodCategory_GetController.h"; sourceTree = "<group>"; };
-		816C47104E645982E82C526A039D59DE /* UIAlertAction+SXPodCategory_Undefined.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertAction+SXPodCategory_Undefined.m"; sourceTree = "<group>"; };
-		81CFBB4C768164180E1A79BE793D9384 /* UIView+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SXPodCategory_Add.h"; sourceTree = "<group>"; };
-		830386BE1FD6ABF983F6717F6F9C7C36 /* UITextField+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+SXPodCategory_Add.h"; sourceTree = "<group>"; };
-		878DC5CE0D13EB6386E9E0C9E188BC1D /* NSDate+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SXPodCategory_Add.m"; sourceTree = "<group>"; };
-		8A839B890AA68B5DBA12CC286787D94A /* UIView+SXPodCategory_GetController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SXPodCategory_GetController.m"; sourceTree = "<group>"; };
-		8C3BF85BA6F0F5E13C4E4A8A99F02D27 /* NSFileManager+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+SXPodCategory_Add.h"; sourceTree = "<group>"; };
-		8EBFE45DA08324A9DCC1883083C07A13 /* Pods_SXPodCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SXPodCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		928F60643625E71A3CFEF32865066AE3 /* SXPodCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SXPodCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F57C533B37632240CA4D4B6C900E26F /* NSObject+EasyCall.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EasyCall.m"; sourceTree = "<group>"; };
+		7998C5F35CA5C34F47E7F2DA48B5A092 /* SXPodCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXPodCategory.h; sourceTree = "<group>"; };
+		7FA8B45D3B35610B6996BF156BEC4B35 /* UITextField+SXPodCategory_Limited.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SXPodCategory_Limited.m"; sourceTree = "<group>"; };
+		810D4C660E6393809AB16ECEEA4D7AA8 /* UIView+SXPodCategory_GetController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SXPodCategory_GetController.m"; sourceTree = "<group>"; };
+		863AEFAD98775A089F9F67EEF295396D /* UITabBar+SXPodCategory_BadgeSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+SXPodCategory_BadgeSize.m"; sourceTree = "<group>"; };
+		87D725FE251F82946DF775D91DBAA06A /* NSDictionary+SXPodCategory_Crash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SXPodCategory_Crash.m"; sourceTree = "<group>"; };
+		88C12CABDBE19DEDCC57DE8A3BD3F25A /* NSDate+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+SXPodCategory_Add.h"; sourceTree = "<group>"; };
+		89E646F48737319CB68C84095C5B7E19 /* UIAlertAction+SXPodCategory_Undefined.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertAction+SXPodCategory_Undefined.h"; sourceTree = "<group>"; };
+		8DAD6C33E92D2B42048C20B9CE1ED188 /* UILabel+SXPodCategory_LineSpacing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SXPodCategory_LineSpacing.m"; sourceTree = "<group>"; };
+		8EBFE45DA08324A9DCC1883083C07A13 /* Pods_SXPodCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SXPodCategory_Tests.framework; path = "Pods-SXPodCategory_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0D5FDE5F99770DB74C92D93A38A82B /* SXPodCategoryNS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXPodCategoryNS.h; sourceTree = "<group>"; };
+		928F60643625E71A3CFEF32865066AE3 /* SXPodCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SXPodCategory.framework; path = SXPodCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93FFC65F41442DF3137EB98A51298E90 /* Pods-SXPodCategory_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SXPodCategory_Tests-resources.sh"; sourceTree = "<group>"; };
-		95D94A6B63754752E0A93D1A45FD19E7 /* SXPodCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXPodCategory.h; sourceTree = "<group>"; };
-		96BE3F027B963660C394929CBEDB2835 /* UIAlertAction+SXPodCategory_Undefined.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertAction+SXPodCategory_Undefined.h"; sourceTree = "<group>"; };
-		9B41CEA85D410A280F5DC38CACC21E9A /* UICollectionViewCell+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+SXPodCategory_Add.m"; sourceTree = "<group>"; };
-		A160F1EC6C53CB9BA5D091D2F0E3C209 /* Pods_SXPodCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SXPodCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A603A0752FB17A4262234E41A331920A /* UINavigationController+SXPodCategory_RemoveVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXPodCategory_RemoveVC.h"; sourceTree = "<group>"; };
+		99ADE7146D51AEC29404BF89E25B061F /* UIButton+SXPodCategory_Call.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+SXPodCategory_Call.h"; sourceTree = "<group>"; };
+		A079CEDE83CC149497E886CA7D6EA382 /* NSString+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+SXPodCategory_Add.h"; sourceTree = "<group>"; };
+		A160F1EC6C53CB9BA5D091D2F0E3C209 /* Pods_SXPodCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SXPodCategory_Example.framework; path = "Pods-SXPodCategory_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A194537B8E76AD780DF189A9088C978C /* NSArray+SXPodCategory_Crash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+SXPodCategory_Crash.h"; sourceTree = "<group>"; };
+		A44667F3ADCB133ECB08BA2C19B7ABDE /* Foundation+SXPodCategory_Log.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Foundation+SXPodCategory_Log.m"; sourceTree = "<group>"; };
+		A4A9757C783F7449770870350CBFBAF1 /* UIView+SXPodCategory_Constraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SXPodCategory_Constraint.m"; sourceTree = "<group>"; };
+		A724CD4944EDB03F108E3337BF398707 /* NSArray+SXPodCategory_SX_Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SXPodCategory_SX_Safe.m"; sourceTree = "<group>"; };
+		AB8EC78C268693BDFA2406B1A02A9719 /* UIAlertAction+SXPodCategory_Undefined.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertAction+SXPodCategory_Undefined.m"; sourceTree = "<group>"; };
 		ADC4F00622928C16612C41453A868560 /* Pods-SXPodCategory_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SXPodCategory_Example-umbrella.h"; sourceTree = "<group>"; };
 		AECD3D773F903D65B239906BB43B5801 /* Pods-SXPodCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SXPodCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B138C7368C9DA9943E84E0B1605AF80C /* UILabel+SXPodCategory_LineSpacing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SXPodCategory_LineSpacing.m"; sourceTree = "<group>"; };
+		B25E10F10EA9088405FC3F8440BC3675 /* NSNumber+SXPodCategory_Crash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+SXPodCategory_Crash.h"; sourceTree = "<group>"; };
 		B337758BC8C3CA1D41BBB520D3D70E13 /* Pods-SXPodCategory_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SXPodCategory_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B42C0B32F9A5A1BFCB569A058E2308BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCE62FEC864D5F5368726EB84189535C /* NSNull+SXPodCategory_OVNatural.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNull+SXPodCategory_OVNatural.m"; sourceTree = "<group>"; };
-		BEAE4B2271B2FE8206E9ED3A1DD48A2E /* UITabBar+SXPodCategory_BadgeSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+SXPodCategory_BadgeSize.m"; sourceTree = "<group>"; };
+		B4C094E2464D08A577AE6A0A0641DBF7 /* NSFileManager+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+SXPodCategory_Add.h"; sourceTree = "<group>"; };
+		B7145F64120127A77651875F48AE684A /* UIViewController+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SXPodCategory_Add.h"; sourceTree = "<group>"; };
+		BA46A7B275549561663581C6B94C1E8A /* NSObject+EasyCall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+EasyCall.h"; sourceTree = "<group>"; };
+		BED70C0AD9B988ED7670F249F25E4AFC /* NSObject+SXPodCategory_Cell_indexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXPodCategory_Cell_indexPath.h"; sourceTree = "<group>"; };
+		BEF1B69A6806E894BA820F6C983D6010 /* NSNull+SXPodCategory_OVNatural.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNull+SXPodCategory_OVNatural.h"; sourceTree = "<group>"; };
 		BF36AE77B393660D601AEBBD5268BD4E /* Pods-SXPodCategory_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SXPodCategory_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C6DAD56B7542ACB6CBF2DE5FDFFF89AF /* UICollectionViewCell+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+SXPodCategory_Add.h"; sourceTree = "<group>"; };
+		BFA5E20FF928AF4B37C1146C8542EFEC /* UICollectionViewCell+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+SXPodCategory_Add.m"; sourceTree = "<group>"; };
 		C8D7CAB9B6D4C4137B0547DED7CB545C /* Pods-SXPodCategory_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SXPodCategory_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CBD19D5359092DF3231519CDE21B7B3A /* UITableViewCell+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+SXPodCategory_Add.h"; sourceTree = "<group>"; };
-		D15963576335DD55FD35C9FDFE45D575 /* NSObject+SXPodCategory_Cell_indexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXPodCategory_Cell_indexPath.m"; sourceTree = "<group>"; };
-		D258203C6B5E69FF26025EA47B175C9C /* Foundation+SXPodCategory_Log.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Foundation+SXPodCategory_Log.m"; sourceTree = "<group>"; };
-		D524CBE114A3F2B135915B500304CCA6 /* NSString+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+SXPodCategory_Add.h"; sourceTree = "<group>"; };
-		D76F8A50D798212D99C6614FB23F7EDE /* UITabBar+SXPodCategory_BadgeSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITabBar+SXPodCategory_BadgeSize.h"; sourceTree = "<group>"; };
-		DE53B074A28D716D06AA1995E8418D63 /* UINavigationController+SXPodCategory_RemoveVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SXPodCategory_RemoveVC.m"; sourceTree = "<group>"; };
+		CA504FFBDD855596B7695EFDBA9F17D6 /* UITextField+SXPodCategory_Limited.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+SXPodCategory_Limited.h"; sourceTree = "<group>"; };
+		CB6431B6830FF74EDFABA22879D0129F /* UIView+SXPodCategory_Constraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SXPodCategory_Constraint.h"; sourceTree = "<group>"; };
+		CF036AB2CE8F453F37FB39AFD6F7D076 /* UITableViewCell+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+SXPodCategory_Add.m"; sourceTree = "<group>"; };
+		D04740C923B49474BBAD42AD64614E68 /* NSNull+SXPodCategory_OVNatural.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNull+SXPodCategory_OVNatural.m"; sourceTree = "<group>"; };
+		D3B79ED98E7FDB052895CFCE3C4BF0EB /* UICollectionViewCell+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+SXPodCategory_Add.h"; sourceTree = "<group>"; };
 		E1B3C0CAAE9F7B3372B58130A42E4EED /* Pods-SXPodCategory_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SXPodCategory_Tests-dummy.m"; sourceTree = "<group>"; };
-		E2014A0178EEF935398522341DE4EE45 /* NSNumber+SXPodCategory_Crash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+SXPodCategory_Crash.h"; sourceTree = "<group>"; };
-		E316A0F5CAC012CA5CC0B083ED77575D /* NSArray+SXPodCategory_Crash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SXPodCategory_Crash.m"; sourceTree = "<group>"; };
 		E834BDC91F6AA0F5BA3831D0662F3515 /* SXPodCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SXPodCategory-prefix.pch"; sourceTree = "<group>"; };
-		EE67345DC21C409EB87045935BE89B9A /* SXPodCategoryNS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXPodCategoryNS.h; sourceTree = "<group>"; };
-		EF4AA858F531EAFB125ADC25709E0966 /* UIImage+SXPodCategory_Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+SXPodCategory_Common.h"; sourceTree = "<group>"; };
+		EC6B934E20310CD7D93BDAC3D43F5E38 /* UITabBar+SXPodCategory_BadgeSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITabBar+SXPodCategory_BadgeSize.h"; sourceTree = "<group>"; };
+		EDCBFF54FF04A14AAF9C5A430409ECEC /* NSDictionary+SXPodCategory_Crash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SXPodCategory_Crash.h"; sourceTree = "<group>"; };
 		F0EDE7B8E6D128E4FA32ABA78C0A2970 /* SXPodCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SXPodCategory-umbrella.h"; sourceTree = "<group>"; };
+		F1218BB385F9452E18A20FAAC863D077 /* UITextView+SXPodCategory_Limited.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+SXPodCategory_Limited.h"; sourceTree = "<group>"; };
 		F12C1E8452B3E1C91D00A5CBEA2C3AE5 /* Pods-SXPodCategory_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SXPodCategory_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F31727C013BA38B8B7824C09CCF396DC /* NSArray+SXPodCategory_SX_Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SXPodCategory_SX_Safe.m"; sourceTree = "<group>"; };
-		F3B187F7E8980F04FA490B7E02FD673B /* UIButton+SXPodCategory_Call.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SXPodCategory_Call.m"; sourceTree = "<group>"; };
-		F49AAA4A218E8426C9E8630783FCCC5E /* NSArray+SXPodCategory_SX_Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+SXPodCategory_SX_Safe.h"; sourceTree = "<group>"; };
-		F7A98ED894C7D5C559008175268D73AA /* NSString+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+SXPodCategory_Add.m"; sourceTree = "<group>"; };
-		FE818DE12A3C3C370CEA0515A9AF0B75 /* NSObject+SXPodCategory_BKAssociatedObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXPodCategory_BKAssociatedObjects.m"; sourceTree = "<group>"; };
+		F9B921BEDC61BF2836BC7C2AB986E8D5 /* UITextView+SXPodCategory_Limited.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+SXPodCategory_Limited.m"; sourceTree = "<group>"; };
+		FE9465A1053910B5DAE38969D195BC64 /* NSString+SXPodCategory_Crash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+SXPodCategory_Crash.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,61 +206,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01DE112338894114F456FE9935607B2E /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				D258203C6B5E69FF26025EA47B175C9C /* Foundation+SXPodCategory_Log.m */,
-				95D94A6B63754752E0A93D1A45FD19E7 /* SXPodCategory.h */,
-				99200BB95B46F5729759174D0026C482 /* NS */,
-				22ECD378CC977FD3921786A3AA6A537E /* UI */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
 		0E86B6730B1938D8AD3FD6B5D33AC55E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				01DE112338894114F456FE9935607B2E /* Category */,
+				E1FD43D48A5A23A281EA92D8DB5A5C00 /* Category */,
 			);
+			name = Classes;
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		22ECD378CC977FD3921786A3AA6A537E /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				60324FE5365004773E56D7C6F317CD75 /* SXPodCategoryUI.h */,
-				96BE3F027B963660C394929CBEDB2835 /* UIAlertAction+SXPodCategory_Undefined.h */,
-				816C47104E645982E82C526A039D59DE /* UIAlertAction+SXPodCategory_Undefined.m */,
-				22D2FACDE114466664B2582F830892B6 /* UIButton+SXPodCategory_Call.h */,
-				F3B187F7E8980F04FA490B7E02FD673B /* UIButton+SXPodCategory_Call.m */,
-				C6DAD56B7542ACB6CBF2DE5FDFFF89AF /* UICollectionViewCell+SXPodCategory_Add.h */,
-				9B41CEA85D410A280F5DC38CACC21E9A /* UICollectionViewCell+SXPodCategory_Add.m */,
-				EF4AA858F531EAFB125ADC25709E0966 /* UIImage+SXPodCategory_Common.h */,
-				7C3FC814E36ABD1E1DBABC5BC75AFA03 /* UIImage+SXPodCategory_Common.m */,
-				471447BF440EA05C715C6BE2CC29384F /* UILabel+SXPodCategory_LineSpacing.h */,
-				B138C7368C9DA9943E84E0B1605AF80C /* UILabel+SXPodCategory_LineSpacing.m */,
-				A603A0752FB17A4262234E41A331920A /* UINavigationController+SXPodCategory_RemoveVC.h */,
-				DE53B074A28D716D06AA1995E8418D63 /* UINavigationController+SXPodCategory_RemoveVC.m */,
-				D76F8A50D798212D99C6614FB23F7EDE /* UITabBar+SXPodCategory_BadgeSize.h */,
-				BEAE4B2271B2FE8206E9ED3A1DD48A2E /* UITabBar+SXPodCategory_BadgeSize.m */,
-				CBD19D5359092DF3231519CDE21B7B3A /* UITableViewCell+SXPodCategory_Add.h */,
-				752AD15EC6CA7894470E5235AF68D9F9 /* UITableViewCell+SXPodCategory_Add.m */,
-				830386BE1FD6ABF983F6717F6F9C7C36 /* UITextField+SXPodCategory_Add.h */,
-				24149C45C3034DD2DA335DB86E7B42C9 /* UITextField+SXPodCategory_Add.m */,
-				72558FF5545A363612C5061BE061FA27 /* UITextField+SXPodCategory_Limited.h */,
-				5CCBF0A70F25EC2C380CB8036DC6C6FC /* UITextField+SXPodCategory_Limited.m */,
-				54138CC2518E2C5D1EBBAA45AECF7D5A /* UITextView+SXPodCategory_Limited.h */,
-				22184049B68C9C469C30DE45E093059E /* UITextView+SXPodCategory_Limited.m */,
-				81CFBB4C768164180E1A79BE793D9384 /* UIView+SXPodCategory_Add.h */,
-				36C7D1127FAED665684061D58375C1BF /* UIView+SXPodCategory_Add.m */,
-				5D4851EB4709F7C666F9AA56517B6E83 /* UIView+SXPodCategory_Constraint.h */,
-				75A274A9493B1C15A70F4B5451532C8B /* UIView+SXPodCategory_Constraint.m */,
-				80D08CD9C17811A7F9084217CC123297 /* UIView+SXPodCategory_GetController.h */,
-				8A839B890AA68B5DBA12CC286787D94A /* UIView+SXPodCategory_GetController.m */,
-				38E8A5A3A2F292D20B0552150ACE361A /* UIViewController+SXPodCategory_Add.h */,
-				5E03502AC122A00EEFCC1739B2F3ACAB /* UIViewController+SXPodCategory_Add.m */,
-			);
-			path = UI;
 			sourceTree = "<group>";
 		};
 		40C12CB9D82FDB0E9A9B83BC27E368FB /* Pods-SXPodCategory_Example */ = {
@@ -334,41 +290,12 @@
 			);
 			sourceTree = "<group>";
 		};
-		99200BB95B46F5729759174D0026C482 /* NS */ = {
-			isa = PBXGroup;
-			children = (
-				EE67345DC21C409EB87045935BE89B9A /* SXPodCategoryNS.h */,
-				0A040522D47D1E476A364832E88C458F /* NSArray+SXPodCategory_Crash.h */,
-				E316A0F5CAC012CA5CC0B083ED77575D /* NSArray+SXPodCategory_Crash.m */,
-				F49AAA4A218E8426C9E8630783FCCC5E /* NSArray+SXPodCategory_SX_Safe.h */,
-				F31727C013BA38B8B7824C09CCF396DC /* NSArray+SXPodCategory_SX_Safe.m */,
-				1F0D4B0B441D74729ED76B7986C6FA29 /* NSDate+SXPodCategory_Add.h */,
-				878DC5CE0D13EB6386E9E0C9E188BC1D /* NSDate+SXPodCategory_Add.m */,
-				253970E4BB8CC26171EC45CF1DC61312 /* NSDictionary+SXPodCategory_Crash.h */,
-				55F6763D6FE9C965367341A38055AB9B /* NSDictionary+SXPodCategory_Crash.m */,
-				8C3BF85BA6F0F5E13C4E4A8A99F02D27 /* NSFileManager+SXPodCategory_Add.h */,
-				354B55ED3E85A467B287F31016AEE51B /* NSFileManager+SXPodCategory_Add.m */,
-				028944FC7FDA382E72BBC36C7FEC9E57 /* NSNull+SXPodCategory_OVNatural.h */,
-				BCE62FEC864D5F5368726EB84189535C /* NSNull+SXPodCategory_OVNatural.m */,
-				E2014A0178EEF935398522341DE4EE45 /* NSNumber+SXPodCategory_Crash.h */,
-				2C4A439716813AE30FF8913FD8AEF0D1 /* NSNumber+SXPodCategory_Crash.m */,
-				04FB0BC61F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.h */,
-				04FB0BC71F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.m */,
-				32EADB5FCEA2A083A2B5D1E581C979D8 /* NSObject+SXPodCategory_BKAssociatedObjects.h */,
-				FE818DE12A3C3C370CEA0515A9AF0B75 /* NSObject+SXPodCategory_BKAssociatedObjects.m */,
-				26B628B34FE38C46E15A698F801129DA /* NSObject+SXPodCategory_Cell_indexPath.h */,
-				D15963576335DD55FD35C9FDFE45D575 /* NSObject+SXPodCategory_Cell_indexPath.m */,
-				D524CBE114A3F2B135915B500304CCA6 /* NSString+SXPodCategory_Add.h */,
-				F7A98ED894C7D5C559008175268D73AA /* NSString+SXPodCategory_Add.m */,
-			);
-			path = NS;
-			sourceTree = "<group>";
-		};
 		99799D994AC136B6A8BFB2C2D0D47003 /* SXPodCategory */ = {
 			isa = PBXGroup;
 			children = (
 				0E86B6730B1938D8AD3FD6B5D33AC55E /* Classes */,
 			);
+			name = SXPodCategory;
 			path = SXPodCategory;
 			sourceTree = "<group>";
 		};
@@ -395,6 +322,39 @@
 			path = "Example/Pods/Target Support Files/SXPodCategory";
 			sourceTree = "<group>";
 		};
+		B586C1158D7E26676D8E700CAADE687A /* NS */ = {
+			isa = PBXGroup;
+			children = (
+				A194537B8E76AD780DF189A9088C978C /* NSArray+SXPodCategory_Crash.h */,
+				14BAC182AFB371A2B02E5CEEFD64EE40 /* NSArray+SXPodCategory_Crash.m */,
+				3634371275BFE4FA6848AC2B3D5246D8 /* NSArray+SXPodCategory_SX_Safe.h */,
+				A724CD4944EDB03F108E3337BF398707 /* NSArray+SXPodCategory_SX_Safe.m */,
+				88C12CABDBE19DEDCC57DE8A3BD3F25A /* NSDate+SXPodCategory_Add.h */,
+				4153F627038E3E73A88649818C52AA1B /* NSDate+SXPodCategory_Add.m */,
+				EDCBFF54FF04A14AAF9C5A430409ECEC /* NSDictionary+SXPodCategory_Crash.h */,
+				87D725FE251F82946DF775D91DBAA06A /* NSDictionary+SXPodCategory_Crash.m */,
+				B4C094E2464D08A577AE6A0A0641DBF7 /* NSFileManager+SXPodCategory_Add.h */,
+				3CA43C3A514E10DEF5EA53E4D83A69EB /* NSFileManager+SXPodCategory_Add.m */,
+				BEF1B69A6806E894BA820F6C983D6010 /* NSNull+SXPodCategory_OVNatural.h */,
+				D04740C923B49474BBAD42AD64614E68 /* NSNull+SXPodCategory_OVNatural.m */,
+				B25E10F10EA9088405FC3F8440BC3675 /* NSNumber+SXPodCategory_Crash.h */,
+				4B1ACA74F1637406F0D9A880F89D5A97 /* NSNumber+SXPodCategory_Crash.m */,
+				BA46A7B275549561663581C6B94C1E8A /* NSObject+EasyCall.h */,
+				6F57C533B37632240CA4D4B6C900E26F /* NSObject+EasyCall.m */,
+				1EEC96CEF72F3ECF29C9CF46A833E38D /* NSObject+SXPodCategory_BKAssociatedObjects.h */,
+				3B11B2EF9504DFFBF871D90EFFF7546C /* NSObject+SXPodCategory_BKAssociatedObjects.m */,
+				BED70C0AD9B988ED7670F249F25E4AFC /* NSObject+SXPodCategory_Cell_indexPath.h */,
+				253F63471337EC9D7B8770B39ABA4E0E /* NSObject+SXPodCategory_Cell_indexPath.m */,
+				A079CEDE83CC149497E886CA7D6EA382 /* NSString+SXPodCategory_Add.h */,
+				30B07E19C44E2A3FD51F57B6D3E469D2 /* NSString+SXPodCategory_Add.m */,
+				FE9465A1053910B5DAE38969D195BC64 /* NSString+SXPodCategory_Crash.h */,
+				51985678A402435C97EDD9B7F418A02F /* NSString+SXPodCategory_Crash.m */,
+				8F0D5FDE5F99770DB74C92D93A38A82B /* SXPodCategoryNS.h */,
+			);
+			name = NS;
+			path = NS;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,12 +363,63 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D2A62954BA0E937168E4818E1319CFC6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2DE4A1FABB04442312763098C3052953 /* SXPodCategoryUI.h */,
+				89E646F48737319CB68C84095C5B7E19 /* UIAlertAction+SXPodCategory_Undefined.h */,
+				AB8EC78C268693BDFA2406B1A02A9719 /* UIAlertAction+SXPodCategory_Undefined.m */,
+				99ADE7146D51AEC29404BF89E25B061F /* UIButton+SXPodCategory_Call.h */,
+				1988EE69DF260E5DAFFE2FC09BB08003 /* UIButton+SXPodCategory_Call.m */,
+				D3B79ED98E7FDB052895CFCE3C4BF0EB /* UICollectionViewCell+SXPodCategory_Add.h */,
+				BFA5E20FF928AF4B37C1146C8542EFEC /* UICollectionViewCell+SXPodCategory_Add.m */,
+				638FFE4E2DAED97D8E00EFFB8A6D3564 /* UIImage+SXPodCategory_Common.h */,
+				4FF79F112D15942D06ABB02151D99DAF /* UIImage+SXPodCategory_Common.m */,
+				39E14CF3BD9C869EE9BF27ED030E21B1 /* UILabel+SXPodCategory_LineSpacing.h */,
+				8DAD6C33E92D2B42048C20B9CE1ED188 /* UILabel+SXPodCategory_LineSpacing.m */,
+				693B1E78AFFD1500ED2DF8C4DA2D5986 /* UINavigationController+SXPodCategory_RemoveVC.h */,
+				57C110E2AE7549A9D0535ED8640760B7 /* UINavigationController+SXPodCategory_RemoveVC.m */,
+				EC6B934E20310CD7D93BDAC3D43F5E38 /* UITabBar+SXPodCategory_BadgeSize.h */,
+				863AEFAD98775A089F9F67EEF295396D /* UITabBar+SXPodCategory_BadgeSize.m */,
+				553FAC5E959F2A96E8F21C11E533F28C /* UITableViewCell+SXPodCategory_Add.h */,
+				CF036AB2CE8F453F37FB39AFD6F7D076 /* UITableViewCell+SXPodCategory_Add.m */,
+				6CC7A98504F74A16C9B0D6ADCB1B9D52 /* UITextField+SXPodCategory_Add.h */,
+				10A52CF8C6EE041D39B15B093DE53909 /* UITextField+SXPodCategory_Add.m */,
+				CA504FFBDD855596B7695EFDBA9F17D6 /* UITextField+SXPodCategory_Limited.h */,
+				7FA8B45D3B35610B6996BF156BEC4B35 /* UITextField+SXPodCategory_Limited.m */,
+				F1218BB385F9452E18A20FAAC863D077 /* UITextView+SXPodCategory_Limited.h */,
+				F9B921BEDC61BF2836BC7C2AB986E8D5 /* UITextView+SXPodCategory_Limited.m */,
+				1E3519F451C27D44460F1D4F0A8910D4 /* UIView+SXPodCategory_Add.h */,
+				4D02B3E8E951B5D3D28BE8B5C91F7DEA /* UIView+SXPodCategory_Add.m */,
+				CB6431B6830FF74EDFABA22879D0129F /* UIView+SXPodCategory_Constraint.h */,
+				A4A9757C783F7449770870350CBFBAF1 /* UIView+SXPodCategory_Constraint.m */,
+				0A62CD737E9357C60E9C88B2BC5D622E /* UIView+SXPodCategory_GetController.h */,
+				810D4C660E6393809AB16ECEEA4D7AA8 /* UIView+SXPodCategory_GetController.m */,
+				B7145F64120127A77651875F48AE684A /* UIViewController+SXPodCategory_Add.h */,
+				662AD940AF88A1DFF307A41EDE924536 /* UIViewController+SXPodCategory_Add.m */,
+			);
+			name = UI;
+			path = UI;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		E1FD43D48A5A23A281EA92D8DB5A5C00 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A44667F3ADCB133ECB08BA2C19B7ABDE /* Foundation+SXPodCategory_Log.m */,
+				7998C5F35CA5C34F47E7F2DA48B5A092 /* SXPodCategory.h */,
+				B586C1158D7E26676D8E700CAADE687A /* NS */,
+				D2A62954BA0E937168E4818E1319CFC6 /* UI */,
+			);
+			name = Category;
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,39 +433,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1CC19BBA19527F25EB16571745D51DC /* Headers */ = {
+		DD82EB87E04E0A6848AFAE0DBBEF9DDA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A17CB907A002758B1CCA355719ADB9 /* NSArray+SXPodCategory_Crash.h in Headers */,
-				D43F5CB48E56A08DEAA7CA46C88C6503 /* NSArray+SXPodCategory_SX_Safe.h in Headers */,
-				59F5C27D8943E279A696548EF8DDFC4A /* NSDate+SXPodCategory_Add.h in Headers */,
-				FA7C8183FDC99996BBCFE584A8E29B98 /* NSDictionary+SXPodCategory_Crash.h in Headers */,
-				0327FA003E85D0C52A518EDE44BBE5C5 /* NSFileManager+SXPodCategory_Add.h in Headers */,
-				4B1C31CCCBA8FBB35FBFB0F4D2CEE182 /* NSNull+SXPodCategory_OVNatural.h in Headers */,
-				E5E7A1AEDE37ACF3A653A3BD8992A6B1 /* NSNumber+SXPodCategory_Crash.h in Headers */,
-				900B16590AF75E37A7819E53D49DC9FA /* NSObject+SXPodCategory_BKAssociatedObjects.h in Headers */,
-				BCB07906AF44022555DCB997D509D487 /* NSObject+SXPodCategory_Cell_indexPath.h in Headers */,
-				18CFEA269A25A754C0D841DE45DAE1DE /* NSString+SXPodCategory_Add.h in Headers */,
-				529C27F0463FEFD6436F18107AC34D7A /* SXPodCategory-umbrella.h in Headers */,
-				5F5AB5925D9D17FD05F1AFD4D6348F3F /* SXPodCategory.h in Headers */,
-				BA62149E46EE53161C466B35C396A351 /* SXPodCategoryNS.h in Headers */,
-				B8052CC326CEE5F05DCB81E4D577CC6C /* SXPodCategoryUI.h in Headers */,
-				EB31B14C8152B012AB1325D66DF2763D /* UIAlertAction+SXPodCategory_Undefined.h in Headers */,
-				7804FFBEB6FF5E37E1D09A469180EFD7 /* UIButton+SXPodCategory_Call.h in Headers */,
-				CA2962AC962FD7CDC7355818A5F674D1 /* UICollectionViewCell+SXPodCategory_Add.h in Headers */,
-				A4ED9C07924E779D831F96F369844B5A /* UIImage+SXPodCategory_Common.h in Headers */,
-				692ABE206346EEFC9CC416EA47509281 /* UILabel+SXPodCategory_LineSpacing.h in Headers */,
-				132EB1E07888740047AC5BABB5578B45 /* UINavigationController+SXPodCategory_RemoveVC.h in Headers */,
-				7EFECFEB3E45ED9BFEF3C43D7A87044D /* UITabBar+SXPodCategory_BadgeSize.h in Headers */,
-				A35E7FADFE8158C2D7588C5115E14875 /* UITableViewCell+SXPodCategory_Add.h in Headers */,
-				3995533A23BEF431D36270F98CBEFD4A /* UITextField+SXPodCategory_Add.h in Headers */,
-				5BB95F5DB8E96ED090F6FB945542333F /* UITextField+SXPodCategory_Limited.h in Headers */,
-				9DB4F550B4A7D7D1EBD2A119158A6AED /* UITextView+SXPodCategory_Limited.h in Headers */,
-				565F100AE42B54E8996E17EDEEBA0766 /* UIView+SXPodCategory_Add.h in Headers */,
-				56B8FEA5D179A8DD77AAC1AD3B4A42CA /* UIView+SXPodCategory_Constraint.h in Headers */,
-				AC27913058392A223D4F445C18B5E6B6 /* UIView+SXPodCategory_GetController.h in Headers */,
-				7897B6705A6B026236F70937CB4847B9 /* UIViewController+SXPodCategory_Add.h in Headers */,
+				E79B8D676F4F9F8139BA7069F74FCD1F /* NSArray+SXPodCategory_Crash.h in Headers */,
+				82798A210EC43F2506D4A19E423C2E0A /* NSArray+SXPodCategory_SX_Safe.h in Headers */,
+				B6BE1EB55E3DE917555E0D1EE81C9C47 /* NSDate+SXPodCategory_Add.h in Headers */,
+				4E4301CB81FEADD1E29F4BE02AD6398A /* NSDictionary+SXPodCategory_Crash.h in Headers */,
+				AAD68AC683C86F6176CB702D980D7F48 /* NSFileManager+SXPodCategory_Add.h in Headers */,
+				C1CA4B009D4A173A38DDF76E60172C23 /* NSNull+SXPodCategory_OVNatural.h in Headers */,
+				04212A13E1627EB1A99FF29EB0EDC305 /* NSNumber+SXPodCategory_Crash.h in Headers */,
+				43AF0D6B5CA4AE90410DFF36819C0972 /* NSObject+EasyCall.h in Headers */,
+				71F82699882B2444737D2670123FAEFD /* NSObject+SXPodCategory_BKAssociatedObjects.h in Headers */,
+				0D9E3445F44D1C1B6E9A6CEC8C2A71B4 /* NSObject+SXPodCategory_Cell_indexPath.h in Headers */,
+				EE9AFA24BE7376E28B84ECF5ADCE2EAE /* NSString+SXPodCategory_Add.h in Headers */,
+				8BF561BA00805D7BE58D0851E0F0C36B /* NSString+SXPodCategory_Crash.h in Headers */,
+				3D7BE561F38D88D0F0A160946BB1EE33 /* SXPodCategory-umbrella.h in Headers */,
+				4612EAC914F3AA89298AB6A0A7A2557B /* SXPodCategory.h in Headers */,
+				419417CC9F6A5F3086B2997763E8119C /* SXPodCategoryNS.h in Headers */,
+				7CD6E3A63CEC66FC62F1363AC42ACD02 /* SXPodCategoryUI.h in Headers */,
+				6C156260560F330ECAF62F94DAC02E6F /* UIAlertAction+SXPodCategory_Undefined.h in Headers */,
+				7B45EE2C1735835E5970FDBACA23A0C2 /* UIButton+SXPodCategory_Call.h in Headers */,
+				18931473C674C5B7C99EE698D666D1A2 /* UICollectionViewCell+SXPodCategory_Add.h in Headers */,
+				D8C1D141926AAC1886ABB1C82759FAD6 /* UIImage+SXPodCategory_Common.h in Headers */,
+				8D743BD41BBBABD9E8C171648A443993 /* UILabel+SXPodCategory_LineSpacing.h in Headers */,
+				E01C3045C05B0589567F6AC232008F04 /* UINavigationController+SXPodCategory_RemoveVC.h in Headers */,
+				7E95F05C29FF1F53A3F593AA50F06214 /* UITabBar+SXPodCategory_BadgeSize.h in Headers */,
+				0A0B43056030DF2AC49A2C298457ED2F /* UITableViewCell+SXPodCategory_Add.h in Headers */,
+				B6A377439126F14131A92BB3DF5C86DD /* UITextField+SXPodCategory_Add.h in Headers */,
+				E7348BAF36796C0BE8FA243E1FCDDE5A /* UITextField+SXPodCategory_Limited.h in Headers */,
+				D032E42BED422C2240D04FD034982409 /* UITextView+SXPodCategory_Limited.h in Headers */,
+				B710C596344175CCCB200867DA123A96 /* UIView+SXPodCategory_Add.h in Headers */,
+				F207F92C29BE70D889CCF1571FEE22AD /* UIView+SXPodCategory_Constraint.h in Headers */,
+				223E90DDA8723C83477FD493FD064DC5 /* UIView+SXPodCategory_GetController.h in Headers */,
+				03FC4B45277BDB5F108CCA1CEC893BB1 /* UIViewController+SXPodCategory_Add.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +475,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FB0BC81F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.h in Headers */,
 				B1AB266DC4FF843F846A4D6834725BB3 /* Pods-SXPodCategory_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,9 +521,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06E7D89CEE5EC21B3365F6C639D32F28 /* Build configuration list for PBXNativeTarget "SXPodCategory" */;
 			buildPhases = (
-				9CDC05B805E4891E310DD62950FAACDB /* Sources */,
+				DFAB0BBE2D6863DA93073DB03CEE4331 /* Sources */,
 				7FD50027E993D1CAF1FC5A44AB57BF2C /* Frameworks */,
-				D1CC19BBA19527F25EB16571745D51DC /* Headers */,
+				DD82EB87E04E0A6848AFAE0DBBEF9DDA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -559,37 +571,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CDC05B805E4891E310DD62950FAACDB /* Sources */ = {
+		DFAB0BBE2D6863DA93073DB03CEE4331 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189AB89BBAF5033458AF49824CC06F7E /* Foundation+SXPodCategory_Log.m in Sources */,
-				DF5AA3D4C5E3B87174741685DC54AF12 /* NSArray+SXPodCategory_Crash.m in Sources */,
-				B9FE64B2FE5851B267D69B1025C39058 /* NSArray+SXPodCategory_SX_Safe.m in Sources */,
-				2E2E15FBD593246AC1D700D138C1C7F2 /* NSDate+SXPodCategory_Add.m in Sources */,
-				0429F85381229C3CD438645D37F379B2 /* NSDictionary+SXPodCategory_Crash.m in Sources */,
-				12AE14D6274B8ED844F6C78494DB8538 /* NSFileManager+SXPodCategory_Add.m in Sources */,
-				4EC149B853380CEA6E8BC4A6CEFB6661 /* NSNull+SXPodCategory_OVNatural.m in Sources */,
-				2C5CF9D2E05F8881A533AA103042C38C /* NSNumber+SXPodCategory_Crash.m in Sources */,
-				E207CC18B6C9B4DA2CCC57808BCCF040 /* NSObject+SXPodCategory_BKAssociatedObjects.m in Sources */,
-				9C10529596B869CA83FF844589E8A658 /* NSObject+SXPodCategory_Cell_indexPath.m in Sources */,
-				A5FC2B99C9A80990F91C99EF5F14265E /* NSString+SXPodCategory_Add.m in Sources */,
-				435C75E352A06EB876ABE7B340CC81D7 /* SXPodCategory-dummy.m in Sources */,
-				FD57A07DF8EC97926D545543BF25B497 /* UIAlertAction+SXPodCategory_Undefined.m in Sources */,
-				A9770353687FEFCC73E7D6A89C83AE7E /* UIButton+SXPodCategory_Call.m in Sources */,
-				32914816C13F2E874F7A63A8861A811A /* UICollectionViewCell+SXPodCategory_Add.m in Sources */,
-				5CF4F39115DC4713EDCB417B59F7622E /* UIImage+SXPodCategory_Common.m in Sources */,
-				0A714FD9EE78EC62E9D5B5B11C37B6A1 /* UILabel+SXPodCategory_LineSpacing.m in Sources */,
-				C9AE504AFA0045DD7A3815342C0F4A0A /* UINavigationController+SXPodCategory_RemoveVC.m in Sources */,
-				F4D9625E4A0A4C873BBFDA3991607FB0 /* UITabBar+SXPodCategory_BadgeSize.m in Sources */,
-				083FE9CE39E0FDD6B938DA9D01835CA7 /* UITableViewCell+SXPodCategory_Add.m in Sources */,
-				4DC391E9A9590E389D08D31C933BF8C0 /* UITextField+SXPodCategory_Add.m in Sources */,
-				08695C123C78DD4A57E3712F1B262423 /* UITextField+SXPodCategory_Limited.m in Sources */,
-				578635EEE721A6C26B6BCC976254CDC6 /* UITextView+SXPodCategory_Limited.m in Sources */,
-				C1591112ABCA4C43960B8BB8E72BF0CC /* UIView+SXPodCategory_Add.m in Sources */,
-				F4557908BC33C1EF59DC439E8D022D09 /* UIView+SXPodCategory_Constraint.m in Sources */,
-				526001661C9D65B843288506BE63DA79 /* UIView+SXPodCategory_GetController.m in Sources */,
-				D92731C83CD31E09BD83B71652154FA9 /* UIViewController+SXPodCategory_Add.m in Sources */,
+				7D74C61EFB685FFEE1283A469F09E876 /* Foundation+SXPodCategory_Log.m in Sources */,
+				0548DFA7036FBF51EF6210B5FB4B470D /* NSArray+SXPodCategory_Crash.m in Sources */,
+				88261E9D280C25A64E0848E4A5159614 /* NSArray+SXPodCategory_SX_Safe.m in Sources */,
+				C1FA2A68E7A2E4FD20B389D06FFA1486 /* NSDate+SXPodCategory_Add.m in Sources */,
+				AD3E7A95B0892FD40C2C2539FC9A4EFC /* NSDictionary+SXPodCategory_Crash.m in Sources */,
+				55C703EA312D3003B362307C0F443522 /* NSFileManager+SXPodCategory_Add.m in Sources */,
+				F99F62067096F1BCCD617F82D4BB6E20 /* NSNull+SXPodCategory_OVNatural.m in Sources */,
+				560A2EAD9EBED083F4BECA43CE0AAADB /* NSNumber+SXPodCategory_Crash.m in Sources */,
+				0C43E16DDBE18A538F95D50025BE2D0B /* NSObject+EasyCall.m in Sources */,
+				8C571F9072B8E2FEA90A24A257072F13 /* NSObject+SXPodCategory_BKAssociatedObjects.m in Sources */,
+				F34153D4D63ED88DF8A13AB04F2BD088 /* NSObject+SXPodCategory_Cell_indexPath.m in Sources */,
+				38F1C68AF75F2F89F9CE53A36B145ED5 /* NSString+SXPodCategory_Add.m in Sources */,
+				C34DDD5A404206A1153C008D65F9C92C /* NSString+SXPodCategory_Crash.m in Sources */,
+				7AAB5207A7C8ECC3CF19B99632D960D6 /* SXPodCategory-dummy.m in Sources */,
+				6359B46EA9E1B54E2361563C89D3DDE0 /* UIAlertAction+SXPodCategory_Undefined.m in Sources */,
+				032554439B6930238571A3EE36A939E1 /* UIButton+SXPodCategory_Call.m in Sources */,
+				EAEF528A242189979BB982084CBF629F /* UICollectionViewCell+SXPodCategory_Add.m in Sources */,
+				3F4A8A1E56782B24DA80A4FCE4EBF039 /* UIImage+SXPodCategory_Common.m in Sources */,
+				A6EAA1DC94233A1D368AEE2B76969676 /* UILabel+SXPodCategory_LineSpacing.m in Sources */,
+				F0E72709AD1B9647834456E395C87886 /* UINavigationController+SXPodCategory_RemoveVC.m in Sources */,
+				9AEE3C000E25C45EF993DAE6C83F7D62 /* UITabBar+SXPodCategory_BadgeSize.m in Sources */,
+				AA67E2D1CCAE563FC77E602A5461180B /* UITableViewCell+SXPodCategory_Add.m in Sources */,
+				FD34B07AFC82B95AB30EA917D5BF0B05 /* UITextField+SXPodCategory_Add.m in Sources */,
+				CA228A9FB6B310A6A4142AFB86EB04DB /* UITextField+SXPodCategory_Limited.m in Sources */,
+				39256A70B13617C8500559A39CA07CFD /* UITextView+SXPodCategory_Limited.m in Sources */,
+				2B377C793AF19BDCB93891B2CB804763 /* UIView+SXPodCategory_Add.m in Sources */,
+				B4E5BABCC5874C9EE4ACCA045DAAC317 /* UIView+SXPodCategory_Constraint.m in Sources */,
+				6C8AE6340233FBB7B63AA157E674E4B4 /* UIView+SXPodCategory_GetController.m in Sources */,
+				C79508D507D1E22B14CE47C34EE12AEA /* UIViewController+SXPodCategory_Add.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,7 +612,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D48061610F4F26EF8AF164034BB9D8 /* Pods-SXPodCategory_Example-dummy.m in Sources */,
-				04FB0BC91F0E2E3D00E370EF /* NSString+SXPodCategory_Crash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

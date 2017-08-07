@@ -1,5 +1,5 @@
 PODS:
-  - SXPodCategory (0.0.3)
+  - SXPodCategory (0.0.4)
 
 DEPENDENCIES:
   - SXPodCategory (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SXPodCategory: 7f8bd9b2ee3018db1d4ed79cc76ddca731fc13ca
+  SXPodCategory: ea99862049b64cf164172d43e5afd68644b5ebba
 
 PODFILE CHECKSUM: 4b7970084648b9d41a3c7f33cc83ce017abd890f
 
