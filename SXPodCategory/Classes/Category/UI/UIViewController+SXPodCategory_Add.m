@@ -52,6 +52,12 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
     
     UIStoryboard *sb = [UIStoryboard storyboardWithName:classString bundle:nil];
 
+    if (!sb || ![sb instantiateInitialViewController]) {
+        
+        UIViewController *vc = [[UIViewController alloc] init];
+        vc.view.backgroundColor = [UIColor redColor];
+        return vc;
+    }
     return [sb instantiateInitialViewController];
 }
 + (instancetype)vcFromStoryboardWithName:(NSString *)name {

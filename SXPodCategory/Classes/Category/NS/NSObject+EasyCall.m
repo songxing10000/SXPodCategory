@@ -18,4 +18,8 @@
     
     return [self isKindOfClass:[NSArray class]];
 }
+- (BOOL)isString {
+    
+    return [self isKindOfClass:[NSString class]];
+}
 @end

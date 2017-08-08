@@ -12,7 +12,10 @@
 
 /// [self isKindOfClass:[NSDictionary class]];
 @property(nonatomic, readonly) BOOL isDict;
+
 /// [self isKindOfClass:[NSArray class]];
 @property(nonatomic, readonly) BOOL isArray;
 
+/// [self isKindOfClass:[NSString class]];
+@property(nonatomic, readonly) BOOL isString;
 @end
