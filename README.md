@@ -27,3 +27,15 @@ dfpo, songxing10000@live.cn
 ## License
 
 SXPodCategory is available under the MIT license. See the LICENSE file for more info.
+
+## Developer
+一、
+
+```ruby
+git tag -a 0.0.1 -m "tag release 0.0.1" #打tag
+```
+二、
+
+```ruby
+git push --tags #提交tag
+```
