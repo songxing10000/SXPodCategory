@@ -11,4 +11,6 @@
 /// 服务器返回的数据 比如2  4 ，有时候是stirng 类型，有时候是 int类型，内部转发
 @interface NSString (SXPodCategory_Crash)
 
+- (instancetype)stringValue;
+
 @end

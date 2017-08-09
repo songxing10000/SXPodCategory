@@ -7,7 +7,7 @@
 //
 
 #import "UILabel+SXPodCategory_LineSpacing.h"
-
+@import CoreText;
 @implementation UILabel (SXPodCategory_LineSpacing)
 - (void)setColumnSpace:(CGFloat)columnSpace
 {

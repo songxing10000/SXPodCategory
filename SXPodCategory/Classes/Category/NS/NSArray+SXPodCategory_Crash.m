@@ -9,6 +9,13 @@
 #import "NSArray+SXPodCategory_Crash.h"
 
 @implementation NSArray (SXPodCategory_Crash)
+
+- objectForKey:(NSString *)aKey {
+    
+    NSLog(@"----%@---", @"把数组当字典来使用");
+    return nil;
+}
+
 + (BOOL)resolveClassMethod:(SEL)sel
 {
     
@@ -16,7 +23,8 @@
 }
 
 - (id)forwardingTargetForSelector:(SEL)aSelector {
-    if (aSelector == NSSelectorFromString(@"objectForKeyedSubscript:")) {
+    
+    if ([NSDictionary instancesRespondToSelector:aSelector]) {
         NSLog(@"--错误--把字典->%@,当作数组来操作---", self);
         return @{}.mutableCopy;
     }

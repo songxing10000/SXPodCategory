@@ -10,6 +10,12 @@
 #import <UIKit/UIKit.h>
 @implementation NSString (SXPodCategory_Crash)
 
+
+- (instancetype)stringValue {
+    
+    return self;
+}
+
 + (BOOL)resolveClassMethod:(SEL)sel
 {
     
@@ -22,6 +28,10 @@
     if ([NSNumber instancesRespondToSelector:aSelector]) {
        
         return [[NSDecimalNumber alloc] initWithString:self];
+        
+    } else if ([NSString instancesRespondToSelector:aSelector]) {
+        
+        return self;
     }
     return nil;
 }

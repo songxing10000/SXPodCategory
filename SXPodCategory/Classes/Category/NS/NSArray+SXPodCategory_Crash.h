@@ -10,4 +10,6 @@
 
 @interface NSArray (SXPodCategory_Crash)
 
+- objectForKey:(NSString *)aKey;
+
 @end

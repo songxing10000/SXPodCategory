@@ -17,8 +17,8 @@
 }
 
 - (id)forwardingTargetForSelector:(SEL)aSelector {
-    if (aSelector == NSSelectorFromString(@"objectAtIndexedSubscript:") ||
-        aSelector == NSSelectorFromString(@"safe_ObjectAtIndex:")) {
+    
+    if ([NSArray instancesRespondToSelector:aSelector]) {
         NSLog(@"--错误--把数组->%@,当作字典来操作---", self);
         return @[].mutableCopy;
     }
