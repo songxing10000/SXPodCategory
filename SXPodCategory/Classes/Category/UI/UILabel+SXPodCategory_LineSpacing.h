@@ -11,6 +11,15 @@
 @interface UILabel (SXPodCategory_LineSpacing)
 
 /**
+ *  设置字间距
+ */
+- (void)setColumnSpace:(CGFloat)columnSpace;
+/**
+ *  设置行距
+ */
+- (void)setRowSpace:(CGFloat)rowSpace;
+
+/**
  给label设置行间距
 
  @param text 要显示什么字
