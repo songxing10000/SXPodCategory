@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SXPodCategory' #pod名称
   s.version          = '0.0.7' #pod版本
-  s.summary          = 'SXPodCategory简介'#简介，需要更改，不然会报警告
+  s.summary          = '积累自己项目里常用的一些分类，简化一些系统的方法调用'#简介，需要更改，不然会报警告
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
