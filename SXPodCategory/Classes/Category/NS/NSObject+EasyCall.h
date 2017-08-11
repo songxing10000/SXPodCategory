@@ -24,4 +24,7 @@
 ///  [self isKindOfClass:[NSDictionary class]] && [self valueForKey: @"data"] != nil;
 @property(nonatomic, readonly) BOOL isDictAndHasData;
 
+///  [self isKindOfClass:[NSDictionary class]] && [self valueForKey: @"msg"] != nil;
+@property(nonatomic, readonly) BOOL isDictAndHasMsg;
+
 @end

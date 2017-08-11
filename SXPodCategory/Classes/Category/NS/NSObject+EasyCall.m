@@ -29,4 +29,9 @@
     
     return [self isKindOfClass:[NSDictionary class]] && [self valueForKey: @"data"] != nil;
 }
+
+- (BOOL)isDictAndHasMsg {
+    
+    return [self isKindOfClass:[NSDictionary class]] && [self valueForKey: @"msg"] != nil;
+}
 @end
