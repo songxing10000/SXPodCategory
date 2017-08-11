@@ -18,4 +18,10 @@
 
 /// [self isKindOfClass:[NSString class]];
 @property(nonatomic, readonly) BOOL isString;
+
+
+#pragma mark - 再次扩展常用方法
+///  [self isKindOfClass:[NSDictionary class]] && [self valueForKey: @"data"] != nil;
+@property(nonatomic, readonly) BOOL isDictAndHasData;
+
 @end

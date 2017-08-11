@@ -22,4 +22,11 @@
     
     return [self isKindOfClass:[NSString class]];
 }
+
+
+
+- (BOOL)isDictAndHasData {
+    
+    return [self isKindOfClass:[NSDictionary class]] && [self valueForKey: @"data"] != nil;
+}
 @end
