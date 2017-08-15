@@ -153,12 +153,15 @@
     
     UIView *emptyV = [[UIView alloc] init];
     emptyV.backgroundColor = [UIColor blackColor];
-    
-    if ([[NSBundle mainBundle] pathForResource:NSStringFromClass(self) ofType:@"nib"] == nil) {
+    NSString *classStringHasPrefix = NSStringFromClass([self class]);
+    NSArray *classStrings = [classStringHasPrefix componentsSeparatedByString:@"."];
+    NSString *classString = classStrings.lastObject;
+    if ([[NSBundle mainBundle] pathForResource:classString ofType:@"nib"] == nil) {
         
         return emptyV;
     }
-    NSArray *objs = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil];
+    
+    NSArray *objs = [[NSBundle mainBundle] loadNibNamed:classString owner:nil options:nil];
     if ([objs count] == 0) {
         
         return emptyV;

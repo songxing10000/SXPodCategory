@@ -5,8 +5,9 @@
 + (NSString *)searchAllSubviews:(UIView *)superview
 {
     NSMutableString *xml = [NSMutableString string];
-    
-    NSString *class = NSStringFromClass(superview.class);
+    NSString *classStringHasPrefix = NSStringFromClass([self class]);
+    NSArray *classStrings = [classStringHasPrefix componentsSeparatedByString:@"."];
+    NSString *class = classStrings.lastObject;
     class = [class stringByReplacingOccurrencesOfString:@"_" withString:@""];
     [xml appendFormat:@"<%@ frame=\"%@\">\n", class, NSStringFromCGRect(superview.frame)];
     for (UIView *childView in superview.subviews) {

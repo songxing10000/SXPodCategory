@@ -10,7 +10,9 @@
 
 @implementation UICollectionViewCell (SXPodCategory_Add)
 + (instancetype)cellFromCollectionView:(UICollectionView *)collectionView forIndexPath:(NSIndexPath *)indexPath {
-    NSString *classStr = NSStringFromClass(self);
+    NSString *classStringHasPrefix = NSStringFromClass([self class]);
+    NSArray *classStrings = [classStringHasPrefix componentsSeparatedByString:@"."];
+    NSString *classStr =  classStrings.lastObject;
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:classStr forIndexPath:indexPath];
     if (cell) {
         return cell;

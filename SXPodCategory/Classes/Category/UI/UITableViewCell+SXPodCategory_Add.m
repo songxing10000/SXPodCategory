@@ -12,8 +12,9 @@
 
 + (instancetype)cellFromTableView:(UITableView *)tableView {
     
-    
-    NSString *cellIDStr = NSStringFromClass(self);
+    NSString *classStringHasPrefix = NSStringFromClass([self class]);
+    NSArray *classStrings = [classStringHasPrefix componentsSeparatedByString:@"."];
+    NSString *cellIDStr = classStrings.lastObject;
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIDStr];
     if (cell) {
         
