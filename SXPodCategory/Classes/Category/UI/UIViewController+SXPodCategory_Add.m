@@ -63,7 +63,10 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
 + (instancetype)vcFromStoryboardWithName:(NSString *)name {
     
     UIStoryboard *sb = [UIStoryboard storyboardWithName:name bundle:nil];
-    UIViewController *vc = [sb instantiateViewControllerWithIdentifier:NSStringFromClass(self)];
+    NSString *classStringHasPrefix = NSStringFromClass([self class]);
+    NSArray *classStrings = [classStringHasPrefix componentsSeparatedByString:@"."];
+    NSString *classString = classStrings.lastObject;
+    UIViewController *vc = [sb instantiateViewControllerWithIdentifier: classString];
     if (vc) {
         
         return vc;
