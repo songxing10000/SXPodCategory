@@ -5,9 +5,9 @@
 //  Created by mac on 2017/4/6.
 //  Copyright © 2017年 dfpo. All rights reserved.
 //
-
+#import <CoreText/CoreText.h>
 #import "UILabel+SXPodCategory_LineSpacing.h"
-@import CoreText;
+
 @implementation UILabel (SXPodCategory_LineSpacing)
 - (void)setColumnSpace:(CGFloat)columnSpace
 {

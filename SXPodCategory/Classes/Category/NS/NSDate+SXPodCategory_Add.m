@@ -5,9 +5,10 @@
 //  Created by dfpo on 16/8/20.
 //  Copyright © 2016年 dfpo. All rights reserved.
 //
+#import <UIKit/UIKit.h>
 
 #import "NSDate+SXPodCategory_Add.h"
-@import UIKit;
+
 @implementation NSDate (SXPodCategory_Add)
 static NSCalendar *_calendar = nil;
 static NSDateFormatter *_displayFormatter = nil;

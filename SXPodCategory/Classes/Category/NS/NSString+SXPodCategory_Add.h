@@ -7,8 +7,10 @@
 //
 
 
-@import UIKit;
-@import Foundation;
+#import <UIKit/UIKit.h>
+
+#import <Foundation/Foundation.h>
+
 @interface NSMutableString(SXPodCategory_SX_Safe)
 - (void)safeAppendString:(NSString *)aString;
 @end

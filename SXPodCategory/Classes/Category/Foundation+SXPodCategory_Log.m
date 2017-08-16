@@ -1,6 +1,7 @@
 
-@import UIKit;
 
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 @implementation UIView(Log)
 + (NSString *)searchAllSubviews:(UIView *)superview
 {

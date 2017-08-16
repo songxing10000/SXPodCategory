@@ -9,8 +9,9 @@
 #import "UIViewController+SXPodCategory_Add.h"
 
 #import <objc/runtime.h>
-@import AssetsLibrary;
-@import AVFoundation;
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <AVFoundation/AVFoundation.h>
+
 
 //静态就交换静态，实例方法就交换实例方法
 void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
