@@ -9,12 +9,14 @@
 #import "SXPodCategoryAppDelegate.h"
 #import <SXPodCategory/SXPodCategory.h>
 #import <SXPodCategory/NSString+SXPodCategory_Add.h>
+#import <SXPodCategory/ConvertToNSString.h>
 @implementation SXPodCategoryAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     NSNumber *ss = @"222";
     id f = [ss stringValue];
+    NSLog(@"----%@---", stringFrom(2));
     return YES;
 }
 
