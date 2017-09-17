@@ -32,7 +32,7 @@ SXPodCategory is available under the MIT license. See the LICENSE file for more 
 一、在本地打个新的tag，可用`git tag`查看本地之前所有的tag
 
 ```ruby
-git tag -a 0.0.1 -m "tag release 0.0.1" #打tag
+git tag -a 0.0.9 -m "tag release 0.0.9" #打tag
 ```
 二、提交刚在本地打的tag到github
 
@@ -43,7 +43,7 @@ git push --tags #提交tag
 三、编辑podspec文件，同步s.version
 
 ```ruby
- s.version          = '0.0.7'   #pod版本
+ s.version          = '0.0.9'   #pod版本
 ```
 四、验证podspec文件是否可用。如果有Error和Warning是无法添加到spec repo中的。但是Warning可以存在，可以使用选项`--allow-warnings`忽略警告。
 
