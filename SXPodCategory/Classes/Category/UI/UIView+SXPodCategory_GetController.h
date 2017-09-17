@@ -10,5 +10,6 @@
 
 @interface UIView (SXPodCategory_GetController)
 
+/// 拿到当前view所在的控制器
 @property (nonatomic, readonly) UIViewController *viewController;
 @end

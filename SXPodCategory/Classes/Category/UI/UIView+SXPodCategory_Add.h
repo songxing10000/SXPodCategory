@@ -47,10 +47,12 @@
  * Sets frame.origin.y = bottom - frame.size.height
  */
 @property (nonatomic) CGFloat bottom;
+- (nullable instancetype)mutableCopy;
 
 
 /** 从xib中创建一个控件，无File's Owner */
-+ (instancetype)viewFromXib;
++ (nonnull instancetype)viewFromXib;
 
 - (void)removeAllSubviews;
+
 @end

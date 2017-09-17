@@ -14,6 +14,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
     NSNumber *ss = @"222";
     id f = [ss stringValue];
     NSLog(@"----%@---", stringFrom(2));

@@ -12,32 +12,32 @@
 
 
 /**
- 宽度约束
+ 当前view的，宽度约束
  */
 @property (nonatomic, weak, readonly) NSLayoutConstraint *widthConstraint;
 
 /**
- 高度约束
+ 当前view的，高度约束
  */
 @property (nonatomic, weak, readonly) NSLayoutConstraint *heightConstraint;
 
 /**
- 左侧约束
+ 当前view的，左侧约束
  */
 @property (nonatomic, weak, readonly) NSLayoutConstraint *leadingConstraint;
 
 /**
- 右侧约束
+ 当前view的，右侧约束
  */
 @property (nonatomic, weak, readonly) NSLayoutConstraint *trailingConstraint;
 
 /**
- 上方约束
+ 当前view的，上方约束
  */
 @property (nonatomic, weak, readonly) NSLayoutConstraint *topConstraint;
 
 /**
- 下方约束
+ 当前view的，下方约束
  */
 @property (nonatomic, weak, readonly) NSLayoutConstraint *bottomConstraint;
 

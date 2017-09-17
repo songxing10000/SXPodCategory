@@ -148,8 +148,20 @@
 {
     return self.frame.origin;
 }
+- (nullable instancetype)mutableCopy {
+    BOOL hasView = self && [self isKindOfClass:[UIView class]];
+    if (!hasView) {
+        
+        return nil;
+    }
+    NSData *dataFromSelf =
+        [NSKeyedArchiver archivedDataWithRootObject:self];
+    UIView *sameViewFromSelf =
+        [NSKeyedUnarchiver unarchiveObjectWithData:dataFromSelf];
+    return sameViewFromSelf;
+}
 
-+ (instancetype)viewFromXib {
++ (nonnull instancetype)viewFromXib {
     
     UIView *emptyV = [[UIView alloc] init];
     emptyV.backgroundColor = [UIColor blackColor];
