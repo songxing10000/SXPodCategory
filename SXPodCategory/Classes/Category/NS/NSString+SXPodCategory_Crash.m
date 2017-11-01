@@ -26,12 +26,21 @@
 
     // use NSString as NSNumber
     if ([NSNumber instancesRespondToSelector:aSelector]) {
-       
+        
+        NSLog(@"--错误--把NSNumber->%@,当作字符串来操作---", self);
         return [[NSDecimalNumber alloc] initWithString:self];
         
     } else if ([NSString instancesRespondToSelector:aSelector]) {
         
         return self;
+    } else if ([NSArray instancesRespondToSelector:aSelector]) {
+        
+        NSLog(@"--错误--把NSArray->%@,当作字符串来操作---", self);
+        return @[];
+    } else if ([NSDictionary instancesRespondToSelector:aSelector]) {
+        
+        NSLog(@"--错误--把NSDictionary->%@,当作字符串来操作---", self);
+        return @{};
     }
     return nil;
 }

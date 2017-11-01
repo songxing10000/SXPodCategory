@@ -25,8 +25,20 @@
 - (id)forwardingTargetForSelector:(SEL)aSelector {
     
     if ([NSDictionary instancesRespondToSelector:aSelector]) {
+        
         NSLog(@"--错误--把字典->%@,当作数组来操作---", self);
-        return @{}.mutableCopy;
+        return @{};
+    } else if ([NSArray instancesRespondToSelector:aSelector]) {
+        
+        return self;
+    } else if ([NSNumber instancesRespondToSelector:aSelector]) {
+        
+        NSLog(@"--错误--把NSNumber->%@,当作数组来操作---", self);
+        return @1111111;
+    } else if ([NSString instancesRespondToSelector:aSelector]) {
+        
+        NSLog(@"--错误--把NSString->%@,当作数组来操作---", self);
+        return @"1111111";
     }
     
     
