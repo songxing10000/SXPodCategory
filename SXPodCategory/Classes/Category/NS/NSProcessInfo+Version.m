@@ -33,6 +33,6 @@
     patchVersion = patchVersion>=0?patchVersion:0;
     
     return [[NSProcessInfo processInfo] isOperatingSystemAtLeastVersion:
-            (NSOperatingSystemVersion){.majorVersion = majorVersion, .minorVersion = majorVersion, .patchVersion = patchVersion}];
+            (NSOperatingSystemVersion){.majorVersion = majorVersion, .minorVersion = minorVersion, .patchVersion = patchVersion}];
 }
 @end
