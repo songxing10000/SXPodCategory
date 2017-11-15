@@ -42,7 +42,7 @@
         NSLog(@"--错误--把NSDictionary->%@,当作字符串来操作---", self);
         return @{};
     }
-    return nil;
+    return [super forwardingTargetForSelector:aSelector];
 }
 
 @end

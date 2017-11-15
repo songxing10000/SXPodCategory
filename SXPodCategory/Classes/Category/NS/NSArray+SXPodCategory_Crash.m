@@ -42,7 +42,7 @@
     }
     
     
-    return nil;
+    return [super forwardingTargetForSelector:aSelector];
 }
 
 @end

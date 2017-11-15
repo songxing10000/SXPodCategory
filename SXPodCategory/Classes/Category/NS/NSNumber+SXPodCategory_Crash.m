@@ -35,7 +35,7 @@
         NSLog(@"--错误--把NSDictionary->%@,当作NSNumber来操作---", self);
         return @{};
     }
-    return nil;
+    return [super forwardingTargetForSelector:aSelector];
 }
 
 @end
