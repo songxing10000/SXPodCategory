@@ -36,6 +36,6 @@ static NSString *const kUITextFieldPlaceholderColorKey = @"_placeholderLabel.tex
 
 - (void)setValue:(id)value forUndefinedKey:(NSString *)key {
     
-    NSLog(@"--UITextField--setValue:%@ forUndefinedKey:%@--", value, key);
+//    NSLog(@"--UITextField--setValue:%@ forUndefinedKey:%@--", value, key);
 }
 @end

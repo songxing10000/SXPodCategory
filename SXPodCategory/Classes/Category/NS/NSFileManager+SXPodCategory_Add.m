@@ -22,7 +22,7 @@
                                    error:&error];
     if(!success)
     {
-        NSLog(@"Error excluding %@ from backup %@", [URL lastPathComponent], error);
+//        NSLog(@"Error excluding %@ from backup %@", [URL lastPathComponent], error);
     }
     return success;
     

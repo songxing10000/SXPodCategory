@@ -11,14 +11,14 @@
 @implementation UIAlertAction (SXPodCategory_Undefined)
 
 - (void)setValue:(id)value forUndefinedKey:(NSString *)key {
-    NSLog(@" UIAlertAction UndefinedKey--%@---value---%@", key, value);
+//    NSLog(@" UIAlertAction UndefinedKey--%@---value---%@", key, value);
 }
 @end
 
 @implementation UIAlertController (Undefined)
 
 - (void)setValue:(id)value forUndefinedKey:(NSString *)key {
-    NSLog(@" UIAlertController UndefinedKey--%@---value---%@", key, value);
+//    NSLog(@" UIAlertController UndefinedKey--%@---value---%@", key, value);
 }
 
 @end

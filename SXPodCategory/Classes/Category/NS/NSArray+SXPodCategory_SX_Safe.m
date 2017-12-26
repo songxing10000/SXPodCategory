@@ -19,7 +19,7 @@
     
         return [self objectAtIndex:index];
     }
-    NSLog(@"----数组-> %@ ,取第-> %zd个元素时出错---", self, index);
+//    NSLog(@"----数组-> %@ ,取第-> %zd个元素时出错---", self, index);
     return nil;
 }
 @end
@@ -33,7 +33,7 @@
         [self addObject:anObject];
     } else {
         
-        NSLog(@"----数组-> %@ ,加入元素-> %@ 时出错---", self, anObject);
+//        NSLog(@"----数组-> %@ ,加入元素-> %@ 时出错---", self, anObject);
     }
 }
 @end
@@ -46,7 +46,7 @@
         [self safeSetObject:anObject forKey:aKey];
     } else {
         
-        NSLog(@"----字典-> %@ ,key为 -> %@ ,加入元素-> %@ 时出错---", self, aKey, anObject);
+//        NSLog(@"----字典-> %@ ,key为 -> %@ ,加入元素-> %@ 时出错---", self, aKey, anObject);
     }
 }
 @end

@@ -20,16 +20,16 @@
     
     if ([NSArray instancesRespondToSelector:aSelector]) {
         
-        NSLog(@"--错误--把NSArray->%@,当作字典来操作---", self);
+//        NSLog(@"--错误--把NSArray->%@,当作字典来操作---", self);
         return @[];
     }else if ([NSNumber instancesRespondToSelector:aSelector]) {
         
-        NSLog(@"--错误--把NSNumber->%@,当作字典来操作---", self);
+//        NSLog(@"--错误--把NSNumber->%@,当作字典来操作---", self);
         return @1111111;
     }
     else if ([NSString instancesRespondToSelector:aSelector]) {
         
-        NSLog(@"--错误--把NSString->%@,当作字典来操作---", self);
+//        NSLog(@"--错误--把NSString->%@,当作字典来操作---", self);
         return @"1111111";
     } else if ([NSDictionary instancesRespondToSelector:aSelector]) {
         

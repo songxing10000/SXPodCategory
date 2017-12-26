@@ -143,13 +143,13 @@
         || ([regextestcu evaluateWithObject:self] == YES))
     {
         if([regextestcm evaluateWithObject:self] == YES) {
-            NSLog(@"China Mobile");
+//            NSLog(@"China Mobile");
         } else if([regextestct evaluateWithObject:self] == YES) {
-            NSLog(@"China Telecom");
+//            NSLog(@"China Telecom");
         } else if ([regextestcu evaluateWithObject:self] == YES) {
-            NSLog(@"China Unicom");
+//            NSLog(@"China Unicom");
         } else {
-            NSLog(@"Unknow");
+//            NSLog(@"Unknow");
         }
         
         return YES;

@@ -94,8 +94,4 @@
 - (void)addTarget:(id)target action:(SEL)action {
     [self addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
 }
-/// 全局覆盖，无高亮效果
-- (void)setHighlighted:(BOOL)highlighted {
-    
-}
 @end
