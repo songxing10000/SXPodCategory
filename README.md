@@ -57,7 +57,7 @@ pod spec lint --use-libraries --allow-warnings --verbose
 
 ```ruby
 pod trunk push SXPodCategory.podspec
-
+pod repo push 你的私有库名字 SXLoginModule.podspec
 ```
 
 最后，更详细请参数
