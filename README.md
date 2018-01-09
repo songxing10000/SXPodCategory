@@ -51,6 +51,7 @@ git push --tags #提交tag
 ```ruby
 pod lib lint
 pod spec lint --use-libraries --allow-warnings --verbose
+pod spec lint ??.podspec --sources='git@????.git,https://github.com/CocoaPods/Specs.git' --allow-warnings
 ```
 
 五、发布到`CocoaPods`
