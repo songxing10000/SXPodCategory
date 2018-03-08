@@ -64,3 +64,22 @@ pod repo push 你的私有库名字 SXLoginModule.podspec
 最后，更详细请参数
 
 [使用Cocoapods制作自己的pod](http://www.bijishequ.com/detail/228610?p=)
+
+在加载资源文件时：
+```objc
+// xib
+NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[self class]]
+                                                 pathForResource:@"SXPodCategory"
+                                                 ofType:@"bundle"]];
+    self=[[bundle loadNibNamed:@"WJNetWorkFailureView" owner:nil options:nil] lastObject];
+
+
+// image
+NSInteger scale = [UIScreen mainScreen].scale;
+    NSString *imageName = [NSString stringWithFormat:@"Payment30@%zdx.png", scale];
+    NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[self class]]
+                                                 pathForResource:@"SXPodCategory"
+                                                 ofType:@"bundle"]];
+    NSString *imagePath = [bundle pathForResource:imageName ofType:nil];
+    self.imgV.image = [UIImage imageWithContentsOfFile:imagePath];
+```
