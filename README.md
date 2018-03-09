@@ -87,6 +87,6 @@ NSInteger scale = [UIScreen mainScreen].scale;
 ```ruby
 s.subspec 'SXSubPod' do |ss|
        ss.source_files = 'SXPodCategory/SXSubPod.{h,m}'
-       ss.public_header_files = 'SXPodCategory/SXSubPod.h'
+       ss.public_header_files = 'SXPodCategory/SXSubPod/*.h'
 end
 ```
