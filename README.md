@@ -83,3 +83,10 @@ NSInteger scale = [UIScreen mainScreen].scale;
     NSString *imagePath = [bundle pathForResource:imageName ofType:nil];
     self.imgV.image = [UIImage imageWithContentsOfFile:imagePath];
 ```
+子库
+```ruby
+s.subspec 'SXSubPod' do |ss|
+       ss.source_files = 'SXPodCategory/SXSubPod.{h,m}'
+       ss.public_header_files = 'SXPodCategory/SXSubPod.h'
+end
+```
