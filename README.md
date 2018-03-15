@@ -4,7 +4,10 @@
 [![Version](https://img.shields.io/cocoapods/v/SXPodCategory.svg?style=flat)](http://cocoapods.org/pods/SXPodCategory)
 [![License](https://img.shields.io/cocoapods/l/SXPodCategory.svg?style=flat)](http://cocoapods.org/pods/SXPodCategory)
 [![Platform](https://img.shields.io/cocoapods/p/SXPodCategory.svg?style=flat)](http://cocoapods.org/pods/SXPodCategory)
-
+![](https://img.shields.io/badge/language-objc-orange.svg)
+![](https://img.shields.io/cocoapods/dt/SXPodCategory.svg)
+![](https://img.shields.io/cocoapods/dm/SXPodCategory.svg)
+![](https://img.shields.io/cocoapods/dw/SXPodCategory.svg)
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
