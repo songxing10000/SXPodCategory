@@ -7,7 +7,9 @@
 //
 
 #import "NSObject+EasyCall.h"
+#import "NSObject+SXPodCategory_BKAssociatedObjects.h"
 
+static const char *kCustomCell_indexPathKey = "kCustomCell_indexPathKey";
 @implementation NSObject (EasyCall)
 
 - (BOOL)isDict {
@@ -34,4 +36,16 @@
     
     return [self isKindOfClass:[NSDictionary class]] && [self valueForKey: @"msg"] != nil;
 }
+
+- (NSIndexPath *)cell_indexPath {
+    
+    NSIndexPath *idxP = [self bk_associatedValueForKey:kCustomCell_indexPathKey];
+    return idxP;
+}
+- (void)setCell_indexPath:(NSIndexPath *)cell_indexPath {
+    
+    [self bk_associateValue:cell_indexPath withKey:kCustomCell_indexPathKey];
+}
+
+
 @end

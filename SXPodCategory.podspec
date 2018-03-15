@@ -1,21 +1,8 @@
-#
-# Be sure to run `pod lib lint SXPodCategory.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'SXPodCategory' #pod名称
   s.version          = '1.0.0' #pod版本
   s.summary          = '积累自己项目里常用的一些分类，简化一些系统的方法调用'#简介，需要更改，不然会报警告
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC #详细介绍，要比简介长
 TODO: Add long description of the pod here.
@@ -29,11 +16,16 @@ TODO: Add long description of the pod here.
   s.author           = { 'dfpo' => 'songxing10000@live.cn' }
 #仓库地址
   s.source           = { :git => 'https://github.com/songxing10000/SXPodCategory.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 # 最低版本
   s.ios.deployment_target = '8.0'
 # 库文件
-  s.source_files = 'SXPodCategory/Classes/**/*'
+    s.source_files = 'SXPodCategory/Classes/**/*'
+    s.subspec 'SXPodCategoryNS' do |ss|
+    ss.source_files = 'SXPodCategory/NS.{h,m}'
+    end
+    s.subspec 'SXPodCategoryUI' do |ss|
+    ss.source_files = 'SXPodCategoryUI/UI.{h,m}'
+    end
 #资源目录
   # s.resource_bundles = {
   #   'SXPodCategory' => ['SXPodCategory/Assets/*.png']

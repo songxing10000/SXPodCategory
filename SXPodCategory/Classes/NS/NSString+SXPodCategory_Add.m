@@ -386,8 +386,6 @@
 /**
  长度：11位
  •开头必须为1，只能输入数字
- • 输入后显示的格式是
- • 注册时 -> 在输入后验证唯一性，是否已经注册。。 如果号码已经注册，提示用户："手机号已经在垫付宝、轻易贷、1号车网、车快快存在，请直接登录"
  */
 - (BOOL)checkPhone{
     
@@ -486,6 +484,40 @@
     CC_MD5(str, (CC_LONG)strlen(str), buffer);
     
     return [self stringFromBytes:buffer length:CC_MD5_DIGEST_LENGTH];
+}
+#pragma mark avoid crash
+- (instancetype)stringValue {
+    
+    return self;
+}
+
++ (BOOL)resolveClassMethod:(SEL)sel
+{
+    
+    return NO;
+}
+
+- (id)forwardingTargetForSelector:(SEL)aSelector {
+    
+    // use NSString as NSNumber
+    if ([NSNumber instancesRespondToSelector:aSelector]) {
+        
+        //        NSLog(@"--错误--把NSNumber->%@,当作字符串来操作---", self);
+        return [[NSDecimalNumber alloc] initWithString:self];
+        
+    } else if ([NSString instancesRespondToSelector:aSelector]) {
+        
+        return self;
+    } else if ([NSArray instancesRespondToSelector:aSelector]) {
+        
+        //        NSLog(@"--错误--把NSArray->%@,当作字符串来操作---", self);
+        return @[];
+    } else if ([NSDictionary instancesRespondToSelector:aSelector]) {
+        
+        //        NSLog(@"--错误--把NSDictionary->%@,当作字符串来操作---", self);
+        return @{};
+    }
+    return [super forwardingTargetForSelector:aSelector];
 }
 
 @end

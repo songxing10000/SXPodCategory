@@ -12,4 +12,6 @@
 
 /// 拿到当前view所在的控制器
 @property (nonatomic, readonly) UIViewController *viewController;
+/// 拿到当前view所在的控制器
+@property (nonatomic, readonly) UIViewController *getViewController;
 @end

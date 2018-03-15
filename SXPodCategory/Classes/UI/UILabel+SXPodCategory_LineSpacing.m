@@ -24,6 +24,8 @@
     //调整行距
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
     paragraphStyle.lineSpacing = rowSpace;
+    // 读取sb xib中的对齐方式
+    paragraphStyle.alignment = self.textAlignment;
     paragraphStyle.baseWritingDirection = NSWritingDirectionLeftToRight;
     [attributedString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, [self.text length])];
     self.attributedText = attributedString;

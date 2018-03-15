@@ -26,5 +26,8 @@
 
 ///  [self isKindOfClass:[NSDictionary class]] && [self valueForKey: @"msg"] != nil;
 @property(nonatomic, readonly) BOOL isDictAndHasMsg;
-
+/**
+ 方便传值的一个indexPath
+ */
+@property (nonatomic, strong) NSIndexPath *cell_indexPath;
 @end

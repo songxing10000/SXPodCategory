@@ -10,6 +10,7 @@
 
 @interface NSArray <ObjectType> (SXPodCategory_SX_Safe)
 
+- objectForKey:(NSString *)aKey;
 - (ObjectType)safe_ObjectAtIndex:(NSUInteger)index;
 
 @end

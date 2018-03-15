@@ -19,8 +19,6 @@
 /**
  长度：11位
  •开头必须为1，只能输入数字
- • 输入后显示的格式是
- • 注册时 -> 在输入后验证唯一性，是否已经注册。。 如果号码已经注册，提示用户："手机号已经在垫付宝、轻易贷、1号车网、车快快存在，请直接登录"
  */
 - (BOOL)checkPhone;
 
@@ -99,4 +97,6 @@
 - (BOOL)isContainsEmoji;
 #pragma mark 推送时加入的md5
 - (NSString *)md5String;
+#pragma mark avoid crash
+- (instancetype)stringValue;
 @end
