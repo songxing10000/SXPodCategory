@@ -20,11 +20,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 # 库文件
     s.source_files = 'SXPodCategory/Classes/**/*'
+
     s.subspec 'SXPodCategoryNS' do |ss|
-    ss.source_files = 'SXPodCategory/NS.{h,m}'
+    ss.source_files = 'SXPodCategory/Classes/NS/*'
     end
     s.subspec 'SXPodCategoryUI' do |ss|
-    ss.source_files = 'SXPodCategoryUI/UI.{h,m}'
+    ss.source_files = 'SXPodCategory/Classes/UI/*'
     end
 #资源目录
   # s.resource_bundles = {
