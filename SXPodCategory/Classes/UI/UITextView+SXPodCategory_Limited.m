@@ -7,7 +7,6 @@
 //
 
 #import "UITextView+SXPodCategory_Limited.h"
-#import "NSString+SXPodCategory_Add.h"
 #import <objc/runtime.h>
 static char *kAction;
 static char *klimit;
@@ -98,7 +97,8 @@ static char *targetKey;
         // 没有高亮选择的字，则对已输入的文字进行字数统计和限制
         if (!position) {
 //            if (toBeString.length > maxLength) {
-            if ([toBeString getStringLengthIfIsEmojiLengthAsOne] > maxLength) {
+
+            if ([self getStringLengthIfIsEmojiLengthAsOneFromString:toBeString] > maxLength) {
 
                 //判断第三方中文输入法的emoji表情
                 NSRange rangeIndex = [toBeString rangeOfComposedCharacterSequenceAtIndex:maxLength];
@@ -129,7 +129,7 @@ static char *targetKey;
     // 中文输入法以外的直接对其统计限制即可，不考虑其他语种情况
     else{
 //        if (toBeString.length > maxLength)
-        if ([toBeString getStringLengthIfIsEmojiLengthAsOne] > maxLength) 
+        if ([self getStringLengthIfIsEmojiLengthAsOneFromString:toBeString] > maxLength)
 
         {
             NSRange rangeIndex = [toBeString rangeOfComposedCharacterSequenceAtIndex:maxLength];
@@ -151,4 +151,74 @@ static char *targetKey;
         
     }
 }
+#pragma mark - 解耦，不依赖于 NSString+SXPodCategory_Add.h
+
+- (NSInteger)getStringLengthIfIsEmojiLengthAsOneFromString:(NSString *)string
+{
+    __block NSInteger stringLength = 0;
+    [string enumerateSubstringsInRange:NSMakeRange(0, [string length])
+                             options:NSStringEnumerationByComposedCharacterSequences
+                          usingBlock:^(NSString *substring, NSRange substringRange, NSRange enclosingRange, BOOL *stop)
+     {
+         const unichar hs = [substring characterAtIndex:0];
+         if (0xd800 <= hs && hs <= 0xdbff)
+         {
+             if (substring.length > 1)
+             {
+                 const unichar ls = [substring characterAtIndex:1];
+                 const int uc = ((hs - 0xd800) * 0x400) + (ls - 0xdc00) + 0x10000;
+                 if (0x1d000 <= uc && uc <= 0x1f77f)
+                 {
+                     stringLength += 1;
+                 }
+                 else
+                 {
+                     stringLength += 1;
+                 }
+             }
+             else
+             {
+                 stringLength += 1;
+             }
+         } else if (substring.length > 1)
+         {
+             const unichar ls = [substring characterAtIndex:1];
+             if (ls == 0x20e3)
+             {
+                 stringLength += 1;
+             }
+             else
+             {
+                 stringLength += 1;
+             }
+         } else {
+             if (0x2100 <= hs && hs <= 0x27ff)
+             {
+                 stringLength += 1;
+             }
+             else if (0x2B05 <= hs && hs <= 0x2b07)
+             {
+                 stringLength += 1;
+             }
+             else if (0x2934 <= hs && hs <= 0x2935)
+             {
+                 stringLength += 1;
+             }
+             else if (0x3297 <= hs && hs <= 0x3299)
+             {
+                 stringLength += 1;
+             }
+             else if (hs == 0xa9 || hs == 0xae || hs == 0x303d || hs == 0x3030 || hs == 0x2b55 || hs == 0x2b1c || hs == 0x2b1b || hs == 0x2b50)
+             {
+                 stringLength += 1;
+             }
+             else
+             {
+                 stringLength += 1;
+             }
+         }
+     }];
+    return stringLength;
+}
+
 @end
