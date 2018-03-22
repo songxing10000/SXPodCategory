@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SXPodCategory' #pod名称
-  s.version          = '1.0.0' #pod版本
+  s.version          = '1.0.1' #pod版本
   s.summary          = '积累自己项目里常用的一些分类，简化一些系统的方法调用'#简介，需要更改，不然会报警告
 
   s.description      = <<-DESC #详细介绍，要比简介长
