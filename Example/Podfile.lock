@@ -3,7 +3,8 @@ PODS:
     - SXPodCategory/SXPodCategoryNS (= 1.0.1)
     - SXPodCategory/SXPodCategoryUI (= 1.0.1)
   - SXPodCategory/SXPodCategoryNS (1.0.1)
-  - SXPodCategory/SXPodCategoryUI (1.0.1)
+  - SXPodCategory/SXPodCategoryUI (1.0.1):
+    - SXPodCategory/SXPodCategoryNS
 
 DEPENDENCIES:
   - SXPodCategory (from `../`)
@@ -13,7 +14,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SXPodCategory: 85f63abe85ffaba070ef8f5527339c0e2c976326
+  SXPodCategory: b3e99c84980ca39e794d50213ac62171611c9de8
 
 PODFILE CHECKSUM: 4b7970084648b9d41a3c7f33cc83ce017abd890f
 

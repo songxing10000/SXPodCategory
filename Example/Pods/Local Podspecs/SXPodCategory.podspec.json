@@ -26,7 +26,12 @@
     },
     {
       "name": "SXPodCategoryUI",
-      "source_files": "SXPodCategory/Classes/UI/*"
+      "source_files": "SXPodCategory/Classes/UI/*",
+      "dependencies": {
+        "SXPodCategory/SXPodCategoryNS": [
+
+        ]
+      }
     }
   ]
 }
