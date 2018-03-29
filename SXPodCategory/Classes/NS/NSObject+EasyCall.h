@@ -30,4 +30,7 @@
  方便传值的一个indexPath
  */
 @property (nonatomic, strong) NSIndexPath *cell_indexPath;
+
+#pragma mark - 防崩溃
+- (id)valueForUndefinedKey:(NSString *)key;
 @end

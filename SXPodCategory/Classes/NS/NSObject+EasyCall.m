@@ -46,6 +46,9 @@ static const char *kCustomCell_indexPathKey = "kCustomCell_indexPathKey";
     
     [self bk_associateValue:cell_indexPath withKey:kCustomCell_indexPathKey];
 }
-
+#pragma mark - 防崩溃
+- (id)valueForUndefinedKey:(NSString *)key {
+    return nil;
+}
 
 @end
