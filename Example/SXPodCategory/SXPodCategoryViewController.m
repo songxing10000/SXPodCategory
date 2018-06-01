@@ -7,7 +7,9 @@
 //
 
 #import "SXPodCategoryViewController.h"
-
+@interface Person:NSObject
+@property(nonatomic, copy) NSString *name;
+@end
 @interface SXPodCategoryViewController ()
 
 @end
@@ -17,13 +19,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    NSDictionary *dict = @{@"name":@"nameValue"};
+    
+    Person *person = dict;
+    
+    NSLog(@"----%@---", person.name);
+    person.name = @"111";
+    NSLog(@"----%@---", person.name);
+
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
