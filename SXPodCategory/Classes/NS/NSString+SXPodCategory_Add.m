@@ -496,7 +496,12 @@
     
     return NO;
 }
-
+-(id)valueForKey:(NSString *)key {
+    return nil;
+}
+-(id)objectForKey:(id)aKey {
+    return nil;
+}
 - (id)forwardingTargetForSelector:(SEL)aSelector {
     
     if ([NSNumber instancesRespondToSelector:aSelector]) {
