@@ -63,7 +63,7 @@ pod spec lint ??.podspec --sources='git@????.git,https://github.com/CocoaPods/Sp
 五、发布到`CocoaPods`
 
 ```ruby
-pod trunk push SXPodCategory.podspec
+pod trunk push SXPodCategory.podspec  --allow-warnings
 pod repo push 你的私有库名字 SXLoginModule.podspec
 ```
 
