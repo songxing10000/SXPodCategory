@@ -339,13 +339,6 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
     }];
 }
 #pragma mark - UIImagePickerControllerDelegate
-- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo {
-    if (self.didFinishTakeMediaCompled) {
-        self.didFinishTakeMediaCompled(image, editingInfo);
-    }
-    [self dismissPickerViewController:picker];
-}
-
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
     if (self.didFinishTakeMediaCompled) {
         
