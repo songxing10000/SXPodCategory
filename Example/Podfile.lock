@@ -1,9 +1,9 @@
 PODS:
-  - SXPodCategory (1.0.1):
-    - SXPodCategory/SXPodCategoryNS (= 1.0.1)
-    - SXPodCategory/SXPodCategoryUI (= 1.0.1)
-  - SXPodCategory/SXPodCategoryNS (1.0.1)
-  - SXPodCategory/SXPodCategoryUI (1.0.1):
+  - SXPodCategory (1.0.2):
+    - SXPodCategory/SXPodCategoryNS (= 1.0.2)
+    - SXPodCategory/SXPodCategoryUI (= 1.0.2)
+  - SXPodCategory/SXPodCategoryNS (1.0.2)
+  - SXPodCategory/SXPodCategoryUI (1.0.2):
     - SXPodCategory/SXPodCategoryNS
 
 DEPENDENCIES:
@@ -11,11 +11,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   SXPodCategory:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  SXPodCategory: b3e99c84980ca39e794d50213ac62171611c9de8
+  SXPodCategory: c6b09802fcdd8c23cbabaa17786e94cecb24d62d
 
-PODFILE CHECKSUM: 4b7970084648b9d41a3c7f33cc83ce017abd890f
+PODFILE CHECKSUM: e8b6ad50449865417277f4e9911b1966fa03bcf3
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

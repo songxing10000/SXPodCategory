@@ -19,12 +19,12 @@ TODO: Add long description of the pod here.
 # 最低版本
   s.ios.deployment_target = '8.0'
 # 库文件
-    s.source_files = 'SXPodCategory/Classes/**/*'
+    s.source_files = 'SXPodCategory/Classes/SXPodCategory.h'
 
-    s.subspec 'SXPodCategoryNS' do |ss|
+    s.subspec 'NS' do |ss|
     ss.source_files = 'SXPodCategory/Classes/NS/*'
     end
-    s.subspec 'SXPodCategoryUI' do |ss|
+    s.subspec 'UI' do |ss|
     ss.source_files = 'SXPodCategory/Classes/UI/*'
     ss.dependency 'SXPodCategory/SXPodCategoryNS'
     end

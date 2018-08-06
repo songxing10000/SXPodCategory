@@ -1,6 +1,6 @@
 {
   "name": "SXPodCategory",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": "积累自己项目里常用的一些分类，简化一些系统的方法调用",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/songxing10000/SXPodCategory.git",
@@ -13,19 +13,19 @@
   },
   "source": {
     "git": "https://github.com/songxing10000/SXPodCategory.git",
-    "tag": "1.0.1"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SXPodCategory/Classes/**/*",
+  "source_files": "SXPodCategory/Classes/SXPodCategory.h",
   "subspecs": [
     {
-      "name": "SXPodCategoryNS",
+      "name": "NS",
       "source_files": "SXPodCategory/Classes/NS/*"
     },
     {
-      "name": "SXPodCategoryUI",
+      "name": "UI",
       "source_files": "SXPodCategory/Classes/UI/*",
       "dependencies": {
         "SXPodCategory/SXPodCategoryNS": [
