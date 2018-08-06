@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
     end
     s.subspec 'UI' do |ss|
     ss.source_files = 'SXPodCategory/Classes/UI/*'
-    ss.dependency 'SXPodCategory/SXPodCategoryNS'
+    ss.dependency 'SXPodCategory/NS'
     end
 #资源目录
   # s.resource_bundles = {

@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "ConvertToNSString.h"
 #import "NSArray+SXPodCategory_SX_Safe.h"
 #import "NSDate+SXPodCategory_Add.h"
 #import "NSDictionary+SXPodCategory_Crash.h"

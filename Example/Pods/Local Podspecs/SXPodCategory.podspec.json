@@ -28,7 +28,7 @@
       "name": "UI",
       "source_files": "SXPodCategory/Classes/UI/*",
       "dependencies": {
-        "SXPodCategory/SXPodCategoryNS": [
+        "NS": [
 
         ]
       }
