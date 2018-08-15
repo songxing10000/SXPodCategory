@@ -94,9 +94,11 @@
 - (void)addTarget:(id)target action:(SEL)action {
     [self addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
 }
-- (void)setBackgroundImage:(nullable UIColor *)bgColor forState:(UIControlState)state {
-    UIImage *bgImg = [self imageWithColor:bgColor withFrame:CGRectMake(0, 0, 1, 1)];
-    [self setBackgroundImage:bgImg forState:UIControlStateHighlighted];
+- (void)setBackgroundColor:(nullable UIColor *)bgColor forState:(UIControlState)state {
+    if (bgColor && [bgColor isKindOfClass:[UIColor class]]) {
+        UIImage *bgImg = [self imageWithColor:bgColor withFrame:CGRectMake(0, 0, 1, 1)];
+        [self setBackgroundImage:bgImg forState:UIControlStateHighlighted];
+    }
 }
 -(UIImage *)imageWithColor:(UIColor *)aColor withFrame:(CGRect)aFrame{
     UIGraphicsBeginImageContext(aFrame.size);

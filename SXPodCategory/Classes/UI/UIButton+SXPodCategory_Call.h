@@ -28,6 +28,6 @@
 
 ///     [self addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
 - (void)addTarget:(nullable id)target action:(nullable SEL)action;
-- (void)setBackgroundImage:(nullable UIColor *)bgColor forState:(UIControlState)state;
+- (void)setBackgroundColor:(nullable UIColor *)bgColor forState:(UIControlState)state;
 
 @end
