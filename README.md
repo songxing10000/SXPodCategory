@@ -70,6 +70,8 @@ pod repo push 你的私有库名字 SXLoginModule.podspec
 最后，更详细请参数
 
 [使用Cocoapods制作自己的pod](http://www.bijishequ.com/detail/228610?p=)
+
+
 删除一个版本：
 ```sh
 pod trunk delete SXPodCategory 1.0.4
