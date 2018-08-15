@@ -308,15 +308,16 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
     
     
     // 风格一致
-    UIColor *color = [UIColor redColor];
-    
-    CGRect frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 64);
-    UIImage *image = [self imageWithColor:color withFrame:frame];
-    [imagePickerController.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
-    imagePickerController.navigationBar.tintColor = color;
-    
-    imagePickerController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor],
-                                                                NSFontAttributeName:[UIFont systemFontOfSize:17]};
+//    UIColor *color = [UIColor redColor];
+//
+//    CGRect frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 64);
+//    UIImage *image = [self imageWithColor:color withFrame:frame];
+//    [imagePickerController.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
+//    imagePickerController.navigationBar.tintColor = color;
+        imagePickerController.navigationBar.tintColor = [UIColor blackColor];
+
+//    imagePickerController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor],
+//                                                                NSFontAttributeName:[UIFont systemFontOfSize:17]};
     
     
     [viewController presentViewController:imagePickerController animated:YES completion:NULL];
