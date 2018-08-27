@@ -212,12 +212,14 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
         result = result.presentedViewController;
     }
     if ([result isKindOfClass:[UITabBarController class]] ||
-        [result isKindOfClass:NSClassFromString(@"CKKTabBarController")]) {
+        [result isKindOfClass:NSClassFromString(@"CKKTabBarController")] ||
+        [result isKindOfClass:NSClassFromString(@"KYTabBarController")]) {
         
         result = [(UITabBarController *)result selectedViewController];
     }
     if ([result isKindOfClass:[UINavigationController class]] ||
-        [result isKindOfClass:NSClassFromString(@"CKKNavigationController")]) {
+        [result isKindOfClass:NSClassFromString(@"CKKNavigationController")] ||
+        [result isKindOfClass:NSClassFromString(@"KYNavigationController")]) {
         
         result = [(UINavigationController *)result topViewController];
     }
@@ -303,7 +305,8 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
     imagePickerController.sourceType = sourceType;
     imagePickerController.allowsEditing = NO;
     if (sourceType == UIImagePickerControllerSourceTypeCamera) {
-        imagePickerController.mediaTypes =  [UIImagePickerController availableMediaTypesForSourceType:UIImagePickerControllerSourceTypeCamera];
+        /// 在拍照界面，不允许出现照片选项，否则外界调用会有问题
+//        imagePickerController.mediaTypes =  [UIImagePickerController availableMediaTypesForSourceType:UIImagePickerControllerSourceTypeCamera];
     }
     
     
