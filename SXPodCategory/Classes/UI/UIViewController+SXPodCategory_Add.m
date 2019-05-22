@@ -52,7 +52,7 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
     NSString *classString = classStrings.lastObject;
     
     UIStoryboard *sb = [UIStoryboard storyboardWithName:classString bundle:nil];
-
+    
     if (!sb || ![sb instantiateInitialViewController]) {
         
         UIViewController *vc = [[UIViewController alloc] init];
@@ -105,16 +105,24 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
         [self.navigationController popViewControllerAnimated:YES];
     }
 }
-- (void)popToVCByVCName:(NSString *)vcName {
+- (void)popToVCByVCName:(NSString *)vcName animated:(BOOL)animated {
+    UINavigationController *nav = self.navigationController;
+    if (nav == nil) {
+        return;
+    }
+    NSArray<UIViewController *> *vcs = nav.viewControllers;
+    NSArray<UIViewController *> *destVCs =
+    [vcs filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(id  _Nullable evaluatedObject, NSDictionary<NSString *,id> * _Nullable bindings) {
+        return [evaluatedObject isKindOfClass: NSClassFromString(vcName)];
+    }]];
+    if (destVCs.count <= 0) {
+        return;
+    }
+    [nav popToViewController:destVCs[0] animated:animated];
     
-    [self.navigationController.childViewControllers enumerateObjectsUsingBlock:^(__kindof UIViewController * _Nonnull vc, NSUInteger idx, BOOL * _Nonnull stop) {
-        
-        if ([vc isKindOfClass:NSClassFromString(vcName)]) {
-            [self.navigationController popToViewController:vc animated:YES];
-            *stop = YES;
-        }
-        
-    }];
+}
+- (void)popToVCByVCName:(NSString *)vcName {
+    [self popToVCByVCName: vcName animated: YES];
 }
 #pragma mark 发送通知
 - (void)postNotificationName:(NSString *)aName {
@@ -226,7 +234,7 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
     return result;
 }
 - (void)showTipsAlertWithMsg:(NSString *)msg {
-
+    
     [self showTipsAlertWithMsg:msg handler:NULL];
 }
 
@@ -306,21 +314,21 @@ void SXPodCategory_Swizzle(Class c, SEL origSEL, SEL newSEL)
     imagePickerController.allowsEditing = NO;
     if (sourceType == UIImagePickerControllerSourceTypeCamera) {
         /// 在拍照界面，不允许出现照片选项，否则外界调用会有问题
-//        imagePickerController.mediaTypes =  [UIImagePickerController availableMediaTypesForSourceType:UIImagePickerControllerSourceTypeCamera];
+        //        imagePickerController.mediaTypes =  [UIImagePickerController availableMediaTypesForSourceType:UIImagePickerControllerSourceTypeCamera];
     }
     
     
     // 风格一致
-//    UIColor *color = [UIColor redColor];
-//
-//    CGRect frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 64);
-//    UIImage *image = [self imageWithColor:color withFrame:frame];
-//    [imagePickerController.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
-//    imagePickerController.navigationBar.tintColor = color;
-        imagePickerController.navigationBar.tintColor = [UIColor blackColor];
-
-//    imagePickerController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor],
-//                                                                NSFontAttributeName:[UIFont systemFontOfSize:17]};
+    //    UIColor *color = [UIColor redColor];
+    //
+    //    CGRect frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 64);
+    //    UIImage *image = [self imageWithColor:color withFrame:frame];
+    //    [imagePickerController.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
+    //    imagePickerController.navigationBar.tintColor = color;
+    imagePickerController.navigationBar.tintColor = [UIColor blackColor];
+    
+    //    imagePickerController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor],
+    //                                                                NSFontAttributeName:[UIFont systemFontOfSize:17]};
     
     
     [viewController presentViewController:imagePickerController animated:YES completion:NULL];

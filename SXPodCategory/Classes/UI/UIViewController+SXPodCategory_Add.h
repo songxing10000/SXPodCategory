@@ -37,6 +37,9 @@ typedef void(^SXPodCategory_DidFinishTakeMediaCompledBlock)(UIImage *image, NSDi
 
 /// 跳转到指定vc
 - (void)popToVCByVCName:(NSString *)vcName;
+
+- (void)popToVCByVCName:(NSString *)vcName animated:(BOOL)animated;
+
 #pragma mark - 简化通知中心调用
 /// 简化 [[NSNotificationCenter defaultCenter] postNotificationName:aName object:nil];
 - (void)postNotificationName:(NSString *)aName;
