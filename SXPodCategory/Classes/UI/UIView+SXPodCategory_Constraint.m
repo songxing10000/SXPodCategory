@@ -37,14 +37,38 @@
 
 -(NSLayoutConstraint *)constraintForAttribute:(NSLayoutAttribute)attribute {
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"firstAttribute = %d && (firstItem = %@ || secondItem = %@)", attribute, self, self];
-    NSArray *constraintArray = [self.superview constraints];
-    
+    NSArray<NSLayoutConstraint *> *constraintArray = [self.superview constraints];
+
     if (attribute == NSLayoutAttributeWidth || attribute == NSLayoutAttributeHeight) {
         constraintArray = [self constraints];
     }
     
     NSArray *fillteredArray = [constraintArray filteredArrayUsingPredicate:predicate];
     if(fillteredArray.count == 0) {
+        if (attribute == NSLayoutAttributeLeft) {
+            for (NSLayoutConstraint *constraint in constraintArray) {
+                if ([constraint.firstItem isEqual: self] ||
+                    [constraint.secondItem isEqual: self]) {
+                    if (constraint.firstAttribute == NSLayoutAttributeLeading ||
+                        constraint.secondAttribute == NSLayoutAttributeLeading) {
+                        // ib中的约束 是leading
+                        return  constraint;
+                    }
+                }
+            }
+        }
+        else if (attribute == NSLayoutAttributeRight) {
+            for (NSLayoutConstraint *constraint in constraintArray) {
+                if ([constraint.firstItem isEqual: self] ||
+                    [constraint.secondItem isEqual: self]) {
+                    if (constraint.firstAttribute == NSLayoutAttributeTrailing ||
+                        constraint.secondAttribute == NSLayoutAttributeTrailing) {
+                        // ib中的约束 是trailing
+                        return  constraint;
+                    }
+                }
+            }
+        }
         return nil;
     } else {
         return fillteredArray.firstObject;
