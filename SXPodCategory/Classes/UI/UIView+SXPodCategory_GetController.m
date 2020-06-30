@@ -8,9 +8,6 @@
 
 #import "UIView+SXPodCategory_GetController.h"
 @implementation UIView (SXPodCategory_GetController)
--(UIViewController *)viewController {
-    return [self getViewController];
-}
 - (UIViewController *)getViewController {
     
     if ([self.nextResponder isKindOfClass:[UIViewController class]]) {
