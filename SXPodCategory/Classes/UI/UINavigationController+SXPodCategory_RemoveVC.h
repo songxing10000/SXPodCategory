@@ -23,4 +23,10 @@
  */
 - (void)backToController:(NSString *)ctrlClassName animated:(BOOL)animate;
 
+/**
+ 寻找栈内指定类型控制器
+ @param cls 指定类型
+ @return 栈内指定类型控制器<nullable>
+ */
+- (__kindof UIViewController * _Nullable)findViewControllerOfClass:(Class)cls;
 @end

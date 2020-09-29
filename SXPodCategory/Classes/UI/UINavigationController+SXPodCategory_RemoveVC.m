@@ -30,5 +30,16 @@
         [self popToViewController:result.firstObject animated:YES];
     }
 }
-
+#pragma mark - 寻找栈内指定类型控制器
+- (UIViewController *)findViewControllerOfClass:(Class)cls {
+    if (!cls) return nil;
+    __block UIViewController *viewController;
+    [self.viewControllers enumerateObjectsUsingBlock:^(__kindof UIViewController * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if ([obj isKindOfClass:cls]) {
+            viewController = obj;
+            *stop = YES;
+        }
+    }];
+    return viewController;
+}
 @end

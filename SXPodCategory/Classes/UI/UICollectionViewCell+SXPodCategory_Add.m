@@ -23,4 +23,14 @@
     }
     return [[UICollectionViewCell alloc] init];
 }
+
+#pragma mark - 寻找自身所在的CollectionView
+- (UICollectionView *)collectionView {
+    UIResponder *responder = self.nextResponder;
+    while (responder && ![responder isKindOfClass:[UICollectionView class]]) {
+        responder = [responder nextResponder];
+    }
+    return responder ? (UICollectionView *)responder : nil;
+}
+
 @end

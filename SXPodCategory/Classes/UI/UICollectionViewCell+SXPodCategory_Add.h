@@ -11,4 +11,8 @@
 @interface UICollectionViewCell (SXPodCategory_Add)
 
 + (instancetype)cellFromCollectionView:(UICollectionView *)collectionView forIndexPath:(NSIndexPath *)indexPath;
+/**
+ 寻找自身所在的CollectionView
+ */
+@property (nonatomic, readonly, nullable) UICollectionView *collectionView;
 @end
