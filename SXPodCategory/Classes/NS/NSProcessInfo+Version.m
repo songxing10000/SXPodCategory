@@ -10,14 +10,6 @@
 
 @implementation NSProcessInfo (Version)
 
-+ (BOOL)runningAtLeastiOS8 {
-    
-    return [self runningAtLeastiOSSystemMajorVersion:8 minorVersion:0 patchVersion:0];
-}
-+ (BOOL)runningAtLeastiOS9 {
-    
-    return [self runningAtLeastiOSSystemMajorVersion:9 minorVersion:0 patchVersion:0];
-}
 + (BOOL)runningAtLeastiOS10 {
     
     return [self runningAtLeastiOSSystemMajorVersion:10 minorVersion:0 patchVersion:0];

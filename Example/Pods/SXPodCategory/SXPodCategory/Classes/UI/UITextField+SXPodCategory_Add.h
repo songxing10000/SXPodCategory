@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UITextField (SXPodCategory_Add)
-
+/// 占位字颜色
 @property(nonatomic) UIColor *placeholderColor;
 @end

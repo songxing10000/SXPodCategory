@@ -10,8 +10,6 @@
 
 @interface NSProcessInfo (Version)
 
-+ (BOOL)runningAtLeastiOS8;
-+ (BOOL)runningAtLeastiOS9;
 + (BOOL)runningAtLeastiOS10;
 + (BOOL)runningAtLeastiOS11;
 + (BOOL)runningAtLeastiOSSystemMajorVersion:(NSInteger)majorVersion

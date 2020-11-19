@@ -63,7 +63,7 @@ pod spec lint ??.podspec --sources='git@????.git,https://github.com/CocoaPods/Sp
 五、发布到`CocoaPods`
 
 ```ruby
-pod trunk push SXPodCategory.podspec
+pod trunk push SXPodCategory.podspec  --allow-warnings
 pod repo push 你的私有库名字 SXLoginModule.podspec
 ```
 
@@ -71,6 +71,11 @@ pod repo push 你的私有库名字 SXLoginModule.podspec
 
 [使用Cocoapods制作自己的pod](http://www.bijishequ.com/detail/228610?p=)
 
+
+删除一个版本：
+```sh
+pod trunk delete SXPodCategory 1.0.4
+```
 在加载资源文件时：
 ```objc
 // xib

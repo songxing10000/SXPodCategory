@@ -9,6 +9,10 @@
 #import "UIButton+SXPodCategory_Call.h"
 
 @implementation UIButton(SXPodCategory_Call)
+/// [self buttonWithType:UIButtonTypeCustom]
++(instancetype)btn {
+    return [self buttonWithType:UIButtonTypeCustom];
+}
 - (void)setNormalTitle:(NSString *)normalTitle {
     [self setTitle:normalTitle forState:UIControlStateNormal];
 }

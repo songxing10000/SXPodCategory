@@ -26,7 +26,9 @@ typedef void(^SXPodCategory_DidFinishTakeMediaCompledBlock)(UIImage *image, NSDi
  */
 - (void)hideBackItem;
 #pragma mark - 简化调用
+/// sb中的默认vc
 + (instancetype)vcFromStoryboard;
+/// 加载 name sb中的以自己类名为id的vc
 + (instancetype)vcFromStoryboardWithName:(NSString *)name;
 
 /// 简化 self.navigationController pushViewController:vc animated:YES];
@@ -37,6 +39,9 @@ typedef void(^SXPodCategory_DidFinishTakeMediaCompledBlock)(UIImage *image, NSDi
 
 /// 跳转到指定vc
 - (void)popToVCByVCName:(NSString *)vcName;
+
+- (void)popToVCByVCName:(NSString *)vcName animated:(BOOL)animated;
+
 #pragma mark - 简化通知中心调用
 /// 简化 [[NSNotificationCenter defaultCenter] postNotificationName:aName object:nil];
 - (void)postNotificationName:(NSString *)aName;

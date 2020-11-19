@@ -28,11 +28,6 @@ void dynamicSetterIMP(id self, SEL _cmd, id value) {
         }
     }
 }
-+ (BOOL)resolveClassMethod:(SEL)sel
-{
-    
-    return NO;
-}
 + (BOOL)resolveInstanceMethod:(SEL)aSEL
 {
     

@@ -10,8 +10,9 @@
 
 @interface UIView (SXPodCategory_GetController)
 
-/// 拿到当前view所在的控制器
-@property (nonatomic, readonly) UIViewController *viewController;
-/// 拿到当前view所在的控制器
-@property (nonatomic, readonly) UIViewController *getViewController;
+/**寻找自身所在的控制器*/
+- (UIViewController *_Nullable)viewController;
+
+/**寻找响应链上的指定类实例*/
+- (id _Nullable)nextResponderForClass:(Class _Nullable )cls;
 @end

@@ -34,6 +34,18 @@
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
+#pragma mark - 寻找自身所在的TableView
+- (UITableView *)tableView {
+    UIResponder *responder = self.nextResponder;
+    while (responder && ![responder isKindOfClass:[UITableView class]]) {
+        responder = [responder nextResponder];
+    }
+    return (responder && [responder isKindOfClass:UITableView.class]) ? (UITableView *)responder : nil;
+}
+
+- (NSIndexPath *)index_path {
+    return [self.tableView indexPathForCell:self];
+}
 
 @end
 

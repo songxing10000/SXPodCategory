@@ -40,5 +40,12 @@
  当前view的，下方约束
  */
 @property (nonatomic, weak, readonly) NSLayoutConstraint *bottomConstraint;
-
+/**
+ 当前view的，centerX约束
+ */
+@property (nonatomic, weak, readonly) NSLayoutConstraint *centerXConstraint;
+/**
+ 当前view的，centerY约束
+ */
+@property (nonatomic, weak, readonly) NSLayoutConstraint *centerYConstraint;
 @end

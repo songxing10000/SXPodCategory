@@ -25,4 +25,24 @@
     return sig;
 }
 
+
+- (float)floatValue{ return 0.0; }
+
+- (int)intValue{ return 0; }
+
+- (NSInteger)integerValue { return 0;}
+
+- (NSUInteger)length { return 0; }
+
+- (NSString *)description { return @"0"; }
+
+- (NSArray *)componentsSeparatedByString:(NSString *)separator { return @[]; }
+
+- (id)objectForKey:(id)key { return nil; }
+
+- (BOOL)boolValue { return NO; }
+
+- (NSRange)rangeOfCharacterFromSet:(NSCharacterSet *)aSet{
+    return NSMakeRange(NSNotFound, 0);
+}
 @end

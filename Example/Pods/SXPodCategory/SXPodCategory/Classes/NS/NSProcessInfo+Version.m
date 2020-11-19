@@ -1,9 +1,9 @@
 //
 //  NSProcessInfo+Version.m
-//  CKK_SJ
+//  dfpo
 //
 //  Created by mac on 2017/7/14.
-//  Copyright © 2017年 一号车. All rights reserved.
+//  Copyright © 2017年 dfpo. All rights reserved.
 //
 
 #import "NSProcessInfo+Version.h"

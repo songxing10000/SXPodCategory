@@ -44,4 +44,5 @@
 /// 设置不同状态下的背景色，内容其实是通过设置不同状态的纯色背景图片实现此功能
 - (void)setBackgroundColor:(nullable UIColor *)bgColor forState:(UIControlState)state;
 
++(instancetype)btn;
 @end

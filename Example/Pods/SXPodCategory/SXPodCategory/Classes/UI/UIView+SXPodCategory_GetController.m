@@ -8,58 +8,20 @@
 
 #import "UIView+SXPodCategory_GetController.h"
 @implementation UIView (SXPodCategory_GetController)
--(UIViewController *)viewController {
-    return [self getViewController];
+#pragma mark - 寻找自身所在的控制器
+- (UIViewController *)viewController {
+    return [self nextResponderForClass:NSClassFromString(@"UIViewController")];
 }
-- (UIViewController *)getViewController {
-    
-    if ([self.nextResponder isKindOfClass:[UIViewController class]]) {
-        return (UIViewController *)self.nextResponder;
-    }
-    if (self.superview == nil) {
-        return [self topViewController];
-    }
-    return self.superview.getViewController;
+
+#pragma mark - 寻找响应链上的指定类实例
+- (id)nextResponderForClass:(Class)cls {
+    if ([self isKindOfClass:cls]) return self;
+    UIResponder *responder = self.nextResponder;
+    do {
+        if ([responder isKindOfClass:cls]) break;
+        responder = responder.nextResponder;
+    } while (responder);
+    return responder;
 }
-//获取当前屏幕显示的viewcontroller
-- (UIViewController*)topViewController {
-    return [self topViewControllerWithRootViewController:[self windowRootViewController]];
-}
-- (UIViewController *)windowRootViewController{
-    UIViewController *result = nil;
-    UIWindow * window = [[UIApplication sharedApplication] keyWindow];
-    if (window.windowLevel != UIWindowLevelNormal){
-        NSArray *windows = [[UIApplication sharedApplication] windows];
-        for(UIWindow * tmpWin in windows){
-            if (tmpWin.windowLevel == UIWindowLevelNormal){
-                window = tmpWin;
-                break;
-            }
-        }
-    }
-    
-    UIView *frontView = [[window subviews] objectAtIndex:0];
-    id nextResponder = [frontView nextResponder];
-    
-    if ([nextResponder isKindOfClass:[UIViewController class]])
-        result = nextResponder;
-    else
-        result = window.rootViewController;
-    
-    return result;
-}
-- (UIViewController*)topViewControllerWithRootViewController:(UIViewController*)rootViewController {
-    if ([rootViewController isKindOfClass:[UITabBarController class]]) {
-        UITabBarController* tabBarController = (UITabBarController*)rootViewController;
-        return [self topViewControllerWithRootViewController:tabBarController.selectedViewController];
-    } else if ([rootViewController isKindOfClass:[UINavigationController class]]) {
-        UINavigationController* navigationController = (UINavigationController*)rootViewController;
-        return [self topViewControllerWithRootViewController:navigationController.visibleViewController];
-    } else if (rootViewController.presentedViewController) {
-        UIViewController* presentedViewController = rootViewController.presentedViewController;
-        return [self topViewControllerWithRootViewController:presentedViewController];
-    } else {
-        return rootViewController;
-    }
-}
+
 @end

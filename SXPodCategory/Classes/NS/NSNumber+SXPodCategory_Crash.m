@@ -10,12 +10,6 @@
 #import <UIKit/UIKit.h>
 @implementation NSNumber (SXPodCategory_Crash)
 
-+ (BOOL)resolveClassMethod:(SEL)sel
-{
-    
-    return NO;
-}
-
 - (id)forwardingTargetForSelector:(SEL)aSelector {
     if ([NSString instancesRespondToSelector:aSelector]) {
         return [NSString stringWithFormat:@"%@", self];
