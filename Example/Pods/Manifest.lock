@@ -1,20 +1,31 @@
 PODS:
   - SXPodCategory (1.0.6):
+    - SXPodCategory/BaseModel (= 1.0.6)
+    - SXPodCategory/CustomView (= 1.0.6)
     - SXPodCategory/NS (= 1.0.6)
     - SXPodCategory/UI (= 1.0.6)
+  - SXPodCategory/BaseModel (1.0.6):
+    - YYModel (~> 1.0.4)
+  - SXPodCategory/CustomView (1.0.6)
   - SXPodCategory/NS (1.0.6)
   - SXPodCategory/UI (1.0.6):
     - SXPodCategory/NS
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - SXPodCategory (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - YYModel
 
 EXTERNAL SOURCES:
   SXPodCategory:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SXPodCategory: b6f4d197b81c982440727fadd90d9f4cafdf0435
+  SXPodCategory: c49b4112343179da1986c3c2f1c0b9518accac84
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
 PODFILE CHECKSUM: e8b6ad50449865417277f4e9911b1966fa03bcf3
 

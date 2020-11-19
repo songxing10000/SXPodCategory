@@ -11,6 +11,8 @@
 #endif
 
 #import "SXPodCategory.h"
+#import "SXBaseModel.h"
+#import "SXLabel.h"
 #import "NSArray+SXPodCategory_SX_Safe.h"
 #import "NSDate+SXPodCategory_Add.h"
 #import "NSDictionary+SXPodCategory_Crash.h"

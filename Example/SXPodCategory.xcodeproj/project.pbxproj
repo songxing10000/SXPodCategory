@@ -296,10 +296,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SXPodCategory_Example/Pods-SXPodCategory_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SXPodCategory/SXPodCategory.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SXPodCategory.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
