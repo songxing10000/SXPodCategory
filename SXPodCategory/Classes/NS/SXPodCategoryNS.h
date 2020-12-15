@@ -14,7 +14,5 @@
 #import <SXPodCategory/NSString+SXPodCategory_Add.h>
 #import <SXPodCategory/NSArray+SXPodCategory_SX_Safe.h>
 #import <SXPodCategory/NSFileManager+SXPodCategory_Add.h>
-#import <SXPodCategory/NSObject+EasyCall.h>
-#import "NSProcessInfo+Version.h"
 
 #endif /* SXPodCategoryNS_h */

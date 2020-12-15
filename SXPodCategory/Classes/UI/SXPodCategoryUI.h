@@ -21,6 +21,8 @@
 #import <SXPodCategory/UITextField+SXPodCategory_Limited.h>
 #import <SXPodCategory/UITextView+SXPodCategory_Limited.h>
 
+#import <SXPodCategory/UIFont+SXAdd.h>
+#import <SXPodCategory/UITableView+SXAdd.h>
 
 #import <SXPodCategory/UIView+SXPodCategory_Add.h>
 #import <SXPodCategory/UIView+SXPodCategory_Constraint.h>
