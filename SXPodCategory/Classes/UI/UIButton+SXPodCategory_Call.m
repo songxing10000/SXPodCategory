@@ -21,7 +21,6 @@
 }
 - (void)setSelectedTitle:(NSString *)selectedTitle {
     [self setTitle:selectedTitle forState:UIControlStateSelected];
-
 }
 - (NSString *)selectedTitle {
     return [self titleForState:UIControlStateSelected];
@@ -32,7 +31,6 @@
 }
 - (NSString *)disabledTitle {
     return [self titleForState:UIControlStateDisabled];
-
 }
 
 - (void)setNormalTitleColor:(UIColor *)normalTitleColor {
@@ -55,43 +53,56 @@
     return [self titleColorForState:UIControlStateDisabled];
 }
 
-- (void)setNormalImage:(UIImage *)normalImage {
+- (void)setNormalImg:(UIImage *)normalImage {
     [self setImage:normalImage forState:UIControlStateNormal];
 }
-- (UIImage *)normalImage {
+- (void)setNormalImgName:(NSString *)normalImgName {
+    [self setNormalImg:[UIImage imageNamed:normalImgName]];
+}
+- (NSString *)normalImgName {
+    return @"";
+}
+- (void)setSelectedImgName:(NSString *)selectedImgName {
+    [self setSelectedImg:[UIImage imageNamed:selectedImgName]];
+}
+- (NSString *)selectedImgName {
+    return @"";
+}
+- (UIImage *)normalImg {
     return [self imageForState:UIControlStateNormal];
 }
-- (void)setSelectedImage:(UIImage *)selectedImage {
+
+- (void)setSelectedImg:(UIImage *)selectedImage {
     [self setImage:selectedImage forState:UIControlStateSelected];
 
 }
-- (UIImage *)selectedImage {
+- (UIImage *)selectedImg {
     return [self imageForState:UIControlStateSelected];
 }
-- (void)setDisabledImage:(UIImage *)disabledImage {
+- (void)setDisabledImg:(UIImage *)disabledImage {
     [self setImage:disabledImage forState:UIControlStateDisabled];
 }
-- (UIImage *)disabledImage {
+- (UIImage *)disabledImg {
     return [self imageForState:UIControlStateDisabled];
 }
 
-- (void)setNormalBackgroundImage:(UIImage *)normalBackgroundImage {
+- (void)setNormalBackgroundImg:(UIImage *)normalBackgroundImage {
     [self setBackgroundImage:normalBackgroundImage forState:UIControlStateNormal];
 }
-- (UIImage *)normalBackgroundImage {
+- (UIImage *)normalBackgroundImg {
     return [self backgroundImageForState:UIControlStateNormal];
 }
 
-- (void)setSelectedBackgroundImage:(UIImage *)selectedBackgroundImage {
+- (void)setSelectedBackgroundImg:(UIImage *)selectedBackgroundImage {
     [self setBackgroundImage:selectedBackgroundImage forState:UIControlStateSelected];
 }
-- (UIImage *)selectedBackgroundImage {
+- (UIImage *)selectedBackgroundImg {
     return [self backgroundImageForState:UIControlStateSelected];
 }
-- (void)setDisabledBackgroundImage:(UIImage *)disabledBackgroundImage {
+- (void)setDisabledBackgroundImg:(UIImage *)disabledBackgroundImage {
     [self setBackgroundImage:disabledBackgroundImage forState:UIControlStateDisabled];
 }
-- (UIImage *)disabledBackgroundImage {
+- (UIImage *)disabledBackgroundImg {
     return [self backgroundImageForState:UIControlStateDisabled];
 }
 ///     [self addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];

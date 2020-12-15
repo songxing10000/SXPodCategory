@@ -25,18 +25,21 @@
 @property (nullable, nonatomic) UIColor *disabledTitleColor;
 
 /// 获取或设置 UIControlStateNormal 状态下的图片
-@property (nullable, nonatomic) UIImage *normalImage;
+@property (nullable, nonatomic) UIImage *normalImg;
+/// 直接传入图片名
+@property (nonatomic, copy) NSString *normalImgName;
+@property (nonatomic, copy) NSString *selectedImgName;
 /// 获取或设置 UIControlStateSelected 状态下的图片
-@property (nullable, nonatomic) UIImage *selectedImage;
+@property (nullable, nonatomic) UIImage *selectedImg;
 /// 获取或设置 UIControlStateDisabled 状态下的图片
-@property (nullable, nonatomic) UIImage *disabledImage;
+@property (nullable, nonatomic) UIImage *disabledImg;
 
 /// 获取或设置 UIControlStateNormal 状态下的背景图片
-@property (nullable, nonatomic) UIImage *normalBackgroundImage;
+@property (nullable, nonatomic) UIImage *normalBackgroundImg;
 /// 获取或设置 UIControlStateSelected 状态下的背景图片
-@property (nullable, nonatomic) UIImage *selectedBackgroundImage;
+@property (nullable, nonatomic) UIImage *selectedBackgroundImg;
 /// 获取或设置 UIControlStateDisabled 状态下的背景图片
-@property (nullable, nonatomic) UIImage *disabledBackgroundImage;
+@property (nullable, nonatomic) UIImage *disabledBackgroundImg;
 
 /// 更简洁地设置按钮事件，封装 [self addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
 - (void)addTarget:(nullable id)target action:(nullable SEL)action;
