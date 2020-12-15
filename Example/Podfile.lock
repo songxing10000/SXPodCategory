@@ -1,14 +1,14 @@
 PODS:
-  - SXPodCategory (1.0.6):
-    - SXPodCategory/BaseModel (= 1.0.6)
-    - SXPodCategory/CustomView (= 1.0.6)
-    - SXPodCategory/NS (= 1.0.6)
-    - SXPodCategory/UI (= 1.0.6)
-  - SXPodCategory/BaseModel (1.0.6):
+  - SXPodCategory (1.0.7):
+    - SXPodCategory/BaseModel (= 1.0.7)
+    - SXPodCategory/CustomView (= 1.0.7)
+    - SXPodCategory/NS (= 1.0.7)
+    - SXPodCategory/UI (= 1.0.7)
+  - SXPodCategory/BaseModel (1.0.7):
     - YYModel (~> 1.0.4)
-  - SXPodCategory/CustomView (1.0.6)
-  - SXPodCategory/NS (1.0.6)
-  - SXPodCategory/UI (1.0.6):
+  - SXPodCategory/CustomView (1.0.7)
+  - SXPodCategory/NS (1.0.7)
+  - SXPodCategory/UI (1.0.7):
     - SXPodCategory/NS
   - YYModel (1.0.4)
 
@@ -24,9 +24,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SXPodCategory: c49b4112343179da1986c3c2f1c0b9518accac84
+  SXPodCategory: e92b35bf0fdea37639d0812a8a1933853806999c
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: e8b6ad50449865417277f4e9911b1966fa03bcf3
+PODFILE CHECKSUM: 8fec330672839ae3c7f9474ffa038afe3c456176
 
 COCOAPODS: 1.10.0
