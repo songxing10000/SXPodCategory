@@ -29,7 +29,6 @@
 		329831B2F19271D8507969E22C4CED5D /* UITextView+SXPodCategory_Limited.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5C5F4B26E1F223FA60B7B96D8B25E9 /* UITextView+SXPodCategory_Limited.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		38D33704FE66A8D12BB620BE89DA688F /* UIView+SXPodCategory_GetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EBFB05688C44E646869C22F910A700 /* UIView+SXPodCategory_GetController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3A76C116C727E6227C25D0C05CE7B835 /* NSNumber+SXPodCategory_Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = B757A7770D34B86DF8310F7F020529D5 /* NSNumber+SXPodCategory_Crash.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3AA0B9FB2864AB4EBD3A425FE2983EDA /* NSFileManager+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = 621891EFF5B27F9EECF7E22FD271F7D7 /* NSFileManager+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F78B3BCBB14BD7BB105862E05BF5314 /* NSNull+SXPodCategory_OVNatural.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC294838AFF1DEF8174EB9355C9A45F /* NSNull+SXPodCategory_OVNatural.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4251B6BAC62D252708A378BC2719AEAE /* UITextField+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 8771EE01C1F32EF6828E1C4C31849032 /* UITextField+SXPodCategory_Add.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4C20C120527D963105FA01AE4BD80134 /* UIView+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0A3A8CD2EAC248F4AF4B97DA441229 /* UIView+SXPodCategory_Add.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -60,7 +59,6 @@
 		A59CBAB0FF008A12800B210C8B87335B /* UITextField+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EC8A27BAD8D3B9820C20E97CEC22B90 /* UITextField+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6B0F3DFA7A5BCC031D814B12EFBD350 /* UIFont+SXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C024F516FB2A0F1FA82E08333976BB66 /* UIFont+SXAdd.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B07FA85BEDC55121F9010A5D575A2A36 /* SXBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6F4CACB2ED0247CF59CB69BD10AEC7 /* SXBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5036C4D055D22FB449829ABB11216ED /* NSFileManager+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = A4768047F838C5CEEAD8517E2D7A5589 /* NSFileManager+SXPodCategory_Add.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B52F2A21AC05CF08A0CA2510C8EA0848 /* UITextField+SXPodCategory_Limited.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD70DBEB66A106B83A8C6C631864EF /* UITextField+SXPodCategory_Limited.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B5ABB10E27D98FDF8581E644E5D20E79 /* UITableView+SXAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B77014B2FE6FD83118395484443F40 /* UITableView+SXAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B962A4B6A727BF339CD021B8A7872679 /* NSDate+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6655FDDBC570D69620F995B3FE0997 /* NSDate+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -115,7 +113,7 @@
 		15006862BBF05963F55692B6B14755EA /* SXPodCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SXPodCategory.release.xcconfig; sourceTree = "<group>"; };
 		1653C603EAC1A1ADE807C79BA6A73DF9 /* SXPodCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SXPodCategory-umbrella.h"; sourceTree = "<group>"; };
 		18F361D55FE0EC6F37D64CCE70F610B1 /* Pods-SXPodCategory_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SXPodCategory_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1BAAD7859AD4572537AEA513587B8921 /* SXPodCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SXPodCategory.framework; path = SXPodCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAAD7859AD4572537AEA513587B8921 /* SXPodCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SXPodCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E19EEE2B95F52035DA08F0A7E564714 /* YYModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.debug.xcconfig; sourceTree = "<group>"; };
 		1F6F4CACB2ED0247CF59CB69BD10AEC7 /* SXBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SXBaseModel.h; path = SXPodCategory/Classes/BaseModel/SXBaseModel.h; sourceTree = "<group>"; };
 		20D2E1FF55188A6C85746DD488454475 /* UIView+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SXPodCategory_Add.h"; path = "SXPodCategory/Classes/UI/UIView+SXPodCategory_Add.h"; sourceTree = "<group>"; };
@@ -126,20 +124,19 @@
 		3512D99E34716951D3FC69EC24B3F62F /* UITextView+SXPodCategory_Limited.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+SXPodCategory_Limited.h"; path = "SXPodCategory/Classes/UI/UITextView+SXPodCategory_Limited.h"; sourceTree = "<group>"; };
 		35F358C2284D6045F009E6FDA47BFAF3 /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
 		3E06D504BF54A416959CA87FA618CBBA /* UITableViewCell+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+SXPodCategory_Add.m"; path = "SXPodCategory/Classes/UI/UITableViewCell+SXPodCategory_Add.m"; sourceTree = "<group>"; };
-		40300181B33CDD866926C7A9EE642445 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		40300181B33CDD866926C7A9EE642445 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4231E12241C401B881862A2E3BA59966 /* Pods-SXPodCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SXPodCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
 		46388A83F2FACAE082284E91E68540A0 /* UITabBar+SXPodCategory_BadgeSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+SXPodCategory_BadgeSize.h"; path = "SXPodCategory/Classes/UI/UITabBar+SXPodCategory_BadgeSize.h"; sourceTree = "<group>"; };
 		491282B86090A7B3CCCD6025CC5A59AC /* NSArray+SXPodCategory_SX_Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SXPodCategory_SX_Safe.m"; path = "SXPodCategory/Classes/NS/NSArray+SXPodCategory_SX_Safe.m"; sourceTree = "<group>"; };
 		49B9612B665BE41D9C585C2440D8132C /* SXPodCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SXPodCategory-Info.plist"; sourceTree = "<group>"; };
 		4CC294838AFF1DEF8174EB9355C9A45F /* NSNull+SXPodCategory_OVNatural.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNull+SXPodCategory_OVNatural.m"; path = "SXPodCategory/Classes/NS/NSNull+SXPodCategory_OVNatural.m"; sourceTree = "<group>"; };
-		4D3FD8095AA3A77F7135372915695832 /* SXPodCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SXPodCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4D3FD8095AA3A77F7135372915695832 /* SXPodCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SXPodCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		570030596802C3CC033F76D78413E44D /* NSNumber+SXPodCategory_Crash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+SXPodCategory_Crash.h"; path = "SXPodCategory/Classes/NS/NSNumber+SXPodCategory_Crash.h"; sourceTree = "<group>"; };
 		58F5A54B255DC675C02F5B4B6360B1FC /* NSDate+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+SXPodCategory_Add.m"; path = "SXPodCategory/Classes/NS/NSDate+SXPodCategory_Add.m"; sourceTree = "<group>"; };
 		5DAD4EC20A65E1A985E0F9BEAD9351C1 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
 		5EC8A27BAD8D3B9820C20E97CEC22B90 /* UITextField+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+SXPodCategory_Add.h"; path = "SXPodCategory/Classes/UI/UITextField+SXPodCategory_Add.h"; sourceTree = "<group>"; };
 		606615C1EBCCDFF12A7D6D3D288FBE7F /* SXPodCategoryNS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SXPodCategoryNS.h; path = SXPodCategory/Classes/NS/SXPodCategoryNS.h; sourceTree = "<group>"; };
 		60B77014B2FE6FD83118395484443F40 /* UITableView+SXAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SXAdd.h"; path = "SXPodCategory/Classes/UI/UITableView+SXAdd.h"; sourceTree = "<group>"; };
-		621891EFF5B27F9EECF7E22FD271F7D7 /* NSFileManager+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+SXPodCategory_Add.h"; path = "SXPodCategory/Classes/NS/NSFileManager+SXPodCategory_Add.h"; sourceTree = "<group>"; };
 		6AFD70DBEB66A106B83A8C6C631864EF /* UITextField+SXPodCategory_Limited.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+SXPodCategory_Limited.m"; path = "SXPodCategory/Classes/UI/UITextField+SXPodCategory_Limited.m"; sourceTree = "<group>"; };
 		6B4980500A7814E01E186A9516070B20 /* YYModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-umbrella.h"; sourceTree = "<group>"; };
 		750F8AFD1C87E1BB99C09676114FA512 /* UIViewController+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SXPodCategory_Add.h"; path = "SXPodCategory/Classes/UI/UIViewController+SXPodCategory_Add.h"; sourceTree = "<group>"; };
@@ -153,12 +150,11 @@
 		81DA769A916AFD6878DA0EC3948024E5 /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYModel.modulemap; sourceTree = "<group>"; };
 		82BAE36938CDF1A31849FD11EF8B65B9 /* YYModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYModel-Info.plist"; sourceTree = "<group>"; };
 		8771EE01C1F32EF6828E1C4C31849032 /* UITextField+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+SXPodCategory_Add.m"; path = "SXPodCategory/Classes/UI/UITextField+SXPodCategory_Add.m"; sourceTree = "<group>"; };
-		8AF57504D8EF8056EB4EEA2FAC277895 /* Pods_SXPodCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SXPodCategory_Example.framework; path = "Pods-SXPodCategory_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF57504D8EF8056EB4EEA2FAC277895 /* Pods_SXPodCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SXPodCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E3459B9160593C7990E68F4B307DC1 /* Pods-SXPodCategory_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SXPodCategory_Example.modulemap"; sourceTree = "<group>"; };
 		96145BA09FDDB99BA8951624B44486A7 /* UIFont+SXAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+SXAdd.h"; path = "SXPodCategory/Classes/UI/UIFont+SXAdd.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F80FC15A09BD22D909DACC0705020A5 /* UIView+SXPodCategory_GetController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SXPodCategory_GetController.h"; path = "SXPodCategory/Classes/UI/UIView+SXPodCategory_GetController.h"; sourceTree = "<group>"; };
-		A4768047F838C5CEEAD8517E2D7A5589 /* NSFileManager+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+SXPodCategory_Add.m"; path = "SXPodCategory/Classes/NS/NSFileManager+SXPodCategory_Add.m"; sourceTree = "<group>"; };
 		A99FA5E3506A865B2EF953482073BDBE /* SXPodCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SXPodCategory.modulemap; sourceTree = "<group>"; };
 		A9FE0506CF38BC8F0E78965206584F8C /* NSString+SXPodCategory_Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SXPodCategory_Add.h"; path = "SXPodCategory/Classes/NS/NSString+SXPodCategory_Add.h"; sourceTree = "<group>"; };
 		AA08A279C9FB0BF0BBFD95892635503B /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
@@ -181,12 +177,12 @@
 		D6218C16B9567F28A0DD4FD0B03BEAE7 /* SXPodCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SXPodCategory-prefix.pch"; sourceTree = "<group>"; };
 		D8DC01DA4257863555D0775452895684 /* UIButton+SXPodCategory_Call.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+SXPodCategory_Call.m"; path = "SXPodCategory/Classes/UI/UIButton+SXPodCategory_Call.m"; sourceTree = "<group>"; };
 		DA8A885D70DDC3393FEBCFE1D6A21D44 /* UITabBar+SXPodCategory_BadgeSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+SXPodCategory_BadgeSize.m"; path = "SXPodCategory/Classes/UI/UITabBar+SXPodCategory_BadgeSize.m"; sourceTree = "<group>"; };
-		DBA12D428D1CE088D74C7BAC3EE4C8ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DBA12D428D1CE088D74C7BAC3EE4C8ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DF501427D8C338FA0F389A6CDA8D7A0E /* NSNull+SXPodCategory_OVNatural.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNull+SXPodCategory_OVNatural.h"; path = "SXPodCategory/Classes/NS/NSNull+SXPodCategory_OVNatural.h"; sourceTree = "<group>"; };
 		E02C051D3D7997044E83FDE7905C177E /* UILabel+SXPodCategory_LineSpacing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+SXPodCategory_LineSpacing.m"; path = "SXPodCategory/Classes/UI/UILabel+SXPodCategory_LineSpacing.m"; sourceTree = "<group>"; };
 		E1ACC1464748FF0305319072677A0CAA /* Pods-SXPodCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SXPodCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E34A53CE5FC56BADD633AAC5EDB05C90 /* UIImage+SXPodCategory_Common.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SXPodCategory_Common.m"; path = "SXPodCategory/Classes/UI/UIImage+SXPodCategory_Common.m"; sourceTree = "<group>"; };
-		E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYModel.framework; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57FC2F01B4446A0857EFAE03BDA041F /* UIView+SXPodCategory_Constraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SXPodCategory_Constraint.m"; path = "SXPodCategory/Classes/UI/UIView+SXPodCategory_Constraint.m"; sourceTree = "<group>"; };
 		EE954616DF4F657EB461C88E3582FE99 /* Pods-SXPodCategory_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SXPodCategory_Example-Info.plist"; sourceTree = "<group>"; };
 		F14B70A111B165F6B462AA0D563E13C2 /* NSString+SXPodCategory_Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SXPodCategory_Add.m"; path = "SXPodCategory/Classes/NS/NSString+SXPodCategory_Add.m"; sourceTree = "<group>"; };
@@ -331,8 +327,6 @@
 				58F5A54B255DC675C02F5B4B6360B1FC /* NSDate+SXPodCategory_Add.m */,
 				7D70B0A74B75547FD5F7D289A43B2A31 /* NSDictionary+SXPodCategory_Crash.h */,
 				F8E21AC2D7F6F98DAE8221C94E8A96FC /* NSDictionary+SXPodCategory_Crash.m */,
-				621891EFF5B27F9EECF7E22FD271F7D7 /* NSFileManager+SXPodCategory_Add.h */,
-				A4768047F838C5CEEAD8517E2D7A5589 /* NSFileManager+SXPodCategory_Add.m */,
 				DF501427D8C338FA0F389A6CDA8D7A0E /* NSNull+SXPodCategory_OVNatural.h */,
 				4CC294838AFF1DEF8174EB9355C9A45F /* NSNull+SXPodCategory_OVNatural.m */,
 				570030596802C3CC033F76D78413E44D /* NSNumber+SXPodCategory_Crash.h */,
@@ -379,7 +373,6 @@
 				D5B0C0EE41A774C51534A28ACFDF123D /* YYModel.h */,
 				2CAA6E7887014836B138E4457616B235 /* Support Files */,
 			);
-			name = YYModel;
 			path = YYModel;
 			sourceTree = "<group>";
 		};
@@ -483,7 +476,6 @@
 				2713A6FCE718F08DA94E71638352BF9A /* NSArray+SXPodCategory_SX_Safe.h in Headers */,
 				B962A4B6A727BF339CD021B8A7872679 /* NSDate+SXPodCategory_Add.h in Headers */,
 				EBEDF132EEA43C7655506AC6505982CD /* NSDictionary+SXPodCategory_Crash.h in Headers */,
-				3AA0B9FB2864AB4EBD3A425FE2983EDA /* NSFileManager+SXPodCategory_Add.h in Headers */,
 				F715437F07FB2205A023BC294994D6BE /* NSNull+SXPodCategory_OVNatural.h in Headers */,
 				95208D4C2E04F4CF127459C989EF06DF /* NSNumber+SXPodCategory_Crash.h in Headers */,
 				F90BABF8491E19F5E92702235A7D3665 /* NSObject+SXPodCategory_BKAssociatedObjects.h in Headers */,
@@ -642,7 +634,6 @@
 				4E60FFD796B2C19DB3E82DCB6DAF6FF6 /* NSArray+SXPodCategory_SX_Safe.m in Sources */,
 				7F34FB7910C814FC7B44923378FB28CF /* NSDate+SXPodCategory_Add.m in Sources */,
 				7BD6005713C07C18D23B5B6FACF46495 /* NSDictionary+SXPodCategory_Crash.m in Sources */,
-				B5036C4D055D22FB449829ABB11216ED /* NSFileManager+SXPodCategory_Add.m in Sources */,
 				3F78B3BCBB14BD7BB105862E05BF5314 /* NSNull+SXPodCategory_OVNatural.m in Sources */,
 				3A76C116C727E6227C25D0C05CE7B835 /* NSNumber+SXPodCategory_Crash.m in Sources */,
 				0F3839E0B858156547EAF6CE1AFEEAC8 /* NSObject+SXPodCategory_BKAssociatedObjects.m in Sources */,
@@ -893,8 +884,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -34,7 +34,7 @@
 }
 - (void)updateAllProFrom:(id)other {
     unsigned int count = 0;
-    objc_property_t *properties = class_copyPropertyList([other class], &count);
+    objc_property_t *properties = class_copyPropertyList([self class], &count);
     for (int i = 0; i < count; i++) {
         const char *name = property_getName(properties[i]);
         NSString *propertyName = [NSString stringWithUTF8String:name];

@@ -16,7 +16,6 @@
 #import "NSArray+SXPodCategory_SX_Safe.h"
 #import "NSDate+SXPodCategory_Add.h"
 #import "NSDictionary+SXPodCategory_Crash.h"
-#import "NSFileManager+SXPodCategory_Add.h"
 #import "NSNull+SXPodCategory_OVNatural.h"
 #import "NSNumber+SXPodCategory_Crash.h"
 #import "NSObject+SXPodCategory_BKAssociatedObjects.h"

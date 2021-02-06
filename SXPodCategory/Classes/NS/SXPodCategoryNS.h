@@ -13,6 +13,5 @@
 #import <SXPodCategory/NSDate+SXPodCategory_Add.h>
 #import <SXPodCategory/NSString+SXPodCategory_Add.h>
 #import <SXPodCategory/NSArray+SXPodCategory_SX_Safe.h>
-#import <SXPodCategory/NSFileManager+SXPodCategory_Add.h>
 
 #endif /* SXPodCategoryNS_h */
