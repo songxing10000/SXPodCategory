@@ -110,3 +110,6 @@ end
 ```
 
 ![](./test2.png)
+
+`podfiel`上面要加上
+`install! 'cocoapods', :disable_input_output_paths => true`
