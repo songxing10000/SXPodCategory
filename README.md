@@ -101,3 +101,12 @@ s.subspec 'SXSubPod' do |ss|
        ss.public_header_files = 'SXPodCategory/SXSubPod/*.h'
 end
 ```
+---
+关于图片xib的新做法
+```ruby
+
+  s.resources  = 'SXLogin/media.xcassets','SXLogin/**/*.xib'
+
+```
+
+![](./test2.png)

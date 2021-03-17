@@ -14,14 +14,7 @@
     NSArray *classStrings = [classStringHasPrefix componentsSeparatedByString:@"."];
     NSString *classStr =  classStrings.lastObject;
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:classStr forIndexPath:indexPath];
-    if (cell) {
-        return cell;
-    }
-    cell = [[[NSBundle mainBundle] loadNibNamed:classStr owner:nil options:nil] lastObject];
-    if (cell) {
-        return cell;
-    }
-    return [[UICollectionViewCell alloc] init];
+    return cell;
 }
 
 #pragma mark - 寻找自身所在的CollectionView
