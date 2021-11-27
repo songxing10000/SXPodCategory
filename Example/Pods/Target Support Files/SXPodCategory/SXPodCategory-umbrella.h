@@ -12,6 +12,9 @@
 
 #import "SXPodCategory.h"
 #import "SXBaseModel.h"
+#import "AutoHeightCollectionView.h"
+#import "AutoHeightTableView.h"
+#import "HistorySearchFlowLayout.h"
 #import "SXLabel.h"
 #import "NSArray+SXPodCategory_SX_Safe.h"
 #import "NSDate+SXPodCategory_Add.h"

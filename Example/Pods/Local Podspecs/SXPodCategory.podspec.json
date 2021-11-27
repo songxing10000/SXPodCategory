@@ -34,17 +34,17 @@
       }
     },
     {
+      "name": "CustomView",
+      "source_files": "SXPodCategory/Classes/CustomView/*"
+    },
+    {
       "name": "BaseModel",
       "source_files": "SXPodCategory/Classes/BaseModel/*",
       "dependencies": {
         "YYModel": [
-          "~> 1.0.4"
+
         ]
       }
-    },
-    {
-      "name": "CustomView",
-      "source_files": "SXPodCategory/Classes/CustomView/*"
     }
   ]
 }

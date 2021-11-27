@@ -1,0 +1,1 @@
+../../../../../SXPodCategory/Classes/NS/SXPodCategoryNS.h

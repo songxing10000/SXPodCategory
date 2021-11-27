@@ -35,6 +35,11 @@ TODO: Add long description of the pod here.
     s.subspec 'CustomView' do |ss|
     ss.source_files = 'SXPodCategory/Classes/CustomView/*'
     end
+    s.subspec 'BaseModel' do |ss|
+    ss.source_files = 'SXPodCategory/Classes/BaseModel/*'
+    ss.dependency 'YYModel'
+
+    end
 #资源目录
   # s.resource_bundles = {
   #   'SXPodCategory' => ['SXPodCategory/Assets/*.png']

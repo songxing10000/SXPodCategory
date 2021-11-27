@@ -19,14 +19,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
-    NSDictionary *dict = @{@"name":@"nameValue"};
-    
-    Person *person = dict;
-    
-    NSLog(@"----%@---", person.name);
-    person.name = @"111";
-    NSLog(@"----%@---", person.name);
 
 }
 

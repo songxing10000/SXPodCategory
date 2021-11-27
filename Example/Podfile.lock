@@ -5,7 +5,7 @@ PODS:
     - SXPodCategory/NS (= 1.0.7)
     - SXPodCategory/UI (= 1.0.7)
   - SXPodCategory/BaseModel (1.0.7):
-    - YYModel (~> 1.0.4)
+    - YYModel
   - SXPodCategory/CustomView (1.0.7)
   - SXPodCategory/NS (1.0.7)
   - SXPodCategory/UI (1.0.7):
@@ -24,9 +24,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SXPodCategory: e92b35bf0fdea37639d0812a8a1933853806999c
+  SXPodCategory: 3121c18b7ae45a4b076ccd51dbd4ef520d77c4cb
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 8fec330672839ae3c7f9474ffa038afe3c456176
+PODFILE CHECKSUM: c6404a57491906109f1c3811dd6d4ae60af48af7
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.11.2

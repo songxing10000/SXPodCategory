@@ -1,0 +1,1 @@
+../../../../../SXPodCategory/Classes/UI/UICollectionViewCell+SXPodCategory_Add.h
