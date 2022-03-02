@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SXPodCategory' #pod名称
-  s.version          = '1.0.7' #pod版本
+  s.version          = '1.0.8' #pod版本
   s.summary          = '积累自己项目里常用的一些分类，简化一些系统的方法调用'#简介，需要更改，不然会报警告
 
   s.description      = <<-DESC #详细介绍，要比简介长
@@ -40,6 +40,9 @@ TODO: Add long description of the pod here.
     ss.dependency 'YYModel'
 
     end
+    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
+    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 #资源目录
   # s.resource_bundles = {
   #   'SXPodCategory' => ['SXPodCategory/Assets/*.png']
