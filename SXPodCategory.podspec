@@ -19,26 +19,30 @@ TODO: Add long description of the pod here.
 # 最低版本
   s.ios.deployment_target = '8.0'
 # 库文件
-    s.source_files = 'SXPodCategory/Classes/SXPodCategory.h'
-
-    s.subspec 'NS' do |ss|
-    ss.source_files = 'SXPodCategory/Classes/NS/*'
-    end
-    s.subspec 'UI' do |ss|
-    ss.source_files = 'SXPodCategory/Classes/UI/*'
-    ss.dependency 'SXPodCategory/NS'
-    end
-    # s.subspec 'BaseModel' do |ss|
-    # ss.source_files = 'SXPodCategory/Classes/BaseModel/*'
-    # ss.dependency 'YYModel', '~> 1.0.4'
-    # end
-    s.subspec 'CustomView' do |ss|
-    ss.source_files = 'SXPodCategory/Classes/CustomView/*'
-    end
-    s.subspec 'BaseModel' do |ss|
-    ss.source_files = 'SXPodCategory/Classes/BaseModel/*'
-    ss.dependency 'YYModel'
-
+    # https://guides.cocoapods.org/syntax/podspec.html#subspec
+    s.subspec 'Source' do |sp|
+        sp.source_files = 'SXPodCategory/Classes/SXPodCategory.h'
+        
+        
+        sp.subspec 'NS' do |ssp|
+            ssp.source_files = 'SXPodCategory/Classes/NS/*'
+        end
+        sp.subspec 'UI' do |ssp|
+            ssp.source_files = 'SXPodCategory/Classes/UI/*'
+            ssp.dependency 'SXPodCategory/Source/NS'
+        end
+        # s.subspec 'BaseModel' do |ss|
+        # ss.source_files = 'SXPodCategory/Classes/BaseModel/*'
+        # ss.dependency 'YYModel', '~> 1.0.4'
+        # end
+        sp.subspec 'CustomView' do |ssp|
+            ssp.source_files = 'SXPodCategory/Classes/CustomView/*'
+        end
+        sp.subspec 'BaseModel' do |ssp|
+            ssp.source_files = 'SXPodCategory/Classes/BaseModel/*'
+            ssp.dependency 'YYModel'
+            
+        end
     end
     
 #    s.subspec 'Framework' do |ss|
@@ -50,9 +54,9 @@ TODO: Add long description of the pod here.
 
     s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 #资源目录
-  # s.resource_bundles = {
-  #   'SXPodCategory' => ['SXPodCategory/Assets/*.png']
-  # }
+#   s.resource_bundles = {
+#     'SXPodCategory' => ['SXPodCategory/Assets/*.png']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
 #依赖的framework

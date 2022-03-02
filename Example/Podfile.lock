@@ -1,19 +1,19 @@
 PODS:
-  - SXPodCategory (1.0.8):
-    - SXPodCategory/BaseModel (= 1.0.8)
-    - SXPodCategory/CustomView (= 1.0.8)
-    - SXPodCategory/NS (= 1.0.8)
-    - SXPodCategory/UI (= 1.0.8)
-  - SXPodCategory/BaseModel (1.0.8):
+  - SXPodCategory/Source (1.0.8):
+    - SXPodCategory/Source/BaseModel (= 1.0.8)
+    - SXPodCategory/Source/CustomView (= 1.0.8)
+    - SXPodCategory/Source/NS (= 1.0.8)
+    - SXPodCategory/Source/UI (= 1.0.8)
+  - SXPodCategory/Source/BaseModel (1.0.8):
     - YYModel
-  - SXPodCategory/CustomView (1.0.8)
-  - SXPodCategory/NS (1.0.8)
-  - SXPodCategory/UI (1.0.8):
-    - SXPodCategory/NS
+  - SXPodCategory/Source/CustomView (1.0.8)
+  - SXPodCategory/Source/NS (1.0.8)
+  - SXPodCategory/Source/UI (1.0.8):
+    - SXPodCategory/Source/NS
   - YYModel (1.0.4)
 
 DEPENDENCIES:
-  - SXPodCategory (from `../`)
+  - SXPodCategory/Source (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -24,9 +24,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SXPodCategory: a48b8a4d4dfbeadf9803f4d174c17eab34485101
+  SXPodCategory: a679f6d3388eef1c872bd1e1ba2ac065f0c2e3f0
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: c6404a57491906109f1c3811dd6d4ae60af48af7
+PODFILE CHECKSUM: c81aa9f87ee7c5df5fdae2759bbf0d0b8eda5fe0
 
 COCOAPODS: 1.11.2
