@@ -7,6 +7,7 @@
 //
 
 #import "SXPodCategoryViewController.h"
+#import <SXPodCategory/SXBaseModel.h>
 @interface Person:NSObject
 @property(nonatomic, copy) NSString *name;
 @end
@@ -20,6 +21,7 @@
 {
     [super viewDidLoad];
 
+    NSLog(@"%@ %@", NSStringFromSelector(_cmd),  [SXBaseModel new]);
 }
 
 

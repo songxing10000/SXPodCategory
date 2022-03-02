@@ -40,6 +40,12 @@ TODO: Add long description of the pod here.
     ss.dependency 'YYModel'
 
     end
+    
+#    s.subspec 'Framework' do |ss|
+#        ss.ios.vendored_framework = 'SXPodCategory-1.0.8/ios/SXPodCategory.framework'
+#        ss.dependency 'YYModel'
+#    end
+    
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
     s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }

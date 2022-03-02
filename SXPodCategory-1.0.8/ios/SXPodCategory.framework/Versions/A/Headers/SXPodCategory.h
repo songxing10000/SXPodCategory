@@ -11,7 +11,4 @@
 #define SXPodCategory_h
 #import <SXPodCategory/SXPodCategoryNS.h>
 #import <SXPodCategory/SXPodCategoryUI.h>
-#import <SXPodCategory/SXBaseModel.h>
-#import <SXPodCategory/CustomView.h>
-
 #endif /* SXPodCategory_h */
