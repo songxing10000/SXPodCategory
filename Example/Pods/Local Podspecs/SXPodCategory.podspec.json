@@ -56,6 +56,17 @@
           }
         }
       ]
+    },
+    {
+      "name": "Framework",
+      "ios": {
+        "vendored_frameworks": "SXPodCategory-1.0.8/ios/SXPodCategory.framework"
+      },
+      "dependencies": {
+        "YYModel": [
+
+        ]
+      }
     }
   ]
 }

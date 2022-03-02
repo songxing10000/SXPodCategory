@@ -1,35 +1,5 @@
-# SXPodCategory
-
-[![CI Status](http://img.shields.io/travis/dfpo/SXPodCategory.svg?style=flat)](https://travis-ci.org/dfpo/SXPodCategory)
-[![Version](https://img.shields.io/cocoapods/v/SXPodCategory.svg?style=flat)](http://cocoapods.org/pods/SXPodCategory)
-[![License](https://img.shields.io/cocoapods/l/SXPodCategory.svg?style=flat)](http://cocoapods.org/pods/SXPodCategory)
-[![Platform](https://img.shields.io/cocoapods/p/SXPodCategory.svg?style=flat)](http://cocoapods.org/pods/SXPodCategory)
-![](https://img.shields.io/badge/language-objc-orange.svg)
-![](https://img.shields.io/cocoapods/dt/SXPodCategory.svg)
-![](https://img.shields.io/cocoapods/dm/SXPodCategory.svg)
-![](https://img.shields.io/cocoapods/dw/SXPodCategory.svg)
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-SXPodCategory is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "SXPodCategory"
-```
-
-## Author
-
-dfpo, songxing10000@live.cn
-
-## License
-
-SXPodCategory is available under the MIT license. See the LICENSE file for more info.
+ 
+ 
 
 ## Developer
 一、编辑podspec文件，同步s.version
@@ -67,49 +37,55 @@ pod trunk push SXPodCategory.podspec  --allow-warnings
 pod repo push 你的私有库名字 SXLoginModule.podspec
 ```
 
-最后，更详细请参数
-
-[使用Cocoapods制作自己的pod](http://www.bijishequ.com/detail/228610?p=)
-
+ 
 
 删除一个版本：
 ```sh
 pod trunk delete SXPodCategory 1.0.4
-```
-在加载资源文件时：
-```objc
-// xib
-NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[self class]]
-                                                 pathForResource:@"SXPodCategory"
-                                                 ofType:@"bundle"]];
-    self=[[bundle loadNibNamed:@"WJNetWorkFailureView" owner:nil options:nil] lastObject];
-
-
-// image
-NSInteger scale = [UIScreen mainScreen].scale;
-    NSString *imageName = [NSString stringWithFormat:@"Payment30@%zdx.png", scale];
-    NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[self class]]
-                                                 pathForResource:@"SXPodCategory"
-                                                 ofType:@"bundle"]];
-    NSString *imagePath = [bundle pathForResource:imageName ofType:nil];
-    self.imgV.image = [UIImage imageWithContentsOfFile:imagePath];
-```
-子库
-```ruby
-s.subspec 'SXSubPod' do |ss|
-       ss.source_files = 'SXPodCategory/SXSubPod.{h,m}'
-       ss.public_header_files = 'SXPodCategory/SXSubPod/*.h'
-end
-```
+``` 
 ---
-关于图片xib的新做法
+### 子库语法：https://guides.cocoapods.org/syntax/podspec.html#subspec
+ 
+---
+### 图片和xib
+ 一定要使用`resource_bundles`
 ```ruby
+s.source_files = 'imgZipReName/Classes/**/*.{h,m,swift}'
+s.resource_bundles = {
+ 'imgZipReName' => ['imgZipReName/Assets/**/*.{storyboard,xib,xcassets}']}
+ ```
+ 这样设置图片，在sb或者xib能填上图片能直接显示出来，不用设置宽高。
 
-  s.resources  = 'SXLogin/media.xcassets','SXLogin/**/*.xib'
+```swift
+func getLibBundle() -> Bundle? {
 
+	let fb = Bundle(for: ReNameVC.self)
+	guard let path = fb.path(forResource: "imgZipReName", ofType: "bundle") else  {	return nil }
+	return Bundle(path: path)
+}
+
+func getImg(_ imgName: String?) -> NSImage? {
+	
+	guard let imgName = imgName else {return nil}
+	return getLibBundle()?.image(forResource: imgName)
+}
 ```
+图：
+ ![](https://gitee.com/songxing10000/imgs/raw/master/2021/imgs/20220222141517.png)
 
-![](./test2.png)
+---
+### 组件二进制化
+https://developers.weixin.qq.com/community/develop/article/doc/000eeefb894e009741fb1768051813
 
-`podfiel`上面要加上
-`install! 'cocoapods', :disable_input_output_paths => true`
+要点：`Cocopods-packager`打包
+```sh
+pod package  XYPublicClasses.podspec --no-mangle --force --exclude-deps  --spec-sources=依赖的私有库地址
+```
+```code
+-no-mangle：即Do not mangle symbols of depedendant Pods。
+            如果组件有其他依赖项，必须填写，否则会报Undefined symbols for architecture 错误
+--force：强制覆盖之前打包好的Framework
+--exclude-deps：不包含依赖的符号表。动态库不能加，但我们项目中使用的是静态库，需加上。
+--spec-sources：依赖的私有库地址，注意官方源https://github.com/CocoaPods/Specs.git也需要加上
+--subspecs：批量生成subspec的二进制库，每一个subspec的库名就是podspecName+subspecName
+```

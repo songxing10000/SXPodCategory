@@ -7,60 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0642F1E77B597DE50EDA6A8DF5457E54 /* SXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC21E0354BB0CB0A1FFE99C92E3D75 /* SXBaseModel.m */; };
+		06AD8F639E826E0D749AF96E2AAF2F1D /* UITextField+SXPodCategory_Limited.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C29D2A3893D58B78035579B703D8894 /* UITextField+SXPodCategory_Limited.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		073FC1B4E8C2A26875B073F9BA61CEDB /* UITextField+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5DBE1DBDFE2C689E8EF3296728FB6A /* UITextField+SXPodCategory_Add.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		086D5E331F9A41528FF12C6F463DA915 /* UITextField+SXPodCategory_Limited.h in Headers */ = {isa = PBXBuildFile; fileRef = 054E9D55D5C87E911859A7EAC58C9213 /* UITextField+SXPodCategory_Limited.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0DB2DACE5274A999426ED545565C02D7 /* NSNull+SXPodCategory_OVNatural.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4018D072A29208A9DD7E949A7669CD /* NSNull+SXPodCategory_OVNatural.m */; };
+		0B1B1E58EE8572DD39F4ED23DFA28869 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6471E0948960D20B99F8D93147B30605 /* NSObject+YYModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0F63A59DD34D1B682B9BC56E1049F2DA /* NSDate+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA2C93DB0DDE1EC36EA103E2618DD9C /* NSDate+SXPodCategory_Add.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1365345E60B3DAF443B391C0C1E6CE24 /* UITextField+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD517ECDF3EAADCD68004731AA83736 /* UITextField+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		13B3BBDD813B251955AD17A9BCD78922 /* NSNull+SXPodCategory_OVNatural.h in Headers */ = {isa = PBXBuildFile; fileRef = D749E6687CD8F515F227C882D4841E57 /* NSNull+SXPodCategory_OVNatural.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		169BAE9591C406111E0A9FABF7FE307B /* UIButton+SXPodCategory_Call.m in Sources */ = {isa = PBXBuildFile; fileRef = E036E1F4B22E19DF4B87A64CA50DB3A7 /* UIButton+SXPodCategory_Call.m */; };
 		1A9374CEC998F1B0F11DA368FEFD030B /* CustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 129EDE3B480851BFE08F7EFCFA6C3FEF /* CustomView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1B3CBBED2BF8336A953D9790FB8F05A4 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A48BEED4CB1918D9E9230B003898EB /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1DDC1FD4A72C86947BB234EC6506F7EE /* UIImage+SXPodCategory_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D5F775A06F7A919E4EA6AD2FCA7EE1 /* UIImage+SXPodCategory_Common.m */; };
+		24582855EC8762B8E029B54FC9AF0554 /* UIButton+SXPodCategory_Call.m in Sources */ = {isa = PBXBuildFile; fileRef = E036E1F4B22E19DF4B87A64CA50DB3A7 /* UIButton+SXPodCategory_Call.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		26CE4DB4EA2006655BFD03EA1C95EE17 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1D7F67503208310DE62B2AFF196313 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2E875B050E1F6AB75215F46902D9CC54 /* UITextView+SXPodCategory_Limited.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BBEEFE79172B710B631DC942CD24E9 /* UITextView+SXPodCategory_Limited.m */; };
 		2EA2E80EE4C6A5FF8BED5E2D02A11BF5 /* Pods-SXPodCategory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E77E75AEBE2DFF2027D37B67F9055 /* Pods-SXPodCategory_Example-dummy.m */; };
 		32ED7807B4E3C5E2966E6B558C5C477F /* HistorySearchFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A88ADF4FFFF044A0CCFA09F0C1A6948A /* HistorySearchFlowLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		34868C1A02E41F9F071B13D44E575873 /* NSNumber+SXPodCategory_Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE9608A3723EB4065D17C058DBC6F74 /* NSNumber+SXPodCategory_Crash.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		38B50E30C16EAEAD34A61981628273A5 /* SXPodCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A1F28B5B07E0C312C82B34ACFCD5B2 /* SXPodCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3E5DBE771B286E664F9D4328756D6A20 /* SXLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 163E2EBF8FE6F99267CA58D727A42C4C /* SXLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		446DCF9CAB02607D721FB58A79480E9B /* AutoHeightTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D40B518DE88B6FCF1B6C0A1DBC7A348 /* AutoHeightTableView.m */; };
-		5746B89E8E448C587A435DFDC771ABAC /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0B81C69E091F0F9A141545A1CA818 /* YYClassInfo.m */; };
+		438964D1C34CD5F595BD0A1728DB0F70 /* UICollectionViewCell+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A8041A1B53A224D7645762321533A /* UICollectionViewCell+SXPodCategory_Add.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4861F6C68652CD5416269FE189379F31 /* AutoHeightCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B945A07CB41B097A0BC891614C897CF7 /* AutoHeightCollectionView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4D054A452842507CBF000DCE654083C3 /* NSArray+SXPodCategory_SX_Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D23C81CBC1438D2FD0A482CF26EB6 /* NSArray+SXPodCategory_SX_Safe.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5876AB75EB2D090E5F69130ACA5AD976 /* NSString+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E20E493292CC606B156942466142A7 /* NSString+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		58D671B6339DF7E4D5AC36A579D7B95D /* UICollectionViewCell+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = A785ACEF46DBA983B2B9E7DA6FF49B40 /* UICollectionViewCell+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6431260DD9317CB0BD3780078F6F2F8E /* AutoHeightCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B945A07CB41B097A0BC891614C897CF7 /* AutoHeightCollectionView.m */; };
-		67E95FF18BD9990D336BDE0D826710EC /* NSDictionary+SXPodCategory_Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C9F300778124327C9BB270D23885B /* NSDictionary+SXPodCategory_Crash.m */; };
+		6247D7A9797583515F186D3D480A4BC3 /* NSNull+SXPodCategory_OVNatural.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4018D072A29208A9DD7E949A7669CD /* NSNull+SXPodCategory_OVNatural.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6AC319580792B8AF97070109271AE31C /* NSDictionary+SXPodCategory_Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = E4171AA000B4D115F77583CC5E9D7BFE /* NSDictionary+SXPodCategory_Crash.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6BD5039E02FDCD19ED15A18F3BD016A3 /* UITextView+SXPodCategory_Limited.h in Headers */ = {isa = PBXBuildFile; fileRef = B44ACBB8FCA75A4095FAED064CF18276 /* UITextView+SXPodCategory_Limited.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6FA316A4670BE981D68AEE3F66530161 /* SXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E10CC9853EB134E732CFE12236D6CA /* SXLabel.m */; };
+		6F8A62400EB2FD83A4194E423CA76046 /* NSString+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976F8FC48023CE29C260C789D5303A6 /* NSString+SXPodCategory_Add.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		74AD334B2158A9B57E2A1CEDD0A50639 /* SXPodCategoryNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E95BFF2A65FFADEE87353DB6A1C37A /* SXPodCategoryNS.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76FAA405C07277E8150621A8C5118786 /* AutoHeightTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D40B518DE88B6FCF1B6C0A1DBC7A348 /* AutoHeightTableView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7F0C8301A36E197E80225AF0E5AF0F60 /* SXBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3507B7D73C40AE655AF34B442BEBCC4B /* SXBaseModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		81B6DF1FBF7514DF347AD651F8EDC17D /* UIViewController+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BCD43C03284292B441DA3999514D4D /* UIViewController+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8375FA084C280B280B7B310FD4C34D64 /* AutoHeightCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2E67E7AF1D71FB94F7A5852E164173 /* AutoHeightCollectionView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		89D5466ACC63D1762A6C7BCFE29C00D0 /* UITableViewCell+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = FEF317ACCA3AC329595DA27E4E9B52DF /* UITableViewCell+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8CD1350B7B38987245EB09C5D8E7E1B9 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0B81C69E091F0F9A141545A1CA818 /* YYClassInfo.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		90CCF254012D9879F09D1AF64D214C7A /* UITableViewCell+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = A84421A4D930E92D60A5CDCB0EBC1033 /* UITableViewCell+SXPodCategory_Add.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		930102682F8FD54896985B08A35E3309 /* UIView+SXPodCategory_GetController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4B93DD7764935B88DE8EA0370312E3 /* UIView+SXPodCategory_GetController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9774BCB687A29969B44F742640E37C59 /* UIButton+SXPodCategory_Call.h in Headers */ = {isa = PBXBuildFile; fileRef = EB526832E6A91BED930F1280BED95B39 /* UIButton+SXPodCategory_Call.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9AA9C2F9E126E168ECADD94C405AB808 /* NSArray+SXPodCategory_SX_Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D23C81CBC1438D2FD0A482CF26EB6 /* NSArray+SXPodCategory_SX_Safe.m */; };
-		9D32EB7F59B77EB3E38CF835B8587DF4 /* UIView+SXPodCategory_GetController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4B93DD7764935B88DE8EA0370312E3 /* UIView+SXPodCategory_GetController.m */; };
 		9D4373C8CCCEBC3D773F56786682469C /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 333DD97F42B0F41456AA8508F46544A7 /* YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E68D2E878287F10C97869813EE26558 /* SXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E10CC9853EB134E732CFE12236D6CA /* SXLabel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9FA065F74093F5AA6D57035B69404564 /* NSDate+SXPodCategory_Add.h in Headers */ = {isa = PBXBuildFile; fileRef = B2252BDFF959FE556787AAC746CEA885 /* NSDate+SXPodCategory_Add.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A0A0AC9CA7A89FB47946A78C33305075 /* UITableViewCell+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = A84421A4D930E92D60A5CDCB0EBC1033 /* UITableViewCell+SXPodCategory_Add.m */; };
-		A34E28602946FD8EB16FF404784E824F /* UICollectionViewCell+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A8041A1B53A224D7645762321533A /* UICollectionViewCell+SXPodCategory_Add.m */; };
-		A3887747A89BACEA1049F9767F40BCAF /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6471E0948960D20B99F8D93147B30605 /* NSObject+YYModel.m */; };
+		A641F16E5EFB9624DE7A05A8A85C41C1 /* NSNumber+SXPodCategory_Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C05F6428FF677EABFA3024942AE3D7 /* NSNumber+SXPodCategory_Crash.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B52E8FD996FE6B9393A5AECB81A982FC /* UINavigationController+SXPodCategory_RemoveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A984E8B9E5B5BE602BFAAC2AF47EE69 /* UINavigationController+SXPodCategory_RemoveVC.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C1EE3657A934EB4FE5FABCA8FCD2C40E /* HistorySearchFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6DBFFE1E155AF7AE6AA272DD1A0620 /* HistorySearchFlowLayout.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C3BBE3698DD7337FF1956E5866CA53A8 /* SXPodCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31987160245DE6355111FCC6558DB63D /* SXPodCategory-dummy.m */; };
 		C471A21188BB8324C466AF99A0CD4C80 /* SXPodCategoryUI.h in Headers */ = {isa = PBXBuildFile; fileRef = BC4AF62333E6488810278096AD96737B /* SXPodCategoryUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C4EB7B1412AEFBBE9032CE0CEAC51EAE /* SXPodCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31987160245DE6355111FCC6558DB63D /* SXPodCategory-dummy.m */; };
-		C6CABB2D0C6A0A4E7BFEE71B64587A3C /* UITextField+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5DBE1DBDFE2C689E8EF3296728FB6A /* UITextField+SXPodCategory_Add.m */; };
-		CA9987EC59D87AE4584FEAA7A4850BF6 /* UIViewController+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 624B1D6CE65C305108D22A98C02C7726 /* UIViewController+SXPodCategory_Add.m */; };
 		CD83183EA242502DD137987D6C2F76DB /* UIImage+SXPodCategory_Common.h in Headers */ = {isa = PBXBuildFile; fileRef = E13A4AEFA28F74917155A4A7E974FD92 /* UIImage+SXPodCategory_Common.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D2AAB8FF6F7CD2AC2AE7EDB488BE28C5 /* NSNumber+SXPodCategory_Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C05F6428FF677EABFA3024942AE3D7 /* NSNumber+SXPodCategory_Crash.m */; };
-		D49BCCF9ABD81FC4BFEAE235BB44B049 /* UITextField+SXPodCategory_Limited.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C29D2A3893D58B78035579B703D8894 /* UITextField+SXPodCategory_Limited.m */; };
+		D413ADAD256AEF2FB9ACC29C8D49C5B5 /* UIImage+SXPodCategory_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D5F775A06F7A919E4EA6AD2FCA7EE1 /* UIImage+SXPodCategory_Common.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D4D0084037BE106AAF9849D89DB610A2 /* AutoHeightTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F2204DC3B798B5D7FBEEA1D54036419 /* AutoHeightTableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DCEC3640C617B484D8AAE427B5637B65 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 599007C3B3EFA3D47C192719D6EB188B /* YYModel-dummy.m */; };
+		DE643B778D626D4CA83ED46F9D2DDE5A /* SXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC21E0354BB0CB0A1FFE99C92E3D75 /* SXBaseModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E204C2BFADC4D283D0DE7E34552BBA8C /* UINavigationController+SXPodCategory_RemoveVC.h in Headers */ = {isa = PBXBuildFile; fileRef = F732A35D7ADFABE7306B94023B668B94 /* UINavigationController+SXPodCategory_RemoveVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F2ED58E12716CFC4457FEAEAEF2F004C /* NSDate+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA2C93DB0DDE1EC36EA103E2618DD9C /* NSDate+SXPodCategory_Add.m */; };
-		F4D01048E716F3D1FFC0F168414FB2D2 /* HistorySearchFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6DBFFE1E155AF7AE6AA272DD1A0620 /* HistorySearchFlowLayout.m */; };
-		F74BB20D9C2504DCD634ABA5DE9A4D1F /* UINavigationController+SXPodCategory_RemoveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A984E8B9E5B5BE602BFAAC2AF47EE69 /* UINavigationController+SXPodCategory_RemoveVC.m */; };
-		F84589BA8EFB2FCA2DC994A01BD28B7A /* NSString+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976F8FC48023CE29C260C789D5303A6 /* NSString+SXPodCategory_Add.m */; };
+		E9AC9995277F79448BB6759AE1FDA366 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 599007C3B3EFA3D47C192719D6EB188B /* YYModel-dummy.m */; };
+		F302EAB113F58E062CEA154BC74C91B1 /* NSDictionary+SXPodCategory_Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C9F300778124327C9BB270D23885B /* NSDictionary+SXPodCategory_Crash.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F40686EFB6CC030E3CE8D59A8496E946 /* UIViewController+SXPodCategory_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 624B1D6CE65C305108D22A98C02C7726 /* UIViewController+SXPodCategory_Add.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FAF9184D77A39029C4BF931F92BF9BFA /* NSArray+SXPodCategory_SX_Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = D4615ABE50146A8D43F0F58FFDF7B11F /* NSArray+SXPodCategory_SX_Safe.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FB06FE7F56C648FAE5AF0E12AB79CD5E /* UIView+SXPodCategory_GetController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0648FECA3BD9D16DF745E7662C0535F3 /* UIView+SXPodCategory_GetController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC1865B99E472F2D56A99958F2AB81DA /* UITextView+SXPodCategory_Limited.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BBEEFE79172B710B631DC942CD24E9 /* UITextView+SXPodCategory_Limited.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -456,7 +456,7 @@
 			buildConfigurationList = 78A8F6B4DDF32D409B49DAF57C9F10CF /* Build configuration list for PBXNativeTarget "SXPodCategory" */;
 			buildPhases = (
 				B60F9EE5CD2B8A2B41942E2ED8637803 /* Headers */,
-				55D998B567A6FDAD384E20D5106CA624 /* Sources */,
+				8E649CF20E3C9F43CA753A58B0A38FDD /* Sources */,
 				A4D630E6B1AE1F5A973DCF198CCAD846 /* Frameworks */,
 			);
 			buildRules = (
@@ -493,7 +493,7 @@
 			buildConfigurationList = F8FBCA2B529EA16204C7174A917E2634 /* Build configuration list for PBXNativeTarget "YYModel" */;
 			buildPhases = (
 				2111971F9694C3D1A2772D2D5E39F3A2 /* Headers */,
-				84A60FA1E7FD7ECE1C2B7478FB7055AB /* Sources */,
+				6A1ED10721A4CDA9C98C318653888920 /* Sources */,
 				590C77D6C0F5273506094FC2E19CBB73 /* Frameworks */,
 			);
 			buildRules = (
@@ -535,42 +535,42 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		55D998B567A6FDAD384E20D5106CA624 /* Sources */ = {
+		6A1ED10721A4CDA9C98C318653888920 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6431260DD9317CB0BD3780078F6F2F8E /* AutoHeightCollectionView.m in Sources */,
-				446DCF9CAB02607D721FB58A79480E9B /* AutoHeightTableView.m in Sources */,
-				F4D01048E716F3D1FFC0F168414FB2D2 /* HistorySearchFlowLayout.m in Sources */,
-				9AA9C2F9E126E168ECADD94C405AB808 /* NSArray+SXPodCategory_SX_Safe.m in Sources */,
-				F2ED58E12716CFC4457FEAEAEF2F004C /* NSDate+SXPodCategory_Add.m in Sources */,
-				67E95FF18BD9990D336BDE0D826710EC /* NSDictionary+SXPodCategory_Crash.m in Sources */,
-				0DB2DACE5274A999426ED545565C02D7 /* NSNull+SXPodCategory_OVNatural.m in Sources */,
-				D2AAB8FF6F7CD2AC2AE7EDB488BE28C5 /* NSNumber+SXPodCategory_Crash.m in Sources */,
-				F84589BA8EFB2FCA2DC994A01BD28B7A /* NSString+SXPodCategory_Add.m in Sources */,
-				0642F1E77B597DE50EDA6A8DF5457E54 /* SXBaseModel.m in Sources */,
-				6FA316A4670BE981D68AEE3F66530161 /* SXLabel.m in Sources */,
-				C4EB7B1412AEFBBE9032CE0CEAC51EAE /* SXPodCategory-dummy.m in Sources */,
-				169BAE9591C406111E0A9FABF7FE307B /* UIButton+SXPodCategory_Call.m in Sources */,
-				A34E28602946FD8EB16FF404784E824F /* UICollectionViewCell+SXPodCategory_Add.m in Sources */,
-				1DDC1FD4A72C86947BB234EC6506F7EE /* UIImage+SXPodCategory_Common.m in Sources */,
-				F74BB20D9C2504DCD634ABA5DE9A4D1F /* UINavigationController+SXPodCategory_RemoveVC.m in Sources */,
-				A0A0AC9CA7A89FB47946A78C33305075 /* UITableViewCell+SXPodCategory_Add.m in Sources */,
-				C6CABB2D0C6A0A4E7BFEE71B64587A3C /* UITextField+SXPodCategory_Add.m in Sources */,
-				D49BCCF9ABD81FC4BFEAE235BB44B049 /* UITextField+SXPodCategory_Limited.m in Sources */,
-				2E875B050E1F6AB75215F46902D9CC54 /* UITextView+SXPodCategory_Limited.m in Sources */,
-				9D32EB7F59B77EB3E38CF835B8587DF4 /* UIView+SXPodCategory_GetController.m in Sources */,
-				CA9987EC59D87AE4584FEAA7A4850BF6 /* UIViewController+SXPodCategory_Add.m in Sources */,
+				0B1B1E58EE8572DD39F4ED23DFA28869 /* NSObject+YYModel.m in Sources */,
+				8CD1350B7B38987245EB09C5D8E7E1B9 /* YYClassInfo.m in Sources */,
+				E9AC9995277F79448BB6759AE1FDA366 /* YYModel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84A60FA1E7FD7ECE1C2B7478FB7055AB /* Sources */ = {
+		8E649CF20E3C9F43CA753A58B0A38FDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3887747A89BACEA1049F9767F40BCAF /* NSObject+YYModel.m in Sources */,
-				5746B89E8E448C587A435DFDC771ABAC /* YYClassInfo.m in Sources */,
-				DCEC3640C617B484D8AAE427B5637B65 /* YYModel-dummy.m in Sources */,
+				4861F6C68652CD5416269FE189379F31 /* AutoHeightCollectionView.m in Sources */,
+				76FAA405C07277E8150621A8C5118786 /* AutoHeightTableView.m in Sources */,
+				C1EE3657A934EB4FE5FABCA8FCD2C40E /* HistorySearchFlowLayout.m in Sources */,
+				4D054A452842507CBF000DCE654083C3 /* NSArray+SXPodCategory_SX_Safe.m in Sources */,
+				0F63A59DD34D1B682B9BC56E1049F2DA /* NSDate+SXPodCategory_Add.m in Sources */,
+				F302EAB113F58E062CEA154BC74C91B1 /* NSDictionary+SXPodCategory_Crash.m in Sources */,
+				6247D7A9797583515F186D3D480A4BC3 /* NSNull+SXPodCategory_OVNatural.m in Sources */,
+				A641F16E5EFB9624DE7A05A8A85C41C1 /* NSNumber+SXPodCategory_Crash.m in Sources */,
+				6F8A62400EB2FD83A4194E423CA76046 /* NSString+SXPodCategory_Add.m in Sources */,
+				DE643B778D626D4CA83ED46F9D2DDE5A /* SXBaseModel.m in Sources */,
+				9E68D2E878287F10C97869813EE26558 /* SXLabel.m in Sources */,
+				C3BBE3698DD7337FF1956E5866CA53A8 /* SXPodCategory-dummy.m in Sources */,
+				24582855EC8762B8E029B54FC9AF0554 /* UIButton+SXPodCategory_Call.m in Sources */,
+				438964D1C34CD5F595BD0A1728DB0F70 /* UICollectionViewCell+SXPodCategory_Add.m in Sources */,
+				D413ADAD256AEF2FB9ACC29C8D49C5B5 /* UIImage+SXPodCategory_Common.m in Sources */,
+				B52E8FD996FE6B9393A5AECB81A982FC /* UINavigationController+SXPodCategory_RemoveVC.m in Sources */,
+				90CCF254012D9879F09D1AF64D214C7A /* UITableViewCell+SXPodCategory_Add.m in Sources */,
+				073FC1B4E8C2A26875B073F9BA61CEDB /* UITextField+SXPodCategory_Add.m in Sources */,
+				06AD8F639E826E0D749AF96E2AAF2F1D /* UITextField+SXPodCategory_Limited.m in Sources */,
+				FC1865B99E472F2D56A99958F2AB81DA /* UITextView+SXPodCategory_Limited.m in Sources */,
+				930102682F8FD54896985B08A35E3309 /* UIView+SXPodCategory_GetController.m in Sources */,
+				F40686EFB6CC030E3CE8D59A8496E946 /* UIViewController+SXPodCategory_Add.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
